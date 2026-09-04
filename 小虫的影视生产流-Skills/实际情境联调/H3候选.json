@@ -1,0 +1,39 @@
+{
+  "query": {
+    "domain": null,
+    "model": "MiniMax H3",
+    "id": null
+  },
+  "candidates": [],
+  "reserves": [
+    {
+      "id": "minimax-h3-prompt-writing",
+      "name": "MiniMax H3 官方 h3-prompt-writing",
+      "type": "external_skill_source",
+      "category": "专业 Skill",
+      "subcategory": "Prompt 装配与模型适配",
+      "domain": "Prompt 装配与模型适配",
+      "tags": [
+        "MiniMax H3",
+        "官方源文件"
+      ],
+      "version": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "source_status": "官方原版收存，供后续专业 Skill 调用包适配",
+      "purpose": "已确认分镜的 Prompt 装配与 H3 模型表达适配",
+      "availability": "官方源文件已收存；待适配；仅作储备",
+      "new_system_integration": "目录查询已接入；源文件仍待适配，不可加载",
+      "activation": "用户选择后按指定版本读取",
+      "source_applicable_stages": "视频生成综合执行单元的 H3 入口",
+      "entry_condition": "目标为 H3 时按已确认入口询问是否选择；已有选择沿用。",
+      "path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/SKILL.md",
+      "sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0",
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/h3-prompt-writing/SKILL.md",
+      "evidence_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/SOURCE.md",
+      "upstream_url": "https://github.com/MiniMax-AI/MiniMax-H3/tree/d21241f0a4b3acbb34c97dae47fa417b7065e438/skills/h3-prompt-writing",
+      "validation_note": "官方 compatibility 字段保留；本地 quick_validate 的允许字段差异尚待适配。",
+      "content_status": "目录检索；正文尚未加载",
+      "reason": "官方源文件待适配，仅作储备"
+    }
+  ],
+  "next": "没有可加载候选；说明具体缺口，基础输入齐备时回原执行单元继续。"
+}

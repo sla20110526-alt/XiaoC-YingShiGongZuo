@@ -1,0 +1,4 @@
+interface:
+  display_name: "《沙丘2》导演风格"
+  short_description: "把尺度、群体、节奏、权力关系与后果停留转成可执行导演方案"
+  default_prompt: "Use $dune2-directing-style to design this scene with the directing grammar distilled from Dune: Part Two."

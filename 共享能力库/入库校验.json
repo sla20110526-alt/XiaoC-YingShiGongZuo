@@ -1,0 +1,96 @@
+{
+  "entries": 37,
+  "profiles": 31,
+  "packaged_skills": 5,
+  "external_skill_sources": 1,
+  "copied_files": 56,
+  "sha256_checks": "原文收存文件与来源一致；适配文件分别核对来源与归档校验值；所有已登记来源保持未变。",
+  "local_markdown_links_checked": 62,
+  "broken_links": 0,
+  "utf8": "通过",
+  "json": "通过",
+  "skill_yaml": [
+    {
+      "id": "dune2-directing-style",
+      "yaml": "通过"
+    },
+    {
+      "id": "dune2-cinematography-style",
+      "yaml": "通过"
+    },
+    {
+      "id": "dune2-lighting-style",
+      "yaml": "通过"
+    },
+    {
+      "id": "dune2-performance-style",
+      "yaml": "通过"
+    },
+    {
+      "id": "minimax-h3-prompt-writing",
+      "yaml": "通过"
+    },
+    {
+      "id": "train-to-busan-film-profile",
+      "yaml": "通过"
+    }
+  ],
+  "new_system_integration": "待接入",
+  "notes": [
+    "H3 官方兼容性字段按原文保存；入库完整性检查不代表新版接入或生成效果验证。",
+    "《釜山行》1.0 按 1 项综合专业 Skill 归档，内附 Profile 不另计。能力侧交接规则已适配；声音部分不采用。原始 6 个文件保持未变；本次未复核原片或验证实际生成效果。"
+  ],
+  "quick_validate": [
+    {
+      "id": "dune2-directing-style",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "id": "dune2-cinematography-style",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "id": "dune2-lighting-style",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "id": "dune2-performance-style",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "id": "minimax-h3-prompt-writing",
+      "exit_code": 1,
+      "result": "Unexpected key(s) in SKILL.md frontmatter: compatibility. Allowed properties are: allowed-tools, description, license, metadata, name"
+    },
+    {
+      "id": "train-to-busan-film-profile",
+      "version": "1.0",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    }
+  ],
+  "creative_method_categories": [
+    "编剧／剧作",
+    "导演",
+    "摄影",
+    "美术",
+    "灯光",
+    "表演",
+    "剪辑",
+    "声音",
+    "动作设计",
+    "动画与动效",
+    "视效与合成",
+    "调色"
+  ],
+  "creative_method_category_count": 12,
+  "updated_at": "2026-09-04T18:03:53+08:00",
+  "adapted_files": 4,
+  "generated_files": 1,
+  "source_backed_files": 60,
+  "archived_content_files": 61
+}

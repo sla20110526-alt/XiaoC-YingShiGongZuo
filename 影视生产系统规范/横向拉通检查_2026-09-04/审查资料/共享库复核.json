@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-04",
+  "catalog_entries": 37,
+  "counts": {
+    "profile": 31,
+    "skill": 5,
+    "external_skill_source": 1
+  },
+  "catalog_file_hash_errors": [],
+  "verification_scope": "核对目录、收存文件与已记录校验值；读取5项专业Skill正文及版本状态。未重做31张Profile的专业证据鉴定，未验证模型生成效果。"
+}

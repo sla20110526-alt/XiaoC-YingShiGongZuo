@@ -1,0 +1,17 @@
+{
+  "writer_role": "共享能力库",
+  "scope": "隔离测试库，不是正式共享库",
+  "version": "0.1-test",
+  "saved_path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\小虫的影视生产流-Skills\\实际情境联调\\隔离测试库\\专业 Skill\\Prompt 装配与模型适配\\xcflow-test-visible-expression\\0.1-test\\SKILL.md",
+  "catalog_path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\小虫的影视生产流-Skills\\实际情境联调\\隔离测试库\\catalog.json",
+  "source_record": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\小虫的影视生产流-Skills\\实际情境联调\\隔离测试库\\入库来源.json",
+  "validation_record": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\小虫的影视生产流-Skills\\实际情境联调\\隔离测试库\\入库校验.json",
+  "sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7",
+  "actual_readback_verified": true,
+  "same_version_same_content_reused": true,
+  "same_version_different_content_rejected": true,
+  "existing_version_unchanged": true,
+  "builder_receipt_checked": true,
+  "real_library_new_entries": 0,
+  "unfinished": "真实成片效果验证与正式入库确认未进行，且不在本隔离样例范围内"
+}

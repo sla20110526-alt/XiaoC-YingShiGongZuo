@@ -1,0 +1,141 @@
+{
+  "skills": [
+    {
+      "role": "总控",
+      "name": "xcflow-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "生产控制部",
+      "name": "xcflow-production-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "专业控制部",
+      "name": "xcflow-professional-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "资料与资产登记部",
+      "name": "xcflow-registry",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "专业顾问单元",
+      "name": "xcflow-consultant",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "专业能力建设单元",
+      "name": "xcflow-capability-builder",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "共享能力库",
+      "name": "xcflow-library",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "前期准备分控",
+      "name": "xcflow-preproduction-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "剧本与资产拆解",
+      "name": "xcflow-script-breakdown",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "资产生产优先级编排",
+      "name": "xcflow-asset-priority",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "项目风格锁定",
+      "name": "xcflow-project-style",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "资产生产分控",
+      "name": "xcflow-asset-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "人物资产制作执行单元",
+      "name": "xcflow-character-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "场景资产制作执行单元",
+      "name": "xcflow-scene-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "道具与载具资产制作执行单元",
+      "name": "xcflow-prop-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "生物、怪物与形态变体资产制作执行单元",
+      "name": "xcflow-creature-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "VFX资产制作执行单元",
+      "name": "xcflow-vfx-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "角色声音资产制作执行单元",
+      "name": "xcflow-voice-assets",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "影视镜头生产分控",
+      "name": "xcflow-shot-control",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "场戏设计综合执行",
+      "name": "xcflow-scene-design",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "分镜与镜头设计综合执行",
+      "name": "xcflow-shot-design",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "role": "视频生成综合执行",
+      "name": "xcflow-video-prompt",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    }
+  ],
+  "skill_count": 22,
+  "links_checked": 231,
+  "frozen_files_checked": 70,
+  "errors": [],
+  "root": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\小虫的影视生产流-Skills\\skills"
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "xcflow-control",
+    "role": "总控",
+    "path": "../../xcflow-control/SKILL.md",
+    "description": "统筹小虫的影视生产流，处理用户指定的部门启动、职责归属、跨部门协调和回传的 Skill 优化信息。"
+  },
+  {
+    "name": "xcflow-production-control",
+    "role": "生产控制部",
+    "path": "../../xcflow-production-control/SKILL.md",
+    "description": "分配小虫影视生产流的前期准备、资产生产、影视镜头生产任务，处理跨分支依赖和职责冲突。"
+  },
+  {
+    "name": "xcflow-professional-control",
+    "role": "专业控制部",
+    "path": "../../xcflow-professional-control/SKILL.md",
+    "description": "承接影视执行单元的共享能力需求，查询 Profile 和专业 Skill 候选、准确选版、读取并回接原执行单元。"
+  },
+  {
+    "name": "xcflow-registry",
+    "role": "资料与资产登记部",
+    "path": "../../xcflow-registry/SKILL.md",
+    "description": "按明确登记请求维护影视资料、资产身份、系统调用名、实际文件与版本的对应关系。"
+  },
+  {
+    "name": "xcflow-consultant",
+    "role": "专业顾问单元",
+    "path": "../../xcflow-consultant/SKILL.md",
+    "description": "按具体影视项目问题提供历史、礼仪、建筑等专业核查和顾问建议，区分事实、推断及待核验事项。"
+  },
+  {
+    "name": "xcflow-capability-builder",
+    "role": "专业能力建设单元",
+    "path": "../../xcflow-capability-builder/SKILL.md",
+    "description": "将用户提交的优秀镜头、方法和验证材料提炼为可复用影视 Profile 或专业 Skill 候选及指定版本。"
+  },
+  {
+    "name": "xcflow-library",
+    "role": "共享能力库",
+    "path": "../../xcflow-library/SKILL.md",
+    "description": "查询影视共享能力目录、提供用户选定的 Profile 或专业 Skill 准确版本，按确认范围归档并校验入库。"
+  },
+  {
+    "name": "xcflow-preproduction-control",
+    "role": "前期准备分控",
+    "path": "../../xcflow-preproduction-control/SKILL.md",
+    "description": "分配影视剧本与资产拆解、资产优先级判断、项目风格锁定任务并维护前期准备职责边界。"
+  },
+  {
+    "name": "xcflow-script-breakdown",
+    "role": "剧本与资产拆解",
+    "path": "../../xcflow-script-breakdown/SKILL.md",
+    "description": "从影视剧本拆解统一资产表，建立人物与对象身份对应，消除影响资产引用的指代歧义。"
+  },
+  {
+    "name": "xcflow-asset-priority",
+    "role": "资产生产优先级编排",
+    "path": "../../xcflow-asset-priority/SKILL.md",
+    "description": "依据影视剧本和资产表独立判断各资产的生产优先级，按用户选定格式呈现。"
+  },
+  {
+    "name": "xcflow-project-style",
+    "role": "项目风格锁定",
+    "path": "../../xcflow-project-style/SKILL.md",
+    "description": "根据影视项目资料建立并检验项目视觉风格，制作当前要求的风格测试 Prompt 和锁定结果。"
+  },
+  {
+    "name": "xcflow-asset-control",
+    "role": "资产生产分控",
+    "path": "../../xcflow-asset-control/SKILL.md",
+    "description": "按已确认资产类别分派六类影视资产制作任务，处理新增范围、跨资产单元需求及回传问题。"
+  },
+  {
+    "name": "xcflow-character-assets",
+    "role": "人物资产制作执行单元",
+    "path": "../../xcflow-character-assets/SKILL.md",
+    "description": "制作影视人物视觉资产、当前指定视图与生图 Prompt，依据用户回传结果完成当前人物任务内修订。"
+  },
+  {
+    "name": "xcflow-scene-assets",
+    "role": "场景资产制作执行单元",
+    "path": "../../xcflow-scene-assets/SKILL.md",
+    "description": "制作影视场景空间资产、按需多视图和生图 Prompt，保持母图空间结构及实际光源。"
+  },
+  {
+    "name": "xcflow-prop-assets",
+    "role": "道具与载具资产制作执行单元",
+    "path": "../../xcflow-prop-assets/SKILL.md",
+    "description": "制作影视道具、器具、机械装置和载具视觉资产及当前指定的生图 Prompt 与局部修订。"
+  },
+  {
+    "name": "xcflow-creature-assets",
+    "role": "生物、怪物与形态变体资产制作执行单元",
+    "path": "../../xcflow-creature-assets/SKILL.md",
+    "description": "制作非人物生物、怪物及可独立稳定复用的身体形态资产，处理来源绑定和当前指定视觉交付。"
+  },
+  {
+    "name": "xcflow-vfx-assets",
+    "role": "VFX资产制作执行单元",
+    "path": "../../xcflow-vfx-assets/SKILL.md",
+    "description": "制作已确认需要独立稳定复用的影视 VFX 资产，承接用户提交的 VFX 缺口清单与生图 Prompt。"
+  },
+  {
+    "name": "xcflow-voice-assets",
+    "role": "角色声音资产制作执行单元",
+    "path": "../../xcflow-voice-assets/SKILL.md",
+    "description": "制作跨镜头复用的角色音色参考与声音生成 Prompt，按角色绑定和回传样本处理音色修订。"
+  },
+  {
+    "name": "xcflow-shot-control",
+    "role": "影视镜头生产分控",
+    "path": "../../xcflow-shot-control/SKILL.md",
+    "description": "分派场戏设计、分镜与镜头设计、视频 Prompt 装配任务，处理影视镜头生产的职责和新增范围。"
+  },
+  {
+    "name": "xcflow-scene-design",
+    "role": "场戏设计综合执行",
+    "path": "../../xcflow-scene-design/SKILL.md",
+    "description": "完成影视场戏结构、节拍、表演、调度和连续性设计，持续更新可重新读取的完整场戏锚点。"
+  },
+  {
+    "name": "xcflow-shot-design",
+    "role": "分镜与镜头设计综合执行",
+    "path": "../../xcflow-shot-design/SKILL.md",
+    "description": "完成影视逐镜设计、生成单元组织和连续性检查，交付焦段、声音、受光及真实资产引用齐备的分镜。"
+  },
+  {
+    "name": "xcflow-video-prompt",
+    "role": "视频生成综合执行",
+    "path": "../../xcflow-video-prompt/SKILL.md",
+    "description": "把已确认影视分镜装配为 Seedance 或 MiniMax H3 正式视频 Prompt，处理准确引用、时长核对和表达污染修订。"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "《沙丘2》光影风格"
+  short_description: "生成可信光源、明暗层级、环境色彩角色、空气质感与灯光边界方案"
+  default_prompt: "Use $dune2-lighting-style to create a motivated lighting and color plan for this scene."

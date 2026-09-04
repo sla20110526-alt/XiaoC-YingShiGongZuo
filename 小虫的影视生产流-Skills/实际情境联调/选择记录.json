@@ -1,0 +1,15 @@
+{
+  "project": "隔离联调：夜车门厅",
+  "task": "S01 导演调度局部设计",
+  "original_unit": "场戏设计综合执行",
+  "stage": "导演调度与空间关系",
+  "need": "两人通过门洞撤离，明确路线、瓶颈和群体威胁位置",
+  "scope": "S01 已有门厅与两人调度，不含声音",
+  "selection_basis": "联调样例内预设答复：选择《釜山行》综合创作方法 1.0；仅供联调，不是正式项目授权",
+  "capabilities": [
+    {
+      "id": "train-to-busan-film-profile",
+      "version": "1.0"
+    }
+  ]
+}

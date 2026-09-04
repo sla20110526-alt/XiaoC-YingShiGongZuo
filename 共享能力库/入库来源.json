@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-04T17:12:32+08:00",
+  "copy_mode": "保留原始来源，按版本收存；原文收存和适配文件分别记录，适配文件保留源文件与归档文件的校验值。",
+  "files": [
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/director-alfonso-cuaron.md",
+      "library_path": "大师／作品 Profile/导演/阿方索・卡隆@v1.1.md",
+      "sha256": "972af00f63936af0d227556303c117695106d5c418e0937a89bc6ec1cf9c9727",
+      "bytes": 4026
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/director-bong-joon-ho.md",
+      "library_path": "大师／作品 Profile/导演/奉俊昊@v1.1.md",
+      "sha256": "ff3d28638fa23485a50e8c7f8ec8da0b597ea080d63cbcb2c30c3426d4fdadc5",
+      "bytes": 3720
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/director-david-fincher.md",
+      "library_path": "大师／作品 Profile/导演/大卫・芬奇@v1.1.md",
+      "sha256": "95dce299c6b8c9a1c9deb9f4714c39aa7d35ad3c1457d5e2dae96fe8dd156b7a",
+      "bytes": 3860
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/director-denis-villeneuve.md",
+      "library_path": "大师／作品 Profile/导演/丹尼斯・维伦纽瓦@v1.1.md",
+      "sha256": "52321671f88c81e4e7e2040d5f4b737238d86a64797944e9730bfed4144a105e",
+      "bytes": 3808
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/director-wong-kar-wai.md",
+      "library_path": "大师／作品 Profile/导演/王家卫@v1.1.md",
+      "sha256": "166582af6c4c1554846ea9d62c72b50b517ae4c52866ca5ff78eaec4e664f09b",
+      "bytes": 3795
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/cinematographer-bradford-young.md",
+      "library_path": "大师／作品 Profile/摄影/布拉德福德・杨@v1.1.md",
+      "sha256": "6ddd874ed53d20e740b1d2718d71c2ab6a7308cc9a235686100157edd443a268",
+      "bytes": 3824
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/cinematographer-emmanuel-lubezki.md",
+      "library_path": "大师／作品 Profile/摄影/艾曼努尔・卢贝茨基@v1.1.md",
+      "sha256": "884d8ab265fb4a028f6285b570ac6d9566bbf4b82f3a5ed8485eb0bcd6d7c0df",
+      "bytes": 3863
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/cinematographer-gordon-willis.md",
+      "library_path": "大师／作品 Profile/摄影/戈登・威利斯@v1.1.md",
+      "sha256": "af364a6597487b96dd3d280d584ca5c9ba1c217f77357b13e56f87026a544570",
+      "bytes": 3703
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/cinematographer-hoyte-van-hoytema.md",
+      "library_path": "大师／作品 Profile/摄影/霍伊特・范・霍特玛@v1.1.md",
+      "sha256": "cccd8691f6e633d4fc9d7a27d3e5e25acf25158849690deef80a3ff9e92848f4",
+      "bytes": 3884
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/cinematographer-roger-deakins.md",
+      "library_path": "大师／作品 Profile/摄影/罗杰・迪金斯@v1.1.md",
+      "sha256": "e9407e38f76db4ef528da8754f59d1cb4a9f39d26dd59a9c10a4726f87fb877e",
+      "bytes": 3817
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-adam-stockhausen.md",
+      "library_path": "大师／作品 Profile/美术/Adam Stockhausen@v1.1.md",
+      "sha256": "01630d068f343b87e1e3d876a8e457da4ae7c9c360177412467bb1d1a7f3fc00",
+      "bytes": 3324
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-dante-ferretti.md",
+      "library_path": "大师／作品 Profile/美术/Dante Ferretti@v1.1.md",
+      "sha256": "1501c80fdf23e55d49a9512039cdb2d6ce535d349bef1c726812cca2b36edd27",
+      "bytes": 3314
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-dennis-gassner.md",
+      "library_path": "大师／作品 Profile/美术/Dennis Gassner@v1.1.md",
+      "sha256": "45f301a7f48ef12ca30549f83e73aaa72bf7dd932360c3f0c543a1492c6a74d7",
+      "bytes": 3332
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-nathan-crowley.md",
+      "library_path": "大师／作品 Profile/美术/Nathan Crowley@v1.1.md",
+      "sha256": "062dce8b7538bc07e2052f52b09d9634536b4c2f17def6a5fbedfb7003741e7a",
+      "bytes": 3376
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-patrice-vermette.md",
+      "library_path": "大师／作品 Profile/美术/Patrice Vermette@v1.1.md",
+      "sha256": "fe84542fbc94a411c50667694f49d91a1cf3a3a21dea1a52730f1da394c1adae",
+      "bytes": 3442
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/production-designer-sarah-greenwood.md",
+      "library_path": "大师／作品 Profile/美术/Sarah Greenwood@v1.1.md",
+      "sha256": "8c9600d732b32d51ca36d011ced22f1df72771002c0ca7fcb88d4ce65c56ce2c",
+      "bytes": 3447
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/writer-aaron-sorkin.md",
+      "library_path": "大师／作品 Profile/编剧／剧作/Aaron Sorkin@v1.1.md",
+      "sha256": "9cbdda284249fa6767d1128f9f133080872c65513045beb774cd5d3679ef6d29",
+      "bytes": 3292
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/writer-bong-han.md",
+      "library_path": "大师／作品 Profile/编剧／剧作/奉俊昊／韩进元@v1.1.md",
+      "sha256": "c0af8ee8dd6457ddda13847f54f8637b2d2803d42339a4a10b098445200e1ac1",
+      "bytes": 3244
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/writer-robert-towne.md",
+      "library_path": "大师／作品 Profile/编剧／剧作/Robert Towne@v1.1.md",
+      "sha256": "81590b03c8b90d24b7709e8344ecd8d6fff153156f68c0397019b5bcdad13a4e",
+      "bytes": 3257
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/writer-wilder-diamond.md",
+      "library_path": "大师／作品 Profile/编剧／剧作/Billy Wilder ／ I. A. L. Diamond@v1.1.md",
+      "sha256": "b140d25d6abeeca5732daad242e584b892e62c8e6ac5c14ba04b7f57026d44d3",
+      "bytes": 3319
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-baxter-wall.md",
+      "library_path": "大师／作品 Profile/剪辑/Kirk Baxter ／ Angus Wall@v1.1.md",
+      "sha256": "474faa18147823631592e52589388c9b34ad371655bb3f9ad91566baac05e286",
+      "bytes": 3282
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-jennifer-lame.md",
+      "library_path": "大师／作品 Profile/剪辑/Jennifer Lame@v1.1.md",
+      "sha256": "6ab8de3a9621daa672536b008ee6e5fbd605c2917ea4077ef5a0babf3934593a",
+      "bytes": 3263
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-joe-walker.md",
+      "library_path": "大师／作品 Profile/剪辑/Joe Walker@v1.1.md",
+      "sha256": "1d137557595c1439501d30022e50512e50feb7c68083251b7ca4e2e7e812f4ba",
+      "bytes": 3252
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-margaret-sixel.md",
+      "library_path": "大师／作品 Profile/剪辑/Margaret Sixel@v1.1.md",
+      "sha256": "8816da1e3235523fed65ba048800fb8c120f3ed4766a864f0afc07314d3795b3",
+      "bytes": 3308
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-michael-kahn.md",
+      "library_path": "大师／作品 Profile/剪辑/Michael Kahn@v1.1.md",
+      "sha256": "86a683b9ac8ac8f8db5f65e33abc9ee3143653ec1527cfef577325ecf161e31d",
+      "bytes": 3246
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-thelma-schoonmaker.md",
+      "library_path": "大师／作品 Profile/剪辑/Thelma Schoonmaker@v1.1.md",
+      "sha256": "9d0b45a2183178350a886f9e26697aa6ecde21d30742e9107109fa09a8d08004",
+      "bytes": 3406
+    },
+    {
+      "source_path": "../SKillXC/skills/film-profile-library/references/editor-walter-murch.md",
+      "library_path": "大师／作品 Profile/剪辑/Walter Murch@v1.1.md",
+      "sha256": "dfa0170e7c0b7c9ff3eafa1dc872635a8e13ebedb259c65c3519a24b7adbc2ab",
+      "bytes": 3384
+    },
+    {
+      "source_path": "../film-production-codex-skills/Dune2StyleProfiles/00-证据审计与适用边界.md",
+      "library_path": "大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md",
+      "sha256": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6",
+      "bytes": 5806
+    },
+    {
+      "source_path": "../film-production-codex-skills/NOTICE.md",
+      "library_path": "大师／作品 Profile/_配套资料/沙丘2-v001/NOTICE.md",
+      "sha256": "fa409ba30621cd6234db836adbb27a658789e79d9c431e936813cae695e6f7b6",
+      "bytes": 533
+    },
+    {
+      "source_path": "../film-production-codex-skills/Dune2StyleProfiles/01-导演风格-Profile.md",
+      "library_path": "大师／作品 Profile/导演/《沙丘2》导演风格 Profile@v001.md",
+      "sha256": "f985cfbfbde3963c12c53bda17d5a054cc3bf52392d864ebe30c80e1ec9d5188",
+      "bytes": 6537
+    },
+    {
+      "source_path": "../film-production-codex-skills/Dune2StyleProfiles/02-摄影风格-Profile.md",
+      "library_path": "大师／作品 Profile/摄影/《沙丘2》摄影风格 Profile@v001.md",
+      "sha256": "16e6d14c5a59236184ebe16ceb72133dcadd0c4fe19a4e1c94509b2038066da6",
+      "bytes": 6983
+    },
+    {
+      "source_path": "../film-production-codex-skills/Dune2StyleProfiles/03-光影风格-Profile.md",
+      "library_path": "大师／作品 Profile/灯光/《沙丘2》光影风格 Profile@v001.md",
+      "sha256": "5626fbcdcbc9cd05eedf96a998837e4769390a8c6957eca1b78d5f2ed823cc12",
+      "bytes": 7203
+    },
+    {
+      "source_path": "../film-production-codex-skills/Dune2StyleProfiles/04-表演风格-Profile.md",
+      "library_path": "大师／作品 Profile/表演/《沙丘2》表演风格 Profile@v001.md",
+      "sha256": "90e0bf5181079529c3e54e50b6ac1d8ff4d6cad40726bb20341a426f7a52c7ab",
+      "bytes": 9101
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-directing-style/agents/openai.yaml",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/agents/openai.yaml",
+      "sha256": "3776c8c5e35c48a16bbfc8788e75db0b2390b37b6e794724e5dbf5d7c252fb81",
+      "bytes": 293
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-directing-style/references/evidence-boundaries.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/evidence-boundaries.md",
+      "sha256": "e26c2e6029b4ab8d7442eb9e8fc843f5ebce656e547d361b48d16287e3aa6cb1",
+      "bytes": 1462
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-directing-style/references/profile.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/profile.md",
+      "sha256": "111a075023d2d667c0f89b45d35e72179677e3fce4a8dfcb936fa10f171ad364",
+      "bytes": 5271
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-directing-style/SKILL.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/SKILL.md",
+      "sha256": "2f69a9fee7df27f6d98ac51e8d62a167a5ed04111c697dba912b7149187742de",
+      "bytes": 2856
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-cinematography-style/agents/openai.yaml",
+      "library_path": "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/agents/openai.yaml",
+      "sha256": "c8a1c122bce6da580083c8561c86be0a3db0e3061b5213211ac6292836524bd5",
+      "bytes": 273
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-cinematography-style/references/evidence-boundaries.md",
+      "library_path": "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/evidence-boundaries.md",
+      "sha256": "6adb45ca99de585ee9d4b863242181da4426fc7748f8885b2f67a692426218a0",
+      "bytes": 1433
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-cinematography-style/references/profile.md",
+      "library_path": "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/profile.md",
+      "sha256": "c047547a917f6441386243b463a74b135e69f738270cb905485707c51e091e5a",
+      "bytes": 4944
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-cinematography-style/SKILL.md",
+      "library_path": "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/SKILL.md",
+      "sha256": "d7c2554d525ebcc556e784bd89f027155a6e238bedf06b7e87246b094a11392e",
+      "bytes": 2704
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-lighting-style/agents/openai.yaml",
+      "library_path": "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/agents/openai.yaml",
+      "sha256": "b3aaa4257b3cf2afafb2f594798095162967e9825e33e5b0260f956bd868f29b",
+      "bytes": 281
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-lighting-style/references/evidence-boundaries.md",
+      "library_path": "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/evidence-boundaries.md",
+      "sha256": "f5167dea6cf06a6253c405b272aa55c324479e70cc527ad8b81bdccf4150a560",
+      "bytes": 1470
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-lighting-style/references/profile.md",
+      "library_path": "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/profile.md",
+      "sha256": "e2c8168e2b3b758ca7125d691cabcbb18c09b590bcb2c159ddd11348bd767e34",
+      "bytes": 5119
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-lighting-style/SKILL.md",
+      "library_path": "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/SKILL.md",
+      "sha256": "c63abfb675c721ab598e4a1e9c470628399552567be9ed239e12a07f7d2ba3ba",
+      "bytes": 2684
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-performance-style/agents/openai.yaml",
+      "library_path": "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/agents/openai.yaml",
+      "sha256": "46fc0febc90c3716df62a189136d663da876e4ebd14065c14a1ebb94e9c95682",
+      "bytes": 291
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-performance-style/references/evidence-boundaries.md",
+      "library_path": "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/evidence-boundaries.md",
+      "sha256": "f7b27a493c8fcd0f8ecf7851065af68d2306720b41a12c4190f508c2e919dfd9",
+      "bytes": 1369
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-performance-style/references/profile.md",
+      "library_path": "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/profile.md",
+      "sha256": "c946515d40b20da9a3b8fb11049f61cf649397206a50868e918a1d8af868b3dd",
+      "bytes": 6092
+    },
+    {
+      "source_path": "../film-production-codex-skills/skills/dune2-performance-style/SKILL.md",
+      "library_path": "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/SKILL.md",
+      "sha256": "06ed5b5257bde8ca43fcfa624fe6a7f1fa4d5fcf0fdfc8e0368de3824cb29ec4",
+      "bytes": 2721
+    },
+    {
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/h3-prompt-writing/agents/openai.yaml",
+      "library_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/agents/openai.yaml",
+      "sha256": "7770c9d784b7251ab882ee29a738219a3f01811e57ba7fc7822fa83eb8438c1a",
+      "bytes": 240
+    },
+    {
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/h3-prompt-writing/references/base-en.txt",
+      "library_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/base-en.txt",
+      "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc",
+      "bytes": 15773
+    },
+    {
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/h3-prompt-writing/references/ref-en.txt",
+      "library_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/ref-en.txt",
+      "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7",
+      "bytes": 23553
+    },
+    {
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/h3-prompt-writing/SKILL.md",
+      "library_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/SKILL.md",
+      "sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0",
+      "bytes": 2623
+    },
+    {
+      "source_path": "../film-production-codex-skills/external-skills/MiniMax-H3/SOURCE.md",
+      "library_path": "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/SOURCE.md",
+      "sha256": "329314f75e5eef6dc8bf08e75b76c6533df39b9c1e2ef83e3f0db799631ac4c7",
+      "bytes": 3061
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/SKILL.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SKILL.md",
+      "source_sha256": "9611ab7833603088ab91b3ef6bc2e142793a06ed9b2f5429c73b5cf6dc6fd214",
+      "sha256": "7b6b5df5373e7513b73d86a6c9553bc317c4583d2c1f52c65db40ce16984b5a0",
+      "bytes": 6229,
+      "relation": "adapted"
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/agents/openai.yaml",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/agents/openai.yaml",
+      "source_sha256": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c",
+      "sha256": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c",
+      "bytes": 346,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/references/decision-qa.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/decision-qa.md",
+      "source_sha256": "50732859ac81916d7bf7bd83604ce9d35ba5d73ab536bee9ff164ff66ef20eac",
+      "sha256": "897840e523f88e14027093d73267f4c081249ee694af7dd7e96b27edd870c9ab",
+      "bytes": 4351,
+      "relation": "adapted"
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/references/evidence-ledger.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/evidence-ledger.md",
+      "source_sha256": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b",
+      "sha256": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b",
+      "bytes": 3243,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/references/production-recipes.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/production-recipes.md",
+      "source_sha256": "c50b7d05d295d2528abf3d94118c00ebeefab3f46c20289b0cc89e0bea34e4be",
+      "sha256": "23c3e5f19f9e877a4ae153b09685d20624d5a9ee28304e138dcb3521e041576b",
+      "bytes": 2975,
+      "relation": "adapted"
+    },
+    {
+      "source_path": "../train-to-busan-film-profile/references/style-profile.md",
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md",
+      "source_sha256": "a006613a180083a0dc384de16d18db8cc6a80c054d2206c92ba4d3e49fafe21f",
+      "sha256": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18",
+      "bytes": 7389,
+      "relation": "adapted"
+    }
+  ],
+  "updated_at": "2026-09-04T18:03:53+08:00",
+  "generated_files": [
+    {
+      "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
+      "sha256": "7b3280681370c05e5f47495c9661bbf06f97ca2be8dcf0358ef9d7940e07dc4e",
+      "bytes": 1663,
+      "relation": "generated",
+      "purpose": "记录用户授权、1.0 适配边界和验证范围"
+    }
+  ]
+}

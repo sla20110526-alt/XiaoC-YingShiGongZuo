@@ -1,0 +1,210 @@
+{
+  "system": "小虫的影视生产流",
+  "version": "1.0.0",
+  "install_root": "C:\\Users\\观照\\.codex\\skills",
+  "skills": [
+    {
+      "name": "xcflow-control",
+      "role": "总控",
+      "path": "../../xcflow-control/SKILL.md",
+      "description": "统筹小虫的影视生产流，处理用户指定的部门启动、职责归属、跨部门协调和回传的 Skill 优化信息。"
+    },
+    {
+      "name": "xcflow-production-control",
+      "role": "生产控制部",
+      "path": "../../xcflow-production-control/SKILL.md",
+      "description": "分配小虫影视生产流的前期准备、资产生产、影视镜头生产任务，处理跨分支依赖和职责冲突。"
+    },
+    {
+      "name": "xcflow-professional-control",
+      "role": "专业控制部",
+      "path": "../../xcflow-professional-control/SKILL.md",
+      "description": "承接影视执行单元的共享能力需求，查询 Profile 和专业 Skill 候选、准确选版、读取并回接原执行单元。"
+    },
+    {
+      "name": "xcflow-registry",
+      "role": "资料与资产登记部",
+      "path": "../../xcflow-registry/SKILL.md",
+      "description": "按明确登记请求维护影视资料、资产身份、系统调用名、实际文件与版本的对应关系。"
+    },
+    {
+      "name": "xcflow-consultant",
+      "role": "专业顾问单元",
+      "path": "../../xcflow-consultant/SKILL.md",
+      "description": "按具体影视项目问题提供历史、礼仪、建筑等专业核查和顾问建议，区分事实、推断及待核验事项。"
+    },
+    {
+      "name": "xcflow-capability-builder",
+      "role": "专业能力建设单元",
+      "path": "../../xcflow-capability-builder/SKILL.md",
+      "description": "将用户提交的优秀镜头、方法和验证材料提炼为可复用影视 Profile 或专业 Skill 候选及指定版本。"
+    },
+    {
+      "name": "xcflow-library",
+      "role": "共享能力库",
+      "path": "../../xcflow-library/SKILL.md",
+      "description": "查询影视共享能力目录、提供用户选定的 Profile 或专业 Skill 准确版本，按确认范围归档并校验入库。"
+    },
+    {
+      "name": "xcflow-preproduction-control",
+      "role": "前期准备分控",
+      "path": "../../xcflow-preproduction-control/SKILL.md",
+      "description": "分配影视剧本与资产拆解、资产优先级判断、项目风格锁定任务并维护前期准备职责边界。"
+    },
+    {
+      "name": "xcflow-script-breakdown",
+      "role": "剧本与资产拆解",
+      "path": "../../xcflow-script-breakdown/SKILL.md",
+      "description": "从影视剧本拆解统一资产表，建立人物与对象身份对应，消除影响资产引用的指代歧义。"
+    },
+    {
+      "name": "xcflow-asset-priority",
+      "role": "资产生产优先级编排",
+      "path": "../../xcflow-asset-priority/SKILL.md",
+      "description": "依据影视剧本和资产表独立判断各资产的生产优先级，按用户选定格式呈现。"
+    },
+    {
+      "name": "xcflow-project-style",
+      "role": "项目风格锁定",
+      "path": "../../xcflow-project-style/SKILL.md",
+      "description": "根据影视项目资料建立并检验项目视觉风格，制作当前要求的风格测试 Prompt 和锁定结果。"
+    },
+    {
+      "name": "xcflow-asset-control",
+      "role": "资产生产分控",
+      "path": "../../xcflow-asset-control/SKILL.md",
+      "description": "按已确认资产类别分派六类影视资产制作任务，处理新增范围、跨资产单元需求及回传问题。"
+    },
+    {
+      "name": "xcflow-character-assets",
+      "role": "人物资产制作执行单元",
+      "path": "../../xcflow-character-assets/SKILL.md",
+      "description": "制作影视人物视觉资产、当前指定视图与生图 Prompt，依据用户回传结果完成当前人物任务内修订。"
+    },
+    {
+      "name": "xcflow-scene-assets",
+      "role": "场景资产制作执行单元",
+      "path": "../../xcflow-scene-assets/SKILL.md",
+      "description": "制作影视场景空间资产、按需多视图和生图 Prompt，保持母图空间结构及实际光源。"
+    },
+    {
+      "name": "xcflow-prop-assets",
+      "role": "道具与载具资产制作执行单元",
+      "path": "../../xcflow-prop-assets/SKILL.md",
+      "description": "制作影视道具、器具、机械装置和载具视觉资产及当前指定的生图 Prompt 与局部修订。"
+    },
+    {
+      "name": "xcflow-creature-assets",
+      "role": "生物、怪物与形态变体资产制作执行单元",
+      "path": "../../xcflow-creature-assets/SKILL.md",
+      "description": "制作非人物生物、怪物及可独立稳定复用的身体形态资产，处理来源绑定和当前指定视觉交付。"
+    },
+    {
+      "name": "xcflow-vfx-assets",
+      "role": "VFX资产制作执行单元",
+      "path": "../../xcflow-vfx-assets/SKILL.md",
+      "description": "制作已确认需要独立稳定复用的影视 VFX 资产，承接用户提交的 VFX 缺口清单与生图 Prompt。"
+    },
+    {
+      "name": "xcflow-voice-assets",
+      "role": "角色声音资产制作执行单元",
+      "path": "../../xcflow-voice-assets/SKILL.md",
+      "description": "制作跨镜头复用的角色音色参考与声音生成 Prompt，按角色绑定和回传样本处理音色修订。"
+    },
+    {
+      "name": "xcflow-shot-control",
+      "role": "影视镜头生产分控",
+      "path": "../../xcflow-shot-control/SKILL.md",
+      "description": "分派场戏设计、分镜与镜头设计、视频 Prompt 装配任务，处理影视镜头生产的职责和新增范围。"
+    },
+    {
+      "name": "xcflow-scene-design",
+      "role": "场戏设计综合执行",
+      "path": "../../xcflow-scene-design/SKILL.md",
+      "description": "完成影视场戏结构、节拍、表演、调度和连续性设计，持续更新可重新读取的完整场戏锚点。"
+    },
+    {
+      "name": "xcflow-shot-design",
+      "role": "分镜与镜头设计综合执行",
+      "path": "../../xcflow-shot-design/SKILL.md",
+      "description": "完成影视逐镜设计、生成单元组织和连续性检查，交付焦段、声音、受光及真实资产引用齐备的分镜。"
+    },
+    {
+      "name": "xcflow-video-prompt",
+      "role": "视频生成综合执行",
+      "path": "../../xcflow-video-prompt/SKILL.md",
+      "description": "把已确认影视分镜装配为 Seedance 或 MiniMax H3 正式视频 Prompt，处理准确引用、时长核对和表达污染修订。"
+    }
+  ],
+  "files": {
+    "xcflow-asset-control/SKILL.md": "85b6354a036a9db532cbc152cb3bb80bbcc2e00fe5c7ceba59ecc1c05b95d015",
+    "xcflow-asset-priority/SKILL.md": "49f8cd549d827f626ad916653c7b34caff873e4e409cdeb3520b631f787ef846",
+    "xcflow-capability-builder/SKILL.md": "218c31631f2e6258399151cd751fbce6a1c05e0ca866e01396e06c600907c9d8",
+    "xcflow-character-assets/SKILL.md": "2432de44865867c933fdc3d382e41f8b4d2929c2039295160d38c95d890c3637",
+    "xcflow-consultant/SKILL.md": "bfdc9b119cf5fbe6318d5a581d025e8d75f9cbfb5749e1c6bd0d5efa66f76d42",
+    "xcflow-control/SKILL.md": "85cdaa7feb06666c22f51d424155a676e3cc412ba2c128ca569e330daf2188d0",
+    "xcflow-control/references/bindings.json": "b7fe40bcd560ba94c503fbd58ca287a49ff4f7befdc1978ef916c4914e0a02cd",
+    "xcflow-control/references/roles.json": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b",
+    "xcflow-control/references/roles.md": "5edfc9ad3e0c12353f158704d885d59f2075c6020b10c0124ae4287ee769e5d9",
+    "xcflow-control/references/runtime.md": "01e1c8810276263c5f650795eb4fdcc91b34f7466671064c212ee17bab7e977a",
+    "xcflow-creature-assets/SKILL.md": "7459e117cc60a23932e384ad73e577974da52efe9f848f2ea3c8987f944c2c4e",
+    "xcflow-library/SKILL.md": "5da291731bff1e82aaeb8658e80196d52aec577175a10bd222ff4ba59bc4f8d0",
+    "xcflow-library/references/operations.md": "efc45385669325909286a69e31f958dfa1ebd2b8750540074bae9de6e9c6efa0",
+    "xcflow-library/scripts/library.py": "1ed2821abee3ad8dcc867389938540ef85cc9cfd40fe39bb244037760206187a",
+    "xcflow-preproduction-control/SKILL.md": "b4a8507f63ea93ba1cbdf53e22d2d1cb9bc27cfbfb63c706d4ac3ee6d0d02e7d",
+    "xcflow-production-control/SKILL.md": "21238c71e5b53baf47d5fb5b1c947369e63d8bd9058911da2f96cf903ac968dc",
+    "xcflow-professional-control/SKILL.md": "16691fc90a4e8064ab230fc77633ff9381ae0a48608571252d85a1027820b914",
+    "xcflow-project-style/SKILL.md": "8fc441314d2ff1afc442a5f4035c1645ed1d90b57405af6b862c26e87b028743",
+    "xcflow-prop-assets/SKILL.md": "72410d90e09c26662aa01eec36950d5a42d34dd2caa94241085a36e874db9ceb",
+    "xcflow-registry/SKILL.md": "32a8f2c711b0ab0a0329283905f18e83e02d95d48212bc3a9861d4a629d4215b",
+    "xcflow-scene-assets/SKILL.md": "4dc270b059e2a23d963ade75d26507717649e6afb6c0711c445706a239f845a7",
+    "xcflow-scene-design/SKILL.md": "fe70f82540358ea840573330460eeb17bd8e6cde0a5534bf6586d70d2a718730",
+    "xcflow-scene-design/references/snapshots.md": "23508879bb167fe6ef5bb4132dc6d9b7f63ba267024d16a9b71a9cc9c72b00b6",
+    "xcflow-scene-design/scripts/snapshot.py": "d474fc7b38c31a3b0082c13e77097fc4ed5fabe0fd8f2a9f2a0910b24feeeee3",
+    "xcflow-script-breakdown/SKILL.md": "f938982b665b3531421167f0326985c3dfaf82be7a6e7efdf7b6baff065c29ef",
+    "xcflow-shot-control/SKILL.md": "484098963b8a8c9e9c9a7db73dfaa868d472d52a61ebd23a691e0487ac099695",
+    "xcflow-shot-design/SKILL.md": "b6fc636cd168154a389126d1f0e74fa69311e188c9370103ae4db9b854448a04",
+    "xcflow-vfx-assets/SKILL.md": "c37212ead8e1a9d3a12b491b17844c2f03a49aa312b4f0d29a174e0c4e90be79",
+    "xcflow-video-prompt/SKILL.md": "5f5c0a273b2804ace6d29e2a4053683d36c78e03f611f662fc4968387c78bb5f",
+    "xcflow-voice-assets/SKILL.md": "d870a296d39bf45a2e9b37520f4cb098b2a635677c0fa50056fb2607835b6a96"
+  },
+  "created": [
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-asset-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-asset-priority\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-capability-builder\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-character-assets\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-consultant\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\references\\bindings.json",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\references\\roles.json",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\references\\roles.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\references\\runtime.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-creature-assets\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-library\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-library\\references\\operations.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-library\\scripts\\library.py",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-preproduction-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-production-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-professional-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-project-style\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-prop-assets\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-registry\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-assets\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-design\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-design\\references\\snapshots.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-design\\scripts\\snapshot.py",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-script-breakdown\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-shot-control\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-shot-design\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-vfx-assets\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-video-prompt\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-voice-assets\\SKILL.md"
+  ],
+  "updated": [
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-library\\SKILL.md",
+    "C:\\Users\\观照\\.codex\\skills\\xcflow-professional-control\\SKILL.md"
+  ],
+  "config_unchanged": true,
+  "readback": "全部安装文件重新读取与制作文件一致",
+  "runtime_discovery": "以宿主发现检查.json为准"
+}

@@ -1,0 +1,341 @@
+{
+  "method": "skills/list",
+  "forceReload": true,
+  "cli_version": "0.153.0",
+  "skills": [
+    {
+      "name": "xcflow-asset-control",
+      "description": "按已确认资产类别分派六类影视资产制作任务，处理新增范围、跨资产单元需求及回传问题。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-asset-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-asset-priority",
+      "description": "依据影视剧本和资产表独立判断各资产的生产优先级，按用户选定格式呈现。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-asset-priority\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-capability-builder",
+      "description": "将用户提交的优秀镜头、方法和验证材料提炼为可复用影视 Profile 或专业 Skill 候选及指定版本。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-capability-builder\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-character-assets",
+      "description": "制作影视人物视觉资产、当前指定视图与生图 Prompt，依据用户回传结果完成当前人物任务内修订。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-character-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-consultant",
+      "description": "按具体影视项目问题提供历史、礼仪、建筑等专业核查和顾问建议，区分事实、推断及待核验事项。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-consultant\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-control",
+      "description": "统筹小虫的影视生产流，处理用户指定的部门启动、职责归属、跨部门协调和回传的 Skill 优化信息。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-creature-assets",
+      "description": "制作非人物生物、怪物及可独立稳定复用的身体形态资产，处理来源绑定和当前指定视觉交付。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-creature-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-library",
+      "description": "查询影视共享能力目录、提供用户选定的 Profile 或专业 Skill 准确版本，按确认范围归档并校验入库。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-library\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-preproduction-control",
+      "description": "分配影视剧本与资产拆解、资产优先级判断、项目风格锁定任务并维护前期准备职责边界。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-preproduction-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-production-control",
+      "description": "分配小虫影视生产流的前期准备、资产生产、影视镜头生产任务，处理跨分支依赖和职责冲突。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-production-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-professional-control",
+      "description": "承接影视执行单元的共享能力需求，查询 Profile 和专业 Skill 候选、准确选版、读取并回接原执行单元。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-professional-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-project-style",
+      "description": "根据影视项目资料建立并检验项目视觉风格，制作当前要求的风格测试 Prompt 和锁定结果。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-project-style\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-prop-assets",
+      "description": "制作影视道具、器具、机械装置和载具视觉资产及当前指定的生图 Prompt 与局部修订。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-prop-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-registry",
+      "description": "按明确登记请求维护影视资料、资产身份、系统调用名、实际文件与版本的对应关系。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-registry\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-scene-assets",
+      "description": "制作影视场景空间资产、按需多视图和生图 Prompt，保持母图空间结构及实际光源。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-scene-design",
+      "description": "完成影视场戏结构、节拍、表演、调度和连续性设计，持续更新可重新读取的完整场戏锚点。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-scene-design\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-script-breakdown",
+      "description": "从影视剧本拆解统一资产表，建立人物与对象身份对应，消除影响资产引用的指代歧义。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-script-breakdown\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-shot-control",
+      "description": "分派场戏设计、分镜与镜头设计、视频 Prompt 装配任务，处理影视镜头生产的职责和新增范围。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-shot-control\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-shot-design",
+      "description": "完成影视逐镜设计、生成单元组织和连续性检查，交付焦段、声音、受光及真实资产引用齐备的分镜。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-shot-design\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-vfx-assets",
+      "description": "制作已确认需要独立稳定复用的影视 VFX 资产，承接用户提交的 VFX 缺口清单与生图 Prompt。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-vfx-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-video-prompt",
+      "description": "把已确认影视分镜装配为 Seedance 或 MiniMax H3 正式视频 Prompt，处理准确引用、时长核对和表达污染修订。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-video-prompt\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "xcflow-voice-assets",
+      "description": "制作跨镜头复用的角色音色参考与声音生成 Prompt，按角色绑定和回传样本处理音色修订。",
+      "path": "C:\\Users\\观照\\.codex\\skills\\xcflow-voice-assets\\SKILL.md",
+      "scope": "user",
+      "enabled": true,
+      "pluginId": null
+    }
+  ],
+  "new_skill_count": 22,
+  "all_enabled": true,
+  "new_skill_errors": [],
+  "archived_source_entries": [
+    {
+      "name": "skillxc:acting-direction",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\acting-direction\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:approval-asset-registry",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\approval-asset-registry\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:art-lookdev-direction",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\art-lookdev-direction\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:asset-demand-plan",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\asset-demand-plan\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:character-asset-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\character-asset-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:cinematography-direction",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\cinematography-direction\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:continuity-readiness-audit",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\continuity-readiness-audit\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:creative-control-versioning",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\creative-control-versioning\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:creature-monster-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\creature-monster-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:directing-blocking",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\directing-blocking\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:dramaturgy-scene-beats",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\dramaturgy-scene-beats\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:editing-rhythm",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\editing-rhythm\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:film-profile-library",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\film-profile-library\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:generation-version-log",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\generation-version-log\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:image-prompt-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\image-prompt-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:lighting-direction",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\lighting-direction\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:location-spatial-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\location-spatial-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:production-router-handoff",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\production-router-handoff\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:project-category-lock",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\project-category-lock\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:prop-vehicle-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\prop-vehicle-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:script-asset-breakdown",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\script-asset-breakdown\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:script-truth-index",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\script-truth-index\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:shot-visual-design",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\shot-visual-design\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:sound-voice-direction",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\sound-voice-direction\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:specialist-consultant-router",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\specialist-consultant-router\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:style-lock-director",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\style-lock-director\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:vfx-asset-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\vfx-asset-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:video-prompt-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\video-prompt-production\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:video-qc-review",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\video-qc-review\\SKILL.md",
+      "enabled": false
+    },
+    {
+      "name": "skillxc:world-asset-production",
+      "path": "D:\\Ai影视制作\\2026项目\\002-2026项目\\015-Skill整理\\SKillXC\\skills\\world-asset-production\\SKILL.md",
+      "enabled": false
+    }
+  ],
+  "all_archived_source_entries_disabled": true,
+  "agent_turns_created": 0,
+  "scope": "当前宿主技能发现，不代表当前已打开对话的技能提示已刷新或每个真实创作项目已验证"
+}

@@ -1,0 +1,25 @@
+{
+  "documents": 66,
+  "unique_documents": 66,
+  "pending_business_revision_documents": 0,
+  "common_contracts": 3,
+  "templates": 1,
+  "logged_changes": 268,
+  "checked_links": 632,
+  "protected_files": 1033,
+  "protected_files_unchanged": true,
+  "body_replay_and_hashes_verified": true,
+  "errors": [],
+  "validation_kind": "实际文件核验与规范静态情境复查；未运行生产Skill或生成模型",
+  "formal_frozen_documents": 66,
+  "refreeze_date": "2026-09-05",
+  "refreeze_confirmation": "确认重新冻结",
+  "refreeze_verification": {
+    "frozen_files": 70,
+    "business_content_unchanged": true,
+    "checked_local_links": 632,
+    "protected_files_unchanged": 1033,
+    "errors": []
+  },
+  "prior_revision_checked_links": 559
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "code": "A01",
+    "title": "全局组织运行原则",
+    "source_turn": "01a06308-df3c-73c3-82b5-562bb4b8d1ef",
+    "confirm_turn": "01a06308-df3c-73c3-82b5-562bb4b8d1ef",
+    "units": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "code": "A02",
+    "title": "优先级用户决定权与说明边界",
+    "source_turn": "01a060ae-9957-7bf3-a37f-8149ae445799",
+    "confirm_turn": "01a060b0-434d-7d71-8917-d966b0745915",
+    "units": [
+      10
+    ]
+  },
+  {
+    "code": "A03",
+    "title": "人物缺少参考时继续设计",
+    "source_turn": "01a04e7a-b5be-7960-9882-f84895aafb8e",
+    "confirm_turn": "01a04e7a-b5be-7960-9882-f84895aafb8e",
+    "units": [
+      13
+    ]
+  },
+  {
+    "code": "A04",
+    "title": "人物真实来源绑定",
+    "source_turn": "01a04e7b-f1de-7922-a0f2-bc00cdfee0a3",
+    "confirm_turn": "01a04e7b-f1de-7922-a0f2-bc00cdfee0a3",
+    "units": [
+      13
+    ]
+  },
+  {
+    "code": "A05",
+    "title": "生物执行流程四项修正",
+    "source_turn": "01a04c8f-8c1c-7492-9fd3-9e1ad75519c1",
+    "confirm_turn": "01a04c9c-65ac-72a2-b720-d0419fd65d25",
+    "units": [
+      16
+    ]
+  },
+  {
+    "code": "A06",
+    "title": "生物附属文件条件性",
+    "source_turn": "01a04cc1-f042-7ff2-9dc2-7ce298f12254",
+    "confirm_turn": "01a04cc4-9998-7fc2-a691-64679a1b2211",
+    "units": [
+      16
+    ]
+  },
+  {
+    "code": "A07",
+    "title": "生物Prompt只作当前临时锚定",
+    "source_turn": "01a04cce-a8be-7ce0-936a-d6483bd5dcc0",
+    "confirm_turn": "01a04cd0-1672-7773-8380-aadeb3555550",
+    "units": [
+      16
+    ]
+  },
+  {
+    "code": "A08",
+    "title": "VFX承接下游需求清单",
+    "source_turn": "01a04d3c-f6c6-7971-9deb-fa8b35f0b4c8",
+    "confirm_turn": "01a04d3c-f6c6-7971-9deb-fa8b35f0b4c8",
+    "units": [
+      17
+    ]
+  },
+  {
+    "code": "A09",
+    "title": "H3入口及镜头生产规范重新冻结",
+    "source_turn": "01a068c9-0dd5-74c0-ba9c-4cfd1bb20891",
+    "confirm_turn": "01a068cc-81db-7c32-bddb-28f3c4f5ec4d",
+    "units": [
+      19,
+      22
+    ]
+  }
+]

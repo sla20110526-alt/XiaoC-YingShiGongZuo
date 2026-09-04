@@ -1,0 +1,72 @@
+{
+  "version": "1.0.1",
+  "scope": "当前电脑的隔离目录和隔离用户环境；不是对真实工作电脑的远程验证",
+  "cases": [
+    {
+      "case": "复制到含中文和空格的新路径",
+      "passed": true,
+      "observed": {
+        "version": "1.0.1",
+        "skills": 22,
+        "frozen_files": 70,
+        "shared_entries": 37,
+        "selectable_entries": 36,
+        "runtime_links": 231,
+        "verified_resources": 56,
+        "errors": []
+      }
+    },
+    {
+      "case": "通过 CODEX_HOME 安装到隔离用户目录",
+      "passed": true
+    },
+    {
+      "case": "同一位置重复安装不重写",
+      "passed": true
+    },
+    {
+      "case": "已安装文件和本机路径实际回读",
+      "passed": true,
+      "observed": {
+        "installed_files": 30,
+        "errors": [],
+        "matches_this_repository": true
+      }
+    },
+    {
+      "case": "从任意当前目录读取本机绑定的共享库",
+      "passed": true
+    },
+    {
+      "case": "仓库原始入口相对定位及 H3 储备隔离",
+      "passed": true
+    },
+    {
+      "case": "更换仓库目录后重绑并备份旧安装",
+      "passed": true
+    },
+    {
+      "case": "更换位置后所有文件仍一致",
+      "passed": true
+    },
+    {
+      "case": "本机入口改动先保留备份",
+      "passed": true
+    },
+    {
+      "case": "冻结正文校验不符时停止安装准备",
+      "passed": true
+    },
+    {
+      "case": "Codex 宿主发现隔离安装",
+      "passed": true,
+      "observed": {
+        "skills": 22,
+        "all_enabled": true,
+        "agent_turns_created": 0
+      }
+    }
+  ],
+  "passed": 11,
+  "failed": 0
+}

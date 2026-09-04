@@ -1,0 +1,4 @@
+interface:
+  display_name: "《沙丘2》摄影风格"
+  short_description: "生成尺度构图、机位、景深、镜头运动、动作地理与视觉连续性方案"
+  default_prompt: "Use $dune2-cinematography-style to create a cinematography plan for this scene."

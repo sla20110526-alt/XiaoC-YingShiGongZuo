@@ -1,0 +1,132 @@
+{
+  "test_type": "已安装辅助程序的实际文件操作与隔离反例；不包含另一个模型评估或真实出片",
+  "cases": [
+    {
+      "case": "目录分类与储备隔离",
+      "result": "通过",
+      "observed": "36 个既有可选项；1 个待适配源文件单列"
+    },
+    {
+      "case": "综合能力按一个条目返回",
+      "result": "通过",
+      "observed": "导演查询中《釜山行》只有 1 项"
+    },
+    {
+      "case": "声音范围排除",
+      "result": "通过",
+      "observed": "声音查询没有《釜山行》"
+    },
+    {
+      "case": "H3 无可加载适配项",
+      "result": "通过",
+      "observed": "返回空候选和 1 个储备，允许原执行单元判断基础装配能否继续"
+    },
+    {
+      "case": "Seedance 不追加通用能力查询",
+      "result": "通过",
+      "observed": "Seedance 专项入口不返回大师候选"
+    },
+    {
+      "case": "按准确版本提供实际正文",
+      "result": "通过",
+      "observed": "1.0 正文与 4 份必要配套均实际回读，未混入独立 Profile"
+    },
+    {
+      "case": "指定版本不存在不替换",
+      "result": "通过",
+      "observed": "指定版本不存在，不替换其他版本：('train-to-busan-film-profile', '9.9')"
+    },
+    {
+      "case": "待适配源文件不能加载",
+      "result": "通过",
+      "observed": "该版本尚不可加载：('minimax-h3-prompt-writing', 'd21241f0a4b3acbb34c97dae47fa417b7065e438')"
+    },
+    {
+      "case": "已选能力仍检查专业排除",
+      "result": "通过",
+      "observed": "当前专业范围被该版本排除"
+    },
+    {
+      "case": "缺少回接执行单元明确报错",
+      "result": "通过",
+      "observed": "选择交接信息缺失：original_unit"
+    },
+    {
+      "case": "不能夹带库外旧 Skill",
+      "result": "通过",
+      "observed": "资源不是该版本登记的配套：../SKillXC/skills/film-profile-library/SKILL.md"
+    },
+    {
+      "case": "独立 Skill 的内附 Profile 配套",
+      "result": "通过",
+      "observed": "《沙丘2》导演 v001 提供正文和内附 Profile，不自动选择其他独立能力"
+    },
+    {
+      "case": "指定版本内容损坏",
+      "result": "通过",
+      "observed": "版本文件校验不符：专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SKILL.md"
+    },
+    {
+      "case": "缺少配套不能列作可用候选",
+      "result": "通过",
+      "observed": "返回 SOURCE.md 缺口"
+    },
+    {
+      "case": "缺少配套不能报告加载完成",
+      "result": "通过",
+      "observed": "[Errno 2] No such file or directory: 'D:\\\\Ai影视制作\\\\2026项目\\\\002-2026项目\\\\015-Skill整理\\\\小虫的影视生产流-Skills\\\\实际情境联调\\\\xcflow-io-ebyw7baq\\\\library\\\\专业 Skill\\\\创作方法与风格应用\\\\导演\\\\train-to-busan-film-profile\\\\1.0\\\\SOURCE.md'"
+    },
+    {
+      "case": "未选独立依赖不能暗中加载",
+      "result": "通过",
+      "observed": "必要独立依赖未纳入用户选择：{'id': 'dune2-directing-style', 'version': 'v001'}"
+    },
+    {
+      "case": "目录改变后不沿用旧可选状态",
+      "result": "通过",
+      "observed": "目录与接入索引不同步；请共享能力库核对维护，不使用过期可选状态"
+    },
+    {
+      "case": "快照实际保存并完整恢复",
+      "result": "通过",
+      "observed": "回读全文与来源、SHA-256 一致，恢复位置为模块六完成"
+    },
+    {
+      "case": "同版同内容快照沿用",
+      "result": "通过",
+      "observed": "未新增版本或覆盖内容"
+    },
+    {
+      "case": "同版不同内容快照不覆盖",
+      "result": "通过",
+      "observed": "同版本已有不同快照；使用下一锚点版本，不覆盖"
+    },
+    {
+      "case": "拒绝后快照仍保持原值",
+      "result": "通过",
+      "observed": "原快照 SHA-256 未改变"
+    },
+    {
+      "case": "不可写路径不报告保存成功",
+      "result": "通过",
+      "observed": "[WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\\\Ai影视制作\\\\2026项目\\\\002-2026项目\\\\015-Skill整理\\\\小虫的影视生产流-Skills\\\\实际情境联调\\\\xcflow-io-ebyw7baq\\\\not-a-directory'"
+    },
+    {
+      "case": "单镜与镜头组的固定限制保持原文",
+      "result": "通过",
+      "observed": "两种完整 Prompt 的三个限制段均与冻结模板原文一致"
+    },
+    {
+      "case": "逐镜时长与生成单元求和",
+      "result": "通过",
+      "observed": "4.5 + 3.5 = 8，符合 0.5 秒单位和冻结的 15 秒基线"
+    },
+    {
+      "case": "查询与选版不写正式共享库",
+      "result": "通过",
+      "observed": "正式库全部文件在查询与交付测试前后保持一致"
+    }
+  ],
+  "passed": 25,
+  "failed": 0
+}

@@ -1,0 +1,24 @@
+# 小虫的影视生产流｜实际岗位入口
+
+- [总控](../../xcflow-control/SKILL.md) · `xcflow-control`
+- [生产控制部](../../xcflow-production-control/SKILL.md) · `xcflow-production-control`
+- [专业控制部](../../xcflow-professional-control/SKILL.md) · `xcflow-professional-control`
+- [资料与资产登记部](../../xcflow-registry/SKILL.md) · `xcflow-registry`
+- [专业顾问单元](../../xcflow-consultant/SKILL.md) · `xcflow-consultant`
+- [专业能力建设单元](../../xcflow-capability-builder/SKILL.md) · `xcflow-capability-builder`
+- [共享能力库](../../xcflow-library/SKILL.md) · `xcflow-library`
+- [前期准备分控](../../xcflow-preproduction-control/SKILL.md) · `xcflow-preproduction-control`
+- [剧本与资产拆解](../../xcflow-script-breakdown/SKILL.md) · `xcflow-script-breakdown`
+- [资产生产优先级编排](../../xcflow-asset-priority/SKILL.md) · `xcflow-asset-priority`
+- [项目风格锁定](../../xcflow-project-style/SKILL.md) · `xcflow-project-style`
+- [资产生产分控](../../xcflow-asset-control/SKILL.md) · `xcflow-asset-control`
+- [人物资产制作执行单元](../../xcflow-character-assets/SKILL.md) · `xcflow-character-assets`
+- [场景资产制作执行单元](../../xcflow-scene-assets/SKILL.md) · `xcflow-scene-assets`
+- [道具与载具资产制作执行单元](../../xcflow-prop-assets/SKILL.md) · `xcflow-prop-assets`
+- [生物、怪物与形态变体资产制作执行单元](../../xcflow-creature-assets/SKILL.md) · `xcflow-creature-assets`
+- [VFX资产制作执行单元](../../xcflow-vfx-assets/SKILL.md) · `xcflow-vfx-assets`
+- [角色声音资产制作执行单元](../../xcflow-voice-assets/SKILL.md) · `xcflow-voice-assets`
+- [影视镜头生产分控](../../xcflow-shot-control/SKILL.md) · `xcflow-shot-control`
+- [场戏设计综合执行](../../xcflow-scene-design/SKILL.md) · `xcflow-scene-design`
+- [分镜与镜头设计综合执行](../../xcflow-shot-design/SKILL.md) · `xcflow-shot-design`
+- [视频生成综合执行](../../xcflow-video-prompt/SKILL.md) · `xcflow-video-prompt`

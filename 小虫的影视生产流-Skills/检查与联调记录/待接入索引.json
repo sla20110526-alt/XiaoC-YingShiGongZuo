@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "system": "小虫的影视生产流",
+  "version": "1.0.0",
+  "entries": [
+    {
+      "id": "FP-DIR-ALFONSO-CUARON",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/阿方索・卡隆@v1.1.md": "972af00f63936af0d227556303c117695106d5c418e0937a89bc6ec1cf9c9727"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-DIR-BONG-JOON-HO",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/奉俊昊@v1.1.md": "ff3d28638fa23485a50e8c7f8ec8da0b597ea080d63cbcb2c30c3426d4fdadc5"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-DIR-DAVID-FINCHER",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/大卫・芬奇@v1.1.md": "95dce299c6b8c9a1c9deb9f4714c39aa7d35ad3c1457d5e2dae96fe8dd156b7a"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-DIR-DENIS-VILLENEUVE",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/丹尼斯・维伦纽瓦@v1.1.md": "52321671f88c81e4e7e2040d5f4b737238d86a64797944e9730bfed4144a105e"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-DIR-WONG-KAR-WAI",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/王家卫@v1.1.md": "166582af6c4c1554846ea9d62c72b50b517ae4c52866ca5ff78eaec4e664f09b"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-CIN-BRADFORD-YOUNG",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/布拉德福德・杨@v1.1.md": "6ddd874ed53d20e740b1d2718d71c2ab6a7308cc9a235686100157edd443a268"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-CIN-EMMANUEL-LUBEZKI",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/艾曼努尔・卢贝茨基@v1.1.md": "884d8ab265fb4a028f6285b570ac6d9566bbf4b82f3a5ed8485eb0bcd6d7c0df"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-CIN-GORDON-WILLIS",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/戈登・威利斯@v1.1.md": "af364a6597487b96dd3d280d584ca5c9ba1c217f77357b13e56f87026a544570"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-CIN-HOYTE-VAN-HOYTEMA",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/霍伊特・范・霍特玛@v1.1.md": "cccd8691f6e633d4fc9d7a27d3e5e25acf25158849690deef80a3ff9e92848f4"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-CIN-ROGER-DEAKINS",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/罗杰・迪金斯@v1.1.md": "e9407e38f76db4ef528da8754f59d1cb4a9f39d26dd59a9c10a4726f87fb877e"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-ADAM-STOCKHAUSEN",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Adam Stockhausen@v1.1.md": "01630d068f343b87e1e3d876a8e457da4ae7c9c360177412467bb1d1a7f3fc00"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-DANTE-FERRETTI",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Dante Ferretti@v1.1.md": "1501c80fdf23e55d49a9512039cdb2d6ce535d349bef1c726812cca2b36edd27"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-DENNIS-GASSNER",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Dennis Gassner@v1.1.md": "45f301a7f48ef12ca30549f83e73aaa72bf7dd932360c3f0c543a1492c6a74d7"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-NATHAN-CROWLEY",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Nathan Crowley@v1.1.md": "062dce8b7538bc07e2052f52b09d9634536b4c2f17def6a5fbedfb7003741e7a"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-PATRICE-VERMETTE",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Patrice Vermette@v1.1.md": "fe84542fbc94a411c50667694f49d91a1cf3a3a21dea1a52730f1da394c1adae"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-PD-SARAH-GREENWOOD",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/美术/Sarah Greenwood@v1.1.md": "8c9600d732b32d51ca36d011ced22f1df72771002c0ca7fcb88d4ce65c56ce2c"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-WRI-AARON-SORKIN",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/编剧／剧作/Aaron Sorkin@v1.1.md": "9cbdda284249fa6767d1128f9f133080872c65513045beb774cd5d3679ef6d29"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-WRI-BONG-HAN",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/编剧／剧作/奉俊昊／韩进元@v1.1.md": "c0af8ee8dd6457ddda13847f54f8637b2d2803d42339a4a10b098445200e1ac1"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-WRI-ROBERT-TOWNE",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/编剧／剧作/Robert Towne@v1.1.md": "81590b03c8b90d24b7709e8344ecd8d6fff153156f68c0397019b5bcdad13a4e"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-WRI-WILDER-DIAMOND",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/编剧／剧作/Billy Wilder ／ I. A. L. Diamond@v1.1.md": "b140d25d6abeeca5732daad242e584b892e62c8e6ac5c14ba04b7f57026d44d3"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-BAXTER-WALL",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Kirk Baxter ／ Angus Wall@v1.1.md": "474faa18147823631592e52589388c9b34ad371655bb3f9ad91566baac05e286"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-JENNIFER-LAME",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Jennifer Lame@v1.1.md": "6ab8de3a9621daa672536b008ee6e5fbd605c2917ea4077ef5a0babf3934593a"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-JOE-WALKER",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Joe Walker@v1.1.md": "1d137557595c1439501d30022e50512e50feb7c68083251b7ca4e2e7e812f4ba"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-MARGARET-SIXEL",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Margaret Sixel@v1.1.md": "8816da1e3235523fed65ba048800fb8c120f3ed4766a864f0afc07314d3795b3"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-MICHAEL-KAHN",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Michael Kahn@v1.1.md": "86a683b9ac8ac8f8db5f65e33abc9ee3143653ec1527cfef577325ecf161e31d"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-THELMA-SCHOONMAKER",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Thelma Schoonmaker@v1.1.md": "9d0b45a2183178350a886f9e26697aa6ecde21d30742e9107109fa09a8d08004"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "FP-EDI-WALTER-MURCH",
+      "version": "v1.1",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/剪辑/Walter Murch@v1.1.md": "dfa0170e7c0b7c9ff3eafa1dc872635a8e13ebedb259c65c3519a24b7adbc2ab"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "PRF-DUNE2-DIR",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/导演/《沙丘2》导演风格 Profile@v001.md": "f985cfbfbde3963c12c53bda17d5a054cc3bf52392d864ebe30c80e1ec9d5188",
+        "大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "PRF-DUNE2-CIN",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/摄影/《沙丘2》摄影风格 Profile@v001.md": "16e6d14c5a59236184ebe16ceb72133dcadd0c4fe19a4e1c94509b2038066da6",
+        "大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "PRF-DUNE2-LGT",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/灯光/《沙丘2》光影风格 Profile@v001.md": "5626fbcdcbc9cd05eedf96a998837e4769390a8c6957eca1b78d5f2ed823cc12",
+        "大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "PRF-DUNE2-ACT",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [],
+      "resources": {
+        "大师／作品 Profile/表演/《沙丘2》表演风格 Profile@v001.md": "90e0bf5181079529c3e54e50b6ac1d8ff4d6cad40726bb20341a426f7a52c7ab",
+        "大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "dune2-directing-style",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [
+        "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/profile.md"
+      ],
+      "resources": {
+        "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/SKILL.md": "2f69a9fee7df27f6d98ac51e8d62a167a5ed04111c697dba912b7149187742de",
+        "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/agents/openai.yaml": "3776c8c5e35c48a16bbfc8788e75db0b2390b37b6e794724e5dbf5d7c252fb81",
+        "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/evidence-boundaries.md": "e26c2e6029b4ab8d7442eb9e8fc843f5ebce656e547d361b48d16287e3aa6cb1",
+        "专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/profile.md": "111a075023d2d667c0f89b45d35e72179677e3fce4a8dfcb936fa10f171ad364"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "dune2-cinematography-style",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [
+        "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/profile.md"
+      ],
+      "resources": {
+        "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/SKILL.md": "d7c2554d525ebcc556e784bd89f027155a6e238bedf06b7e87246b094a11392e",
+        "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/agents/openai.yaml": "c8a1c122bce6da580083c8561c86be0a3db0e3061b5213211ac6292836524bd5",
+        "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/evidence-boundaries.md": "6adb45ca99de585ee9d4b863242181da4426fc7748f8885b2f67a692426218a0",
+        "专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/profile.md": "c047547a917f6441386243b463a74b135e69f738270cb905485707c51e091e5a"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "dune2-lighting-style",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [
+        "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/profile.md"
+      ],
+      "resources": {
+        "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/SKILL.md": "c63abfb675c721ab598e4a1e9c470628399552567be9ed239e12a07f7d2ba3ba",
+        "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/agents/openai.yaml": "b3aaa4257b3cf2afafb2f594798095162967e9825e33e5b0260f956bd868f29b",
+        "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/evidence-boundaries.md": "f5167dea6cf06a6253c405b272aa55c324479e70cc527ad8b81bdccf4150a560",
+        "专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/profile.md": "e2c8168e2b3b758ca7125d691cabcbb18c09b590bcb2c159ddd11348bd767e34"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "dune2-performance-style",
+      "version": "v001",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [
+        "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/profile.md"
+      ],
+      "resources": {
+        "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/SKILL.md": "06ed5b5257bde8ca43fcfa624fe6a7f1fa4d5fcf0fdfc8e0368de3824cb29ec4",
+        "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/agents/openai.yaml": "46fc0febc90c3716df62a189136d663da876e4ebd14065c14a1ebb94e9c95682",
+        "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/evidence-boundaries.md": "f7b27a493c8fcd0f8ecf7851065af68d2306720b41a12c4190f508c2e919dfd9",
+        "专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/profile.md": "c946515d40b20da9a3b8fb11049f61cf649397206a50868e918a1d8af868b3dd"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "minimax-h3-prompt-writing",
+      "version": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "selectable": false,
+      "reason": "官方源文件待适配，仅作储备",
+      "minimum_resources": [],
+      "resources": {
+        "专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/SKILL.md": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "train-to-busan-film-profile",
+      "version": "1.0",
+      "selectable": true,
+      "reason": "保持已有允许选用状态与证据限制",
+      "minimum_resources": [
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/decision-qa.md",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/production-recipes.md"
+      ],
+      "resources": {
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SKILL.md": "7b6b5df5373e7513b73d86a6c9553bc317c4583d2c1f52c65db40ce16984b5a0",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md": "7b3280681370c05e5f47495c9661bbf06f97ca2be8dcf0358ef9d7940e07dc4e",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/agents/openai.yaml": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/decision-qa.md": "897840e523f88e14027093d73267f4c081249ee694af7dd7e96b27edd870c9ab",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/evidence-ledger.md": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/production-recipes.md": "23c3e5f19f9e877a4ae153b09685d20624d5a9ee28304e138dcb3521e041576b",
+        "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18"
+      },
+      "independent_dependencies": [],
+      "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    }
+  ]
+}

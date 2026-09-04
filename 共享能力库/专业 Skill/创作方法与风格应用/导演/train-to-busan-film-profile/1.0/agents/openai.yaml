@@ -1,0 +1,7 @@
+interface:
+  display_name: "《釜山行》电影形式 Profile"
+  short_description: "把封闭空间灾难片方法转成可拍摄的原创影像方案"
+  default_prompt: "使用 $train-to-busan-film-profile 为我的原创生存惊悚场景设计导演、摄影、光影、表演与剪辑方案。"
+
+policy:
+  allow_implicit_invocation: false

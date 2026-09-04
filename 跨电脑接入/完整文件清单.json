@@ -1,0 +1,3594 @@
+{
+  "system": "小虫的影视生产流",
+  "release": "1.0.1",
+  "source_scope": "新系统完整 Skill 包、全部正式规范及其修订历史、完整共享能力库、工作区入口；不包含旧系统仓库",
+  "source_files": 320,
+  "source_files_preserved": 289,
+  "source_files_adapted": 31,
+  "missing_source_files": 0,
+  "release_files_excluding_this_manifest": 332,
+  "source_comparison": [
+    {
+      "path": "小虫的影视生产流-Skills/README.md",
+      "source_sha256": "5039efa19fb91a340fd48a130e79fa2f80a02d4e901b5b2ae160f56b512837b7",
+      "published_sha256": "5039efa19fb91a340fd48a130e79fa2f80a02d4e901b5b2ae160f56b512837b7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作、接入与联调报告.md",
+      "source_sha256": "83670eddc2a4a8d898f4e771e2b1322db8e25e24cf1e8a917a3b479d09b31088",
+      "published_sha256": "83670eddc2a4a8d898f4e771e2b1322db8e25e24cf1e8a917a3b479d09b31088",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-asset-control/SKILL.md",
+      "source_sha256": "85b6354a036a9db532cbc152cb3bb80bbcc2e00fe5c7ceba59ecc1c05b95d015",
+      "published_sha256": "2ec2864f7096edd8059a040f5dd26b5fa3b474d6d8a6ed35379034e184f42d3b",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-asset-priority/SKILL.md",
+      "source_sha256": "49f8cd549d827f626ad916653c7b34caff873e4e409cdeb3520b631f787ef846",
+      "published_sha256": "9f3c63e9a962638155549d9fe575e8b1e435982e604538febc1b031967b3064b",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-capability-builder/SKILL.md",
+      "source_sha256": "218c31631f2e6258399151cd751fbce6a1c05e0ca866e01396e06c600907c9d8",
+      "published_sha256": "c45ac7fadc6d0f855a276560a017308e3b8d02f7e0568ee70c44a8e8eeb672eb",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-character-assets/SKILL.md",
+      "source_sha256": "2432de44865867c933fdc3d382e41f8b4d2929c2039295160d38c95d890c3637",
+      "published_sha256": "d2c42476e0e7c9cc44843a45ad9a5433f75343b25e9ee6f878dbaddcd9c3aad8",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-consultant/SKILL.md",
+      "source_sha256": "bfdc9b119cf5fbe6318d5a581d025e8d75f9cbfb5749e1c6bd0d5efa66f76d42",
+      "published_sha256": "f3c959f2a394f3caf6a762cadf779de3a51c93939462f9fb4d855ff55df95497",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/SKILL.md",
+      "source_sha256": "85cdaa7feb06666c22f51d424155a676e3cc412ba2c128ca569e330daf2188d0",
+      "published_sha256": "5f09139ef1b41750f2b95457ef00865963eb213fde7ba8efbeba9417b1140086",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/bindings.json",
+      "source_sha256": "b7fe40bcd560ba94c503fbd58ca287a49ff4f7befdc1978ef916c4914e0a02cd",
+      "published_sha256": "46953c57791457ddcaa179922d00181e0e5899314cb4bff26cfafd21334bd93f",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/roles.json",
+      "source_sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b",
+      "published_sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/roles.md",
+      "source_sha256": "5edfc9ad3e0c12353f158704d885d59f2075c6020b10c0124ae4287ee769e5d9",
+      "published_sha256": "5edfc9ad3e0c12353f158704d885d59f2075c6020b10c0124ae4287ee769e5d9",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/runtime.md",
+      "source_sha256": "01e1c8810276263c5f650795eb4fdcc91b34f7466671064c212ee17bab7e977a",
+      "published_sha256": "4a91633b526f61fb25f32520295bb2058ea40efe87488538923280a906a2acf5",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-creature-assets/SKILL.md",
+      "source_sha256": "7459e117cc60a23932e384ad73e577974da52efe9f848f2ea3c8987f944c2c4e",
+      "published_sha256": "5814416aaafbbbe4cc6b9edc989773b2691a4ac8325d94f7e4b5db41f71931a0",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/SKILL.md",
+      "source_sha256": "5da291731bff1e82aaeb8658e80196d52aec577175a10bd222ff4ba59bc4f8d0",
+      "published_sha256": "f924dabd3c9db8b398227bc8511cc96180533ccacff34a634bab5885daf61291",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/references/operations.md",
+      "source_sha256": "efc45385669325909286a69e31f958dfa1ebd2b8750540074bae9de6e9c6efa0",
+      "published_sha256": "efc45385669325909286a69e31f958dfa1ebd2b8750540074bae9de6e9c6efa0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/scripts/library.py",
+      "source_sha256": "1ed2821abee3ad8dcc867389938540ef85cc9cfd40fe39bb244037760206187a",
+      "published_sha256": "a7c8550eb7d793b42d94f2da9f40fec6c630aa554eb5ce76e7ede8648af19ebe",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-preproduction-control/SKILL.md",
+      "source_sha256": "b4a8507f63ea93ba1cbdf53e22d2d1cb9bc27cfbfb63c706d4ac3ee6d0d02e7d",
+      "published_sha256": "6faab3aab4aaae705bce3c71cbe424fd6a75714422afa1585f7cb4571d28b70d",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-production-control/SKILL.md",
+      "source_sha256": "21238c71e5b53baf47d5fb5b1c947369e63d8bd9058911da2f96cf903ac968dc",
+      "published_sha256": "f729322a73ce005cb6c9d15999a32cfd09cc822502bf65ec8fb210549dc4ad28",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-professional-control/SKILL.md",
+      "source_sha256": "16691fc90a4e8064ab230fc77633ff9381ae0a48608571252d85a1027820b914",
+      "published_sha256": "91a11beeeb85a01f651beb7df636026bdc454256944b11a9ec4d9466778ab0d1",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-project-style/SKILL.md",
+      "source_sha256": "8fc441314d2ff1afc442a5f4035c1645ed1d90b57405af6b862c26e87b028743",
+      "published_sha256": "a4790357b2faa8d1b75ff7bf68c1f5f6d573d9bfd6a7c52e63eedaf51191a0c0",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-prop-assets/SKILL.md",
+      "source_sha256": "72410d90e09c26662aa01eec36950d5a42d34dd2caa94241085a36e874db9ceb",
+      "published_sha256": "9a3dc3e50babfebd42ad9798ae50e1e8488d4a327e82d0ba51e7a9aa31040277",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-registry/SKILL.md",
+      "source_sha256": "32a8f2c711b0ab0a0329283905f18e83e02d95d48212bc3a9861d4a629d4215b",
+      "published_sha256": "7d9b8be61e2cac90f776e09fde8f75cd7eeb67177c6d7d534a633a72b5705fa4",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-assets/SKILL.md",
+      "source_sha256": "4dc270b059e2a23d963ade75d26507717649e6afb6c0711c445706a239f845a7",
+      "published_sha256": "8a31b4c11904ade137a3630c3738c2eb30475ce9d3f4f7c845c25d8e62cae87b",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/SKILL.md",
+      "source_sha256": "fe70f82540358ea840573330460eeb17bd8e6cde0a5534bf6586d70d2a718730",
+      "published_sha256": "fe1b752f05e9d5c0312c6633605e1e2a3b218ee2e6a098f5380ca2e959e669df",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/references/snapshots.md",
+      "source_sha256": "23508879bb167fe6ef5bb4132dc6d9b7f63ba267024d16a9b71a9cc9c72b00b6",
+      "published_sha256": "23508879bb167fe6ef5bb4132dc6d9b7f63ba267024d16a9b71a9cc9c72b00b6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/scripts/snapshot.py",
+      "source_sha256": "d474fc7b38c31a3b0082c13e77097fc4ed5fabe0fd8f2a9f2a0910b24feeeee3",
+      "published_sha256": "d474fc7b38c31a3b0082c13e77097fc4ed5fabe0fd8f2a9f2a0910b24feeeee3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-script-breakdown/SKILL.md",
+      "source_sha256": "f938982b665b3531421167f0326985c3dfaf82be7a6e7efdf7b6baff065c29ef",
+      "published_sha256": "5f7adcb228e7e3ab243923b35974fb41b8e8ab1c1eea8f0f62ffc948ccadabd9",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-shot-control/SKILL.md",
+      "source_sha256": "484098963b8a8c9e9c9a7db73dfaa868d472d52a61ebd23a691e0487ac099695",
+      "published_sha256": "786f4927d7ea717e7abfb60a7b07fe3dd9f4a0f17c486db9b8b3f92c9f5b76aa",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-shot-design/SKILL.md",
+      "source_sha256": "b6fc636cd168154a389126d1f0e74fa69311e188c9370103ae4db9b854448a04",
+      "published_sha256": "56382c71f09151dce93237f69c093087f2eaad633863bf2f8c01fb6ad193362f",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-vfx-assets/SKILL.md",
+      "source_sha256": "c37212ead8e1a9d3a12b491b17844c2f03a49aa312b4f0d29a174e0c4e90be79",
+      "published_sha256": "03e48700e931ab64995345cee68268a2c158c6f6de977eba2d6d3a118a4b4129",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-video-prompt/SKILL.md",
+      "source_sha256": "5f5c0a273b2804ace6d29e2a4053683d36c78e03f611f662fc4968387c78bb5f",
+      "published_sha256": "24f67c8937e359283db59d26ff90cf57b2cab6ee35757603297165dc2ad9e8b8",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-voice-assets/SKILL.md",
+      "source_sha256": "d870a296d39bf45a2e9b37520f4cb098b2a635677c0fa50056fb2607835b6a96",
+      "published_sha256": "b4e80844d31b95e4c5335e8c2eae2ba4ca92a6a73fdfaa1f74138ae89aac7a3d",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/build.py",
+      "source_sha256": "45324e73e3cabd548e7b7fa193be052809ac27bf803350adc7faa53eba2b9a6e",
+      "published_sha256": "0aeb20e2fa9898d02be411a9186474c040e8b3a79f7ebbee265bc97d4605de39",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/deploy.py",
+      "source_sha256": "e3ac6ee3cd5d5f8f952f35974df044de31e4f79deafd193d702f109f73103867",
+      "published_sha256": "5fd05b5b94da5a94dbf25374f271bbd7de4b8fb81ffd9dc483891019d7a42b69",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/discover.py",
+      "source_sha256": "c2a89e8acfea3274caed27fc5dc5d48bd71f2306bda0032cdeaecb0ae0f1e481",
+      "published_sha256": "e85147aef2a82cd3278eff591b38ddbfc470e824a562b4ac3e42aab62a0f86f2",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/integration_check.py",
+      "source_sha256": "ed70c0d3e5b6ef731fec9aa7d96cb2ae3440d179bcad89ba519fb40e6d3cf371",
+      "published_sha256": "cc9cf008490bd98c84c6574a92e05cd330d9aacd601a53295cb4d40fc8ffee7f",
+      "status": "跨电脑接入适配"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/岗位清单.json",
+      "source_sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b",
+      "published_sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/H3候选.json",
+      "source_sha256": "cc3e2641d99928a3e4b962d4f3e2537fb0abba774bcc6abf6d03238a5d2d6400",
+      "published_sha256": "cc3e2641d99928a3e4b962d4f3e2537fb0abba774bcc6abf6d03238a5d2d6400",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/Seedance2.0-装配结果.md",
+      "source_sha256": "8341e2be5bcd23769bb4dee9bd802217eb769b575a8416a28046c7515eb59c56",
+      "published_sha256": "8341e2be5bcd23769bb4dee9bd802217eb769b575a8416a28046c7515eb59c56",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/共享能力回接与场戏结果.md",
+      "source_sha256": "69c4f859a1e4f9a5bc8a66fae89cfb4cbe821557b93491079acae45ae1244585",
+      "published_sha256": "69c4f859a1e4f9a5bc8a66fae89cfb4cbe821557b93491079acae45ae1244585",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/原始任务.md",
+      "source_sha256": "94801edef3a3637e7efaac4e9fe8b599612d897fda78fd32278c8531c01f55b0",
+      "published_sha256": "94801edef3a3637e7efaac4e9fe8b599612d897fda78fd32278c8531c01f55b0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V01.md",
+      "source_sha256": "9ce85b3efeb5c94d55707351be6dae9d54668a4571cd321d884d7a86bdcb8afc",
+      "published_sha256": "9ce85b3efeb5c94d55707351be6dae9d54668a4571cd321d884d7a86bdcb8afc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V02.md",
+      "source_sha256": "9e06308f7f46a16912b02c7acd4d31dea5e2e39aa86e119569a5fb24f725b3d1",
+      "published_sha256": "9e06308f7f46a16912b02c7acd4d31dea5e2e39aa86e119569a5fb24f725b3d1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V03.md",
+      "source_sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc",
+      "published_sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/导演候选.json",
+      "source_sha256": "fdfdaee2b83b0af49373a2160507e1c5f42787bd4d32aa08cb2c095ad7c040e9",
+      "published_sha256": "fdfdaee2b83b0af49373a2160507e1c5f42787bd4d32aa08cb2c095ad7c040e9",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/指定版本交付.json",
+      "source_sha256": "939317f67a4aa8ba1fe2d4597e9e695310d1aee3cd20610c4daa00ac58cb6666",
+      "published_sha256": "939317f67a4aa8ba1fe2d4597e9e695310d1aee3cd20610c4daa00ac58cb6666",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/能力建设交接.md",
+      "source_sha256": "eb52a6aa2dff5d66d076e37445d2fdc61930d60aa41deccaff6b62523bead28f",
+      "published_sha256": "eb52a6aa2dff5d66d076e37445d2fdc61930d60aa41deccaff6b62523bead28f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/资产优先级表.md",
+      "source_sha256": "9795d9f853d15f18876f1c0c9f1aa2b44cdf2b6aba8a437663aefe259300ba36",
+      "published_sha256": "9795d9f853d15f18876f1c0c9f1aa2b44cdf2b6aba8a437663aefe259300ba36",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/选择记录.json",
+      "source_sha256": "90499d3f0d353e73ac3bf869eaee243bbc57243a10b379e5a7b85310e71e8cac",
+      "published_sha256": "90499d3f0d353e73ac3bf869eaee243bbc57243a10b379e5a7b85310e71e8cac",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点回读-V02.json",
+      "source_sha256": "fa95a3f4731956056c031fed803f267829dd10d1770d4de88afd397a66b7c192",
+      "published_sha256": "fa95a3f4731956056c031fed803f267829dd10d1770d4de88afd397a66b7c192",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点回读-V03.json",
+      "source_sha256": "c629600881797b5836c30827d6baf9ac04becf867fbdcd2b377a967ab0a7ef66",
+      "published_sha256": "c629600881797b5836c30827d6baf9ac04becf867fbdcd2b377a967ab0a7ef66",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点待保存.md",
+      "source_sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc",
+      "published_sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离入库回执.json",
+      "source_sha256": "dc2dcf0abbd4f56db1a1146efac9d80d60bf1a294e6c4a0c17ea66293c58459a",
+      "published_sha256": "dc2dcf0abbd4f56db1a1146efac9d80d60bf1a294e6c4a0c17ea66293c58459a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/能力建设候选/xcflow-test-visible-expression/SKILL.md",
+      "source_sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7",
+      "published_sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/catalog.json",
+      "source_sha256": "80babbb505aa4dd57ec6275323e114387e58344ce5433f4d4d2db0bbb1fc6445",
+      "published_sha256": "80babbb505aa4dd57ec6275323e114387e58344ce5433f4d4d2db0bbb1fc6445",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/入库来源.json",
+      "source_sha256": "6389ea1304217e9e6d8ede800a39b00f2786b2ba23e68aac65e73f0035ab4a3b",
+      "published_sha256": "6389ea1304217e9e6d8ede800a39b00f2786b2ba23e68aac65e73f0035ab4a3b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/入库校验.json",
+      "source_sha256": "56815a8f15c29473bda38ce70044465ce22bcca5d1032fd7107a57f9837c2842",
+      "published_sha256": "56815a8f15c29473bda38ce70044465ce22bcca5d1032fd7107a57f9837c2842",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/专业 Skill/Prompt 装配与模型适配/xcflow-test-visible-expression/0.1-test/SKILL.md",
+      "source_sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7",
+      "published_sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/制作文件检查.json",
+      "source_sha256": "1f4164f9959e059940e2d61fffaa69095ad5e059dde40c065991f622961a6f33",
+      "published_sha256": "1f4164f9959e059940e2d61fffaa69095ad5e059dde40c065991f622961a6f33",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/安装后文件检查.json",
+      "source_sha256": "0d87e359e63375dd907737f979c31d6755d090e93d5d809a493f3e26ba8bbdbc",
+      "published_sha256": "0d87e359e63375dd907737f979c31d6755d090e93d5d809a493f3e26ba8bbdbc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/安装回执.json",
+      "source_sha256": "caf29eac61516729527478e85ef495dd8f735b9ef8125e4f5b896573d2d410e3",
+      "published_sha256": "caf29eac61516729527478e85ef495dd8f735b9ef8125e4f5b896573d2d410e3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/宿主发现检查.json",
+      "source_sha256": "ac886d731b8c78e41adfa4512ff2cb021f791ff09c0faaa90275e88c74ef48f1",
+      "published_sha256": "ac886d731b8c78e41adfa4512ff2cb021f791ff09c0faaa90275e88c74ef48f1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/待接入索引.json",
+      "source_sha256": "e67a107f1ea20eed9f9ee1ff833d21a169c35d8670a7b883f51de89785fdad63",
+      "published_sha256": "e67a107f1ea20eed9f9ee1ff833d21a169c35d8670a7b883f51de89785fdad63",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入保护核验.json",
+      "source_sha256": "7406360da40234527a991d7aafb7b5abd840e24518fd789ab242363e48ca8f38",
+      "published_sha256": "7406360da40234527a991d7aafb7b5abd840e24518fd789ab242363e48ca8f38",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前-catalog.json",
+      "source_sha256": "4bb3b01ea125c5b3118a23a2f9f9195bd9ff175437eb5a01a5e786ee0a9e2082",
+      "published_sha256": "4bb3b01ea125c5b3118a23a2f9f9195bd9ff175437eb5a01a5e786ee0a9e2082",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前-目录.md",
+      "source_sha256": "6edecced1b5f3da4d95d0a1f8df0669c60b430b466293580c11a1584d40d8ba2",
+      "published_sha256": "6edecced1b5f3da4d95d0a1f8df0669c60b430b466293580c11a1584d40d8ba2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前保护记录.json",
+      "source_sha256": "e7f3fe4be8edf119f7fd551c001a46c908a6fa2f350d034b95c662148375c934",
+      "published_sha256": "e7f3fe4be8edf119f7fd551c001a46c908a6fa2f350d034b95c662148375c934",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/文件行为联调.json",
+      "source_sha256": "ddcbfeb5ce96a4abe852576bed2436eee9ef5f95b89294799c5f91ad848beb25",
+      "published_sha256": "ddcbfeb5ce96a4abe852576bed2436eee9ef5f95b89294799c5f91ad848beb25",
+      "status": "原字节保留"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/最终交付核验.json",
+      "source_sha256": "610452453c7278cd856552917c71eb531ff8de7d1a853fc57d0763725c143451",
+      "published_sha256": "610452453c7278cd856552917c71eb531ff8de7d1a853fc57d0763725c143451",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/README.md",
+      "source_sha256": "0e12e4ba41dc9deadc93bda80c949be809e7a719f1f47ea02e5167c7fa312f72",
+      "published_sha256": "0e12e4ba41dc9deadc93bda80c949be809e7a719f1f47ea02e5167c7fa312f72",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/修订总览.md",
+      "source_sha256": "ca3e830a39b640ac6ea50249d1b6133da0c0aa7221f37320a0b82839e9e572bc",
+      "published_sha256": "ca3e830a39b640ac6ea50249d1b6133da0c0aa7221f37320a0b82839e9e572bc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/岗位职责.md",
+      "source_sha256": "0316894e54e15eae9d574dac18580f601456e2062e3aae3c462432c19228efba",
+      "published_sha256": "0316894e54e15eae9d574dac18580f601456e2062e3aae3c462432c19228efba",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/执行流程.md",
+      "source_sha256": "a56179a69efafdbb8f8fee347c99c07d69fe08d91ed241bb7b2be2269bc628d3",
+      "published_sha256": "a56179a69efafdbb8f8fee347c99c07d69fe08d91ed241bb7b2be2269bc628d3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/输出约定.md",
+      "source_sha256": "eaa1f77e40616170e40fa2097705eca5011d85c8590f1bd102bf36c760aa7a84",
+      "published_sha256": "eaa1f77e40616170e40fa2097705eca5011d85c8590f1bd102bf36c760aa7a84",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/岗位职责.md",
+      "source_sha256": "4decdba92a97a7c53b5dc76125471d5b7270622438d2b78cf7cf536b6af172ee",
+      "published_sha256": "4decdba92a97a7c53b5dc76125471d5b7270622438d2b78cf7cf536b6af172ee",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/执行流程.md",
+      "source_sha256": "7ce49122ff3e403b3b8ece3d26f9888932c601563793b446c7efd844c77d618a",
+      "published_sha256": "7ce49122ff3e403b3b8ece3d26f9888932c601563793b446c7efd844c77d618a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/输出约定.md",
+      "source_sha256": "2bff79a141723b7d1625a60b652fa800f8300ccfb21b736a5f470c394b50b021",
+      "published_sha256": "2bff79a141723b7d1625a60b652fa800f8300ccfb21b736a5f470c394b50b021",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/岗位职责.md",
+      "source_sha256": "6c386b7bea21f97a564b8aefd8a34d6dd8f12e6b41c6f507f31b959f21e4b5c3",
+      "published_sha256": "6c386b7bea21f97a564b8aefd8a34d6dd8f12e6b41c6f507f31b959f21e4b5c3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/执行流程.md",
+      "source_sha256": "4dbe53f8e35bdd97090d4e9010b3e83b50d7f19bfb1f6689e73c203ab43296b0",
+      "published_sha256": "4dbe53f8e35bdd97090d4e9010b3e83b50d7f19bfb1f6689e73c203ab43296b0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/输出约定.md",
+      "source_sha256": "86d0a0e0b5c094a814606abbaf6c17148e5d4624ebccc9f7d18015f5b9144eaf",
+      "published_sha256": "86d0a0e0b5c094a814606abbaf6c17148e5d4624ebccc9f7d18015f5b9144eaf",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/岗位职责.md",
+      "source_sha256": "ff38a6953c6301f1e6cb3881c449ca249b0a9c72a26c3bbcf14b108d95b0862c",
+      "published_sha256": "ff38a6953c6301f1e6cb3881c449ca249b0a9c72a26c3bbcf14b108d95b0862c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/执行流程.md",
+      "source_sha256": "c0220f4eac0d849fd089e5668e03acc49a2391b2c182590c03ece10f35ec4aad",
+      "published_sha256": "c0220f4eac0d849fd089e5668e03acc49a2391b2c182590c03ece10f35ec4aad",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/输出约定.md",
+      "source_sha256": "664cdf785cbcd06ed5adfa3aad1b8615bc8afde55a86bb14db48931c02787090",
+      "published_sha256": "664cdf785cbcd06ed5adfa3aad1b8615bc8afde55a86bb14db48931c02787090",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/全文检查索引.md",
+      "source_sha256": "a72d1a8d8a4e743ab47ac4ddcb4209eb8be00421fc6ef6878bc8dc0d570ac40f",
+      "published_sha256": "a72d1a8d8a4e743ab47ac4ddcb4209eb8be00421fc6ef6878bc8dc0d570ac40f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/已确认补充条款.md",
+      "source_sha256": "6a003c8e17de50e6978d7a2515bf6c46c085946bd766d49f13f2bee8421feead",
+      "published_sha256": "6a003c8e17de50e6978d7a2515bf6c46c085946bd766d49f13f2bee8421feead",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/横向拉通检查报告.md",
+      "source_sha256": "63e1eb53b61dc50ffde406b4a968aae5c5599de4e661750e8b4a051b1f707efc",
+      "published_sha256": "63e1eb53b61dc50ffde406b4a968aae5c5599de4e661750e8b4a051b1f707efc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/岗位职责.md",
+      "source_sha256": "8c0763d2f3b30eb1119a1b9ce098fef80424a6e4be0c3e0754cc93dccb6a8a34",
+      "published_sha256": "8c0763d2f3b30eb1119a1b9ce098fef80424a6e4be0c3e0754cc93dccb6a8a34",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/执行流程.md",
+      "source_sha256": "40d6ebfcd04b4848eb5cf487b9d29dac1701648e6c6cc64fb302b99700fc87e4",
+      "published_sha256": "40d6ebfcd04b4848eb5cf487b9d29dac1701648e6c6cc64fb302b99700fc87e4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/输出约定.md",
+      "source_sha256": "20591af57e1d0d5216f05bc2bca05d0b44e9c3cc09f217b844e3be7a2c5c0a62",
+      "published_sha256": "20591af57e1d0d5216f05bc2bca05d0b44e9c3cc09f217b844e3be7a2c5c0a62",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/岗位职责.md",
+      "source_sha256": "4955c041030854f46da122097ce000c6ee0b94425e34cc42b1f917b06f4d0a3c",
+      "published_sha256": "4955c041030854f46da122097ce000c6ee0b94425e34cc42b1f917b06f4d0a3c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/执行流程.md",
+      "source_sha256": "27c95af9361f000895de0f5255d3b1ca0b513732e997fb5dc535b2d180e9dc07",
+      "published_sha256": "27c95af9361f000895de0f5255d3b1ca0b513732e997fb5dc535b2d180e9dc07",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/输出约定.md",
+      "source_sha256": "45eada510c4acbc710a58fdd81d07ec341849025fb67b7df1c767f46c9d231fb",
+      "published_sha256": "45eada510c4acbc710a58fdd81d07ec341849025fb67b7df1c767f46c9d231fb",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/岗位职责.md",
+      "source_sha256": "a877ea9bbd23e0f7b5683049a08b8b86bdcdba5c9e430106f5fe3fe42e8bced1",
+      "published_sha256": "a877ea9bbd23e0f7b5683049a08b8b86bdcdba5c9e430106f5fe3fe42e8bced1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/执行流程.md",
+      "source_sha256": "4f35a0803da0266e95c27b9aeb028f09f1f16d8b4112b71e15ddfe3de62b3793",
+      "published_sha256": "4f35a0803da0266e95c27b9aeb028f09f1f16d8b4112b71e15ddfe3de62b3793",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/输出约定.md",
+      "source_sha256": "47a4dc7f6df1a01e3b8d4949a8c67e90b4a565f237264e2d9e1ec543457bb0dd",
+      "published_sha256": "47a4dc7f6df1a01e3b8d4949a8c67e90b4a565f237264e2d9e1ec543457bb0dd",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/岗位职责.md",
+      "source_sha256": "e0e96fc2d6543b24c7e628bb762909ae9137ba0ae3c32b55e371c32ac28c532e",
+      "published_sha256": "e0e96fc2d6543b24c7e628bb762909ae9137ba0ae3c32b55e371c32ac28c532e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/执行流程.md",
+      "source_sha256": "dc66318be97301d5137b76bfe398b5f2489bad0d4eabd1a2a8673b7a95a678b7",
+      "published_sha256": "dc66318be97301d5137b76bfe398b5f2489bad0d4eabd1a2a8673b7a95a678b7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/输出约定.md",
+      "source_sha256": "fc3d44107d10c876b811fa5534f2c8c3f88c4ece58cb79a2fd61e2078e2aac4b",
+      "published_sha256": "fc3d44107d10c876b811fa5534f2c8c3f88c4ece58cb79a2fd61e2078e2aac4b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/岗位职责.md",
+      "source_sha256": "a9ea7f076974c884e63fef89f82fcf6f53c5e0646eebff87ffacfcd383c9f75e",
+      "published_sha256": "a9ea7f076974c884e63fef89f82fcf6f53c5e0646eebff87ffacfcd383c9f75e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/执行流程.md",
+      "source_sha256": "135850d239b88e2142a44e9bb4e495199aa21d2cb0ba594d1626ad170a5d2b9e",
+      "published_sha256": "135850d239b88e2142a44e9bb4e495199aa21d2cb0ba594d1626ad170a5d2b9e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/输出约定.md",
+      "source_sha256": "a6c0a08c4434c01a026ae3e6a158a0e84dd2efff75efe8d81ba3f71cd592d206",
+      "published_sha256": "a6c0a08c4434c01a026ae3e6a158a0e84dd2efff75efe8d81ba3f71cd592d206",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/岗位职责.md",
+      "source_sha256": "5803eecfffe002b0dcc563fc1d69696fbe452079b9abcf9c9f0c585dac20430c",
+      "published_sha256": "5803eecfffe002b0dcc563fc1d69696fbe452079b9abcf9c9f0c585dac20430c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/执行流程.md",
+      "source_sha256": "e3bfb931627652c815be34fcd8778675cd0a65e0f936029f9e9b2c58291824d5",
+      "published_sha256": "e3bfb931627652c815be34fcd8778675cd0a65e0f936029f9e9b2c58291824d5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/输出约定.md",
+      "source_sha256": "0b27b0e96c2357fbf0fc31bdae78e7ff8c774df2708d42c68cdb9f090c0fbcdd",
+      "published_sha256": "0b27b0e96c2357fbf0fc31bdae78e7ff8c774df2708d42c68cdb9f090c0fbcdd",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/岗位职责.md",
+      "source_sha256": "af0488567aa9961be84b8b7e01715aaa009316b9b6cb03464f6fa960bd48e29e",
+      "published_sha256": "af0488567aa9961be84b8b7e01715aaa009316b9b6cb03464f6fa960bd48e29e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/执行流程.md",
+      "source_sha256": "79019dbaae615b4c6303be490080e6ce1803f47c7c7b504493142938a87702b8",
+      "published_sha256": "79019dbaae615b4c6303be490080e6ce1803f47c7c7b504493142938a87702b8",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/输出约定.md",
+      "source_sha256": "3ab557291f497be4397f570a185a2d0efea8860d229c37d6c53e58a6f2e4c1a7",
+      "published_sha256": "3ab557291f497be4397f570a185a2d0efea8860d229c37d6c53e58a6f2e4c1a7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/岗位职责.md",
+      "source_sha256": "cde3b14c2e0ca05156f45f875270ec39aaa83cc883d3a5590ee4ecb8ab31b0a4",
+      "published_sha256": "cde3b14c2e0ca05156f45f875270ec39aaa83cc883d3a5590ee4ecb8ab31b0a4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/执行流程.md",
+      "source_sha256": "560cd88456d910d467092d3ffee001bdba4e3fabd1cbbcd14c1241051a3026bb",
+      "published_sha256": "560cd88456d910d467092d3ffee001bdba4e3fabd1cbbcd14c1241051a3026bb",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/输出约定.md",
+      "source_sha256": "b2b7afcffb5d5021fae3e46cbe256b62ae39605621f5a7e0e277eefbe5324cc5",
+      "published_sha256": "b2b7afcffb5d5021fae3e46cbe256b62ae39605621f5a7e0e277eefbe5324cc5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/岗位职责.md",
+      "source_sha256": "ed4383a9822a82a945bc6b30313f271dfaff817f0dd9f297155ba468ac54ca08",
+      "published_sha256": "ed4383a9822a82a945bc6b30313f271dfaff817f0dd9f297155ba468ac54ca08",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/执行流程.md",
+      "source_sha256": "6d655f4f2b8a909aa79c36c16b4dd708a563fa26c2e75352d332a42dfcb00fb1",
+      "published_sha256": "6d655f4f2b8a909aa79c36c16b4dd708a563fa26c2e75352d332a42dfcb00fb1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/输出约定.md",
+      "source_sha256": "295b04c5273ac20376aa921d60cf6b4ca9f2aa72a26c9b0340f8a534391f43b0",
+      "published_sha256": "295b04c5273ac20376aa921d60cf6b4ca9f2aa72a26c9b0340f8a534391f43b0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/岗位职责.md",
+      "source_sha256": "937da6b958611373f47c29e2b83a580739ffc193858fb831eafd139ea9dab125",
+      "published_sha256": "937da6b958611373f47c29e2b83a580739ffc193858fb831eafd139ea9dab125",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/执行流程.md",
+      "source_sha256": "2d1b4ac0b1cbae2427cb7d0af2934a0d341c8013363fa51a34fac64b5efcc67b",
+      "published_sha256": "2d1b4ac0b1cbae2427cb7d0af2934a0d341c8013363fa51a34fac64b5efcc67b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/输出约定.md",
+      "source_sha256": "023f08c4348a1cf003d3a13a19e2bbfe2595927b85ab07121df7cd1f995a1fda",
+      "published_sha256": "023f08c4348a1cf003d3a13a19e2bbfe2595927b85ab07121df7cd1f995a1fda",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/岗位职责.md",
+      "source_sha256": "f07594c3275ff8e6ece103b6c6aa09d23df13f9722578414e482b0040ba5ec8a",
+      "published_sha256": "f07594c3275ff8e6ece103b6c6aa09d23df13f9722578414e482b0040ba5ec8a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/执行流程.md",
+      "source_sha256": "25cfe609f944499651d72d7fcddc5de476dbf82e75e5f274fd644c2257a718cf",
+      "published_sha256": "25cfe609f944499651d72d7fcddc5de476dbf82e75e5f274fd644c2257a718cf",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/输出约定.md",
+      "source_sha256": "7496e0d882a47f1ae2b032d642ed61fe64dc97035e17dfceb4f81447d9c093b2",
+      "published_sha256": "7496e0d882a47f1ae2b032d642ed61fe64dc97035e17dfceb4f81447d9c093b2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/岗位职责.md",
+      "source_sha256": "03c3fbd4688db0397731a07ca78a7b63b9cee18505ff65d6180e8937bf6e3427",
+      "published_sha256": "03c3fbd4688db0397731a07ca78a7b63b9cee18505ff65d6180e8937bf6e3427",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/执行流程.md",
+      "source_sha256": "de495bca110a084078aef5beb8ff6c8dd4d5a18c4ad1543c413f62c9f854eca0",
+      "published_sha256": "de495bca110a084078aef5beb8ff6c8dd4d5a18c4ad1543c413f62c9f854eca0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/输出约定.md",
+      "source_sha256": "f1e41556838065c7a004aa65b6c53d510309c66afdc59f7b9fb0c3e772c2e5c0",
+      "published_sha256": "f1e41556838065c7a004aa65b6c53d510309c66afdc59f7b9fb0c3e772c2e5c0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/岗位职责.md",
+      "source_sha256": "b012e1142597125c95e8ba4bb2dae78d4e2efd54a64725f2c033a4e3900863a2",
+      "published_sha256": "b012e1142597125c95e8ba4bb2dae78d4e2efd54a64725f2c033a4e3900863a2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/执行流程.md",
+      "source_sha256": "6ef01de4cc05f617da19ae29a6c6183f02117ce1938c63a1e8b560da23cc6919",
+      "published_sha256": "6ef01de4cc05f617da19ae29a6c6183f02117ce1938c63a1e8b560da23cc6919",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/输出约定.md",
+      "source_sha256": "f1eedbbfe2a14359cd2d6bcf9d311969bdc50a829d22526872853176e8ecd196",
+      "published_sha256": "f1eedbbfe2a14359cd2d6bcf9d311969bdc50a829d22526872853176e8ecd196",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/岗位职责.md",
+      "source_sha256": "0c6ab5aee6eede6f7e831ee9a39edb354a5cee02e32484ca089fce1aab353434",
+      "published_sha256": "0c6ab5aee6eede6f7e831ee9a39edb354a5cee02e32484ca089fce1aab353434",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/执行流程.md",
+      "source_sha256": "3a4ca95c850a0ee188023bf31586441388c13089ed0ebc4f167a7605ac6d1a79",
+      "published_sha256": "3a4ca95c850a0ee188023bf31586441388c13089ed0ebc4f167a7605ac6d1a79",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/输出约定.md",
+      "source_sha256": "2309e00a830b08dd304e1087d9a7e03315074663445241c481ad579762a4ff65",
+      "published_sha256": "2309e00a830b08dd304e1087d9a7e03315074663445241c481ad579762a4ff65",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/岗位职责.md",
+      "source_sha256": "2e80451795d390e91c8c25440d636ce34b702c21c1c2b377026eb904744a0da5",
+      "published_sha256": "2e80451795d390e91c8c25440d636ce34b702c21c1c2b377026eb904744a0da5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/执行流程.md",
+      "source_sha256": "2a6e6a5d86da0cdf39f1a95cf921c3d741fa2c3ce266d52f333fd11713f6b4a3",
+      "published_sha256": "2a6e6a5d86da0cdf39f1a95cf921c3d741fa2c3ce266d52f333fd11713f6b4a3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/输出约定.md",
+      "source_sha256": "b98eadf03904c3d22477b720064f2a18c7acd101901240d031dab29093e97437",
+      "published_sha256": "b98eadf03904c3d22477b720064f2a18c7acd101901240d031dab29093e97437",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/岗位职责.md",
+      "source_sha256": "51cf0e5b75c3fa7791089998316f608ef1201a80489edbb7feb7c50f2068e924",
+      "published_sha256": "51cf0e5b75c3fa7791089998316f608ef1201a80489edbb7feb7c50f2068e924",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/执行流程.md",
+      "source_sha256": "b58f403cdc4ef6bc2befed4694f00d0bf140ded9c9207d8a95f3603ee1b561ce",
+      "published_sha256": "b58f403cdc4ef6bc2befed4694f00d0bf140ded9c9207d8a95f3603ee1b561ce",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/输出约定.md",
+      "source_sha256": "36d94af63beebb9429c1f7d9395bb7df2f017154c52f47e84d03ded92fce1b1e",
+      "published_sha256": "36d94af63beebb9429c1f7d9395bb7df2f017154c52f47e84d03ded92fce1b1e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/岗位职责.md",
+      "source_sha256": "da42cb8162021674313e990b31fd957c7cc3b391b67a0918be2770cc1d6170ac",
+      "published_sha256": "da42cb8162021674313e990b31fd957c7cc3b391b67a0918be2770cc1d6170ac",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/执行流程.md",
+      "source_sha256": "536b83769e2d6124848f0365b84d8428db3b5c4ec8914856360aacf762650cef",
+      "published_sha256": "536b83769e2d6124848f0365b84d8428db3b5c4ec8914856360aacf762650cef",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/输出约定.md",
+      "source_sha256": "ebb496109aacedec10036789da4ae809f849b8860e3628e880ac4d2b1085616c",
+      "published_sha256": "ebb496109aacedec10036789da4ae809f849b8860e3628e880ac4d2b1085616c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/岗位职责.md",
+      "source_sha256": "b121561156165b08e5021d19b7e0054b0ab6cc94918db4d3de904745715ed063",
+      "published_sha256": "b121561156165b08e5021d19b7e0054b0ab6cc94918db4d3de904745715ed063",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/执行流程.md",
+      "source_sha256": "c9a4137c8b4a8f88beb2af240cf83633fe8b327e13dc01ba19cad8e4d9077095",
+      "published_sha256": "c9a4137c8b4a8f88beb2af240cf83633fe8b327e13dc01ba19cad8e4d9077095",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/输出约定.md",
+      "source_sha256": "be82cebcc18b39a41873d0424b15407b024e80427442ca453464cd9bd88bd6a2",
+      "published_sha256": "be82cebcc18b39a41873d0424b15407b024e80427442ca453464cd9bd88bd6a2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/岗位职责.md",
+      "source_sha256": "9480ae26dd3f88ebe1f84b3e889b55a554d0f201f64361dfa6845a375c025007",
+      "published_sha256": "9480ae26dd3f88ebe1f84b3e889b55a554d0f201f64361dfa6845a375c025007",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/执行流程.md",
+      "source_sha256": "b27d817735cecfe5a3801d0fc58c4cad429851f580982acb24a24eb747b1eb34",
+      "published_sha256": "b27d817735cecfe5a3801d0fc58c4cad429851f580982acb24a24eb747b1eb34",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/输出约定.md",
+      "source_sha256": "397b518843d4c11609aa0ce21d8eeec3f0d3fda73cd86b673d912873504c6053",
+      "published_sha256": "397b518843d4c11609aa0ce21d8eeec3f0d3fda73cd86b673d912873504c6053",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/岗位职责.md",
+      "source_sha256": "019bb0dc96205f406a763ee70b8d435b856651de6a33594e7ca262e5ba39b91a",
+      "published_sha256": "019bb0dc96205f406a763ee70b8d435b856651de6a33594e7ca262e5ba39b91a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/执行流程.md",
+      "source_sha256": "5cb4a4710e121e84d16f4b0dc12582903de4e4a6138209571295279d7b1047ea",
+      "published_sha256": "5cb4a4710e121e84d16f4b0dc12582903de4e4a6138209571295279d7b1047ea",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/输出约定.md",
+      "source_sha256": "d4fca1c1f393daadd4b423e4463f8c363f28a4577d38a3a716100024c898a7a0",
+      "published_sha256": "d4fca1c1f393daadd4b423e4463f8c363f28a4577d38a3a716100024c898a7a0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/岗位职责.md",
+      "source_sha256": "36763257799979a89aa1b217d4b9266a16b03e6f9254140b9403be42a9bfd737",
+      "published_sha256": "36763257799979a89aa1b217d4b9266a16b03e6f9254140b9403be42a9bfd737",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/执行流程.md",
+      "source_sha256": "746658f87a93debb8479daae78ffe8dd84a0b78cee307a59305863d384181066",
+      "published_sha256": "746658f87a93debb8479daae78ffe8dd84a0b78cee307a59305863d384181066",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/输出约定.md",
+      "source_sha256": "b148b74859e277c67f687d5a93c8859acb522436d636bfa0f1b7b23342ca55a6",
+      "published_sha256": "b148b74859e277c67f687d5a93c8859acb522436d636bfa0f1b7b23342ca55a6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/岗位职责.md",
+      "source_sha256": "637430fea35ffc5c3a1d4b7fd88be4a88aaabf8a51927b84ecfaae544afadaf5",
+      "published_sha256": "637430fea35ffc5c3a1d4b7fd88be4a88aaabf8a51927b84ecfaae544afadaf5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/执行流程.md",
+      "source_sha256": "820b01a74dbe4f69a2ce56b84b75eeb5f8edeb3d390cb2213312e6aef6c63148",
+      "published_sha256": "820b01a74dbe4f69a2ce56b84b75eeb5f8edeb3d390cb2213312e6aef6c63148",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/输出约定.md",
+      "source_sha256": "bc1e97dace5e376a5ef1f35211868816776cc3fec51aec7fdcaeab391cf46907",
+      "published_sha256": "bc1e97dace5e376a5ef1f35211868816776cc3fec51aec7fdcaeab391cf46907",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/交付核验.json",
+      "source_sha256": "9e2fa4446f802b3a5ba9b5f7294e013f59cfb2a02262ca9a1546e2dff604b32a",
+      "published_sha256": "9e2fa4446f802b3a5ba9b5f7294e013f59cfb2a02262ca9a1546e2dff604b32a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/任务正文.json",
+      "source_sha256": "195e81c34ef9529ce73b1c6cb8e905138c1b2c4ac3dd6fc39b36a3c082f36f76",
+      "published_sha256": "195e81c34ef9529ce73b1c6cb8e905138c1b2c4ac3dd6fc39b36a3c082f36f76",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/候选正文索引.json",
+      "source_sha256": "d366a5ce28910bd6ea9df3e5f09b41473951c5debd94edd5291d1ef12258f826",
+      "published_sha256": "d366a5ce28910bd6ea9df3e5f09b41473951c5debd94edd5291d1ef12258f826",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/共享库复核.json",
+      "source_sha256": "98ff88640a7b1520e04f336e058fa884970d357ded8e513e6142a7b8f5d21bd4",
+      "published_sha256": "98ff88640a7b1520e04f336e058fa884970d357ded8e513e6142a7b8f5d21bd4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/冻结确认与覆盖记录.json",
+      "source_sha256": "54d8a86680c9326569d48cb5793e6f85bf7bc2a272974db851c2a7dbe3436788",
+      "published_sha256": "54d8a86680c9326569d48cb5793e6f85bf7bc2a272974db851c2a7dbe3436788",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/冻结稿索引.json",
+      "source_sha256": "5e506ebb0162027fab0b19447a1a0e4158260485820b405f5d9721a251851a72",
+      "published_sha256": "5e506ebb0162027fab0b19447a1a0e4158260485820b405f5d9721a251851a72",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/所有正文块.json",
+      "source_sha256": "04a68b9f4170df0b78dac83f49b734836d40dddcf4d1c73fb618b66519944a34",
+      "published_sha256": "04a68b9f4170df0b78dac83f49b734836d40dddcf4d1c73fb618b66519944a34",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/整理审查结果.py",
+      "source_sha256": "a63cc41edaa43a278f5b17a93136ead42486fac329247abdbdbd9e2acc4d2d74",
+      "published_sha256": "a63cc41edaa43a278f5b17a93136ead42486fac329247abdbdbd9e2acc4d2d74",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/检查进度.json",
+      "source_sha256": "a33f9d4a9148e55a835b2d3f070ad8cd706eb1fcb25876fc32f9ba12eb64bf24",
+      "published_sha256": "a33f9d4a9148e55a835b2d3f070ad8cd706eb1fcb25876fc32f9ba12eb64bf24",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/补充条款索引.json",
+      "source_sha256": "37b4fb70dcc7929c46a1365b4de726a8e0e793dcac55f0c4fd2d30ac1771edb1",
+      "published_sha256": "37b4fb70dcc7929c46a1365b4de726a8e0e793dcac55f0c4fd2d30ac1771edb1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/资产分支任务补充.json",
+      "source_sha256": "102533d12614fc52984f07c12ee4fe4e7640bd3b78e34fd644b9d8c47a7fd9f8",
+      "published_sha256": "102533d12614fc52984f07c12ee4fe4e7640bd3b78e34fd644b9d8c47a7fd9f8",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/README.md",
+      "source_sha256": "084b4c693bb4402fabb121c16c25add0bc418005658feae8d7803ee2994e4084",
+      "published_sha256": "084b4c693bb4402fabb121c16c25add0bc418005658feae8d7803ee2994e4084",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据索引.md",
+      "source_sha256": "bb34bdd1aee24008a31052d6cc89d5dcbb2f4e048fc8ea81f43401e9ba76ba2e",
+      "published_sha256": "bb34bdd1aee24008a31052d6cc89d5dcbb2f4e048fc8ea81f43401e9ba76ba2e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/变更清单.md",
+      "source_sha256": "2c644c5db76e4dd963635dc3594346c0c1b3ff279b6400d280449de88fc7dbf6",
+      "published_sha256": "2c644c5db76e4dd963635dc3594346c0c1b3ff279b6400d280449de88fc7dbf6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/横向复查结果.md",
+      "source_sha256": "6f73fb65c88d1130b5b5facd95e664fba2ef6a08b5dd34d2f46d58cbd35bdd24",
+      "published_sha256": "6f73fb65c88d1130b5b5facd95e664fba2ef6a08b5dd34d2f46d58cbd35bdd24",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/正式冻结记录.md",
+      "source_sha256": "e0b69a46e1e69e096aa74c8eeb60abaf6e3d616be88e81b32bfd9192ff2236bf",
+      "published_sha256": "e0b69a46e1e69e096aa74c8eeb60abaf6e3d616be88e81b32bfd9192ff2236bf",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/岗位职责.md",
+      "source_sha256": "7920604bb9b0a69567057933b1e2bffdf60ad35619d1bfdb1f7f940c97a7a1f2",
+      "published_sha256": "7920604bb9b0a69567057933b1e2bffdf60ad35619d1bfdb1f7f940c97a7a1f2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/执行流程.md",
+      "source_sha256": "6365bf29d2f7d9aa3ba32411add44f974c06292945e1447ea43c55f14fee8083",
+      "published_sha256": "6365bf29d2f7d9aa3ba32411add44f974c06292945e1447ea43c55f14fee8083",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/输出约定.md",
+      "source_sha256": "734ee3b336f23870e20a46cd021b06d253622fe66cb9d5ffaef29caee2610c24",
+      "published_sha256": "734ee3b336f23870e20a46cd021b06d253622fe66cb9d5ffaef29caee2610c24",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/岗位职责.md",
+      "source_sha256": "1e9ccf5494edf789e9b70db1d05cc7d6fe28b4dc2a8230121b549cdfd62e718f",
+      "published_sha256": "1e9ccf5494edf789e9b70db1d05cc7d6fe28b4dc2a8230121b549cdfd62e718f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/执行流程.md",
+      "source_sha256": "8768654f50f0bb31b096cd049d53cd42cb42f8bc21ca886ef9a5a1f9f6e78575",
+      "published_sha256": "8768654f50f0bb31b096cd049d53cd42cb42f8bc21ca886ef9a5a1f9f6e78575",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/输出约定.md",
+      "source_sha256": "943d87bd0335e35903b18b4755e2d7aced4a68c9ff9eb6af85a0d66d20be45b7",
+      "published_sha256": "943d87bd0335e35903b18b4755e2d7aced4a68c9ff9eb6af85a0d66d20be45b7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/岗位职责.md",
+      "source_sha256": "2d1412a37b4940666796a774d92db432e11ffd7a50c95f66419b972d6e16d853",
+      "published_sha256": "2d1412a37b4940666796a774d92db432e11ffd7a50c95f66419b972d6e16d853",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/执行流程.md",
+      "source_sha256": "258384078d6dfd0b6862d6a62c8ddba444bf8c8e6d92e1d3d5b1b89d61a25920",
+      "published_sha256": "258384078d6dfd0b6862d6a62c8ddba444bf8c8e6d92e1d3d5b1b89d61a25920",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/输出约定.md",
+      "source_sha256": "fa1b0a9d9344812a8e2abef47797170dd9584af07e8bb31fcab142603ce2efaa",
+      "published_sha256": "fa1b0a9d9344812a8e2abef47797170dd9584af07e8bb31fcab142603ce2efaa",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/岗位职责.md",
+      "source_sha256": "faf01573c417151c1b24f767a170e61e743c32618ced0639271cb717b0d88a74",
+      "published_sha256": "faf01573c417151c1b24f767a170e61e743c32618ced0639271cb717b0d88a74",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/执行流程.md",
+      "source_sha256": "cf8bd0f0df557635d8aa2086df6d78965198c7434b26145e98ca17a9f81df6cb",
+      "published_sha256": "cf8bd0f0df557635d8aa2086df6d78965198c7434b26145e98ca17a9f81df6cb",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/输出约定.md",
+      "source_sha256": "791dd05322c69cfa2e6fbb49bde106fa67c5f0379ab5914d18a4d3c5e8829b11",
+      "published_sha256": "791dd05322c69cfa2e6fbb49bde106fa67c5f0379ab5914d18a4d3c5e8829b11",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/岗位职责.md",
+      "source_sha256": "8bb2a1825552d96712994f97e5d590553eafbcea6d202314acc7a6f23fa2ed97",
+      "published_sha256": "8bb2a1825552d96712994f97e5d590553eafbcea6d202314acc7a6f23fa2ed97",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/执行流程.md",
+      "source_sha256": "c07eece0c0a7d01f2ee3e5c62c4546883860e4a43e990a964220cfbab545243d",
+      "published_sha256": "c07eece0c0a7d01f2ee3e5c62c4546883860e4a43e990a964220cfbab545243d",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/输出约定.md",
+      "source_sha256": "11e3517217e9ddf8903bf02494fcc5923d9b2f28cc86f9953bcacb1ee547c145",
+      "published_sha256": "11e3517217e9ddf8903bf02494fcc5923d9b2f28cc86f9953bcacb1ee547c145",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/交付核验结果.json",
+      "source_sha256": "5eb90f720551f268f43fb4de9f6c19bcc9665f1178feab1863e5669b35e6eb2d",
+      "published_sha256": "5eb90f720551f268f43fb4de9f6c19bcc9665f1178feab1863e5669b35e6eb2d",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/入口文档修改前.json",
+      "source_sha256": "553df1f85cb6b5d04375a12664c6e8ff5f646876638d589eda4ec6b40e7e8252",
+      "published_sha256": "553df1f85cb6b5d04375a12664c6e8ff5f646876638d589eda4ec6b40e7e8252",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/历史补充合并正文.json",
+      "source_sha256": "a2184b0d2a4192135b2b115da29b1874a7e914eb927b4efa744d79fc67810375",
+      "published_sha256": "a2184b0d2a4192135b2b115da29b1874a7e914eb927b4efa744d79fc67810375",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/原始资料校验.json",
+      "source_sha256": "17705067ccd9c4ced678fb25c506c599e2d2cedba7f0c2e205a35b4ff60b8f61",
+      "published_sha256": "17705067ccd9c4ced678fb25c506c599e2d2cedba7f0c2e205a35b4ff60b8f61",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/整理规范.py",
+      "source_sha256": "db344b01d141f2f9c724111b2df96c3ee0c5c7b3cef4ce8e7d99f6fda3ba3189",
+      "published_sha256": "db344b01d141f2f9c724111b2df96c3ee0c5c7b3cef4ce8e7d99f6fda3ba3189",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/本轮业务条款差异.diff",
+      "source_sha256": "96d787f72c353a8e11a1d3cfd01c8a228be98e1c57b37f31f407260974ad48eb",
+      "published_sha256": "96d787f72c353a8e11a1d3cfd01c8a228be98e1c57b37f31f407260974ad48eb",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/核验交付.py",
+      "source_sha256": "c82d095f135148eec5ba4aca274e7785b2c6aaaac8fb435e521afee8a5a6b885",
+      "published_sha256": "c82d095f135148eec5ba4aca274e7785b2c6aaaac8fb435e521afee8a5a6b885",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/模板差异.diff",
+      "source_sha256": "a725859c9fce1f9d020a91ea7c3c839244e199dae2513f0e79c405653915be39",
+      "published_sha256": "a725859c9fce1f9d020a91ea7c3c839244e199dae2513f0e79c405653915be39",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/正式冻结记录.json",
+      "source_sha256": "e4f4dc97fab10e5da7fff308a5ced4ce3dd6c74efbae7c0e77d2b724c4834e83",
+      "published_sha256": "e4f4dc97fab10e5da7fff308a5ced4ce3dd6c74efbae7c0e77d2b724c4834e83",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/登记重新冻结.py",
+      "source_sha256": "1c7e3f6fa109e25c4040f026d968c8e19c2a494989ebb41eff66e09b83c4ca00",
+      "published_sha256": "1c7e3f6fa109e25c4040f026d968c8e19c2a494989ebb41eff66e09b83c4ca00",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/规范文件索引.json",
+      "source_sha256": "96d048feea830dc6d2cf7f468b1298adc391fffe514f7124f83a4d77f85c3129",
+      "published_sha256": "96d048feea830dc6d2cf7f468b1298adc391fffe514f7124f83a4d77f85c3129",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/逐条修改记录.json",
+      "source_sha256": "8ee0bca4432bad81fc2af7bdde0c62dff6621d3846793870bfad2a2a9000bee6",
+      "published_sha256": "8ee0bca4432bad81fc2af7bdde0c62dff6621d3846793870bfad2a2a9000bee6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/重新冻结前状态备份.json",
+      "source_sha256": "e13cd0b3705ed9c702961679e3cedd25b39ef6f184fe75c3e7579487b0dd058f",
+      "published_sha256": "e13cd0b3705ed9c702961679e3cedd25b39ef6f184fe75c3e7579487b0dd058f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/岗位职责.md",
+      "source_sha256": "2eb203f110c9af495ac108af1b88d6a0e1de297cfef386d33dbe6a0df302b930",
+      "published_sha256": "2eb203f110c9af495ac108af1b88d6a0e1de297cfef386d33dbe6a0df302b930",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/执行流程.md",
+      "source_sha256": "0047aac9a9b9646e0cba18ecd03f30173fdda4949f71656200193a16b41ad0d8",
+      "published_sha256": "0047aac9a9b9646e0cba18ecd03f30173fdda4949f71656200193a16b41ad0d8",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/输出约定.md",
+      "source_sha256": "a493e9a57c566762fc83e60bd889dd30a8ffb49b282ebd3f30ad6f1d02f9eb5f",
+      "published_sha256": "a493e9a57c566762fc83e60bd889dd30a8ffb49b282ebd3f30ad6f1d02f9eb5f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/岗位职责.md",
+      "source_sha256": "ca81f109c22eef395766ea011dbbd27b9ca9ee232c4db1eaa7e9e459c69a94c1",
+      "published_sha256": "ca81f109c22eef395766ea011dbbd27b9ca9ee232c4db1eaa7e9e459c69a94c1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/执行流程.md",
+      "source_sha256": "d3ca57bf2d552b1f103ac6fe52af91a76514ac9fc1e95c64f1acafec1b873907",
+      "published_sha256": "d3ca57bf2d552b1f103ac6fe52af91a76514ac9fc1e95c64f1acafec1b873907",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/输出约定.md",
+      "source_sha256": "c554af06cdd30e9c3042dc92407b9a6cf841a0af5e4a3093bf807ab64da56ff4",
+      "published_sha256": "c554af06cdd30e9c3042dc92407b9a6cf841a0af5e4a3093bf807ab64da56ff4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/岗位职责.md",
+      "source_sha256": "6282445bfc6cca7dbdb1b9853743bd469971eb96201c5441fa1ab29ac17878b7",
+      "published_sha256": "6282445bfc6cca7dbdb1b9853743bd469971eb96201c5441fa1ab29ac17878b7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/执行流程.md",
+      "source_sha256": "fecd329efe932f50800739983208227bf80887edb47e7b4a173b7ff84593449f",
+      "published_sha256": "fecd329efe932f50800739983208227bf80887edb47e7b4a173b7ff84593449f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/输出约定.md",
+      "source_sha256": "41bbbe6c8329637e15fa9f7ebc840f9170b791abbadb19d46c56a9f67503a45e",
+      "published_sha256": "41bbbe6c8329637e15fa9f7ebc840f9170b791abbadb19d46c56a9f67503a45e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/岗位职责.md",
+      "source_sha256": "033c6758d18c19946ef2b2999434d381c91db22f33e7da86846b4cda9400a663",
+      "published_sha256": "033c6758d18c19946ef2b2999434d381c91db22f33e7da86846b4cda9400a663",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/执行流程.md",
+      "source_sha256": "c09e58b5615cf12e0188ddb6f62d18d1500d1600e74220d610a919299de20385",
+      "published_sha256": "c09e58b5615cf12e0188ddb6f62d18d1500d1600e74220d610a919299de20385",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/输出约定.md",
+      "source_sha256": "7cc5ba9ff71b68e5cc1da16ed33692d914361fc0ae1a6b0a3c6a8501d6c76fec",
+      "published_sha256": "7cc5ba9ff71b68e5cc1da16ed33692d914361fc0ae1a6b0a3c6a8501d6c76fec",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/岗位职责.md",
+      "source_sha256": "f9ca29f5118fa0d9e23143dfd72fc898d898caa3f3782fece0c84542712364e2",
+      "published_sha256": "f9ca29f5118fa0d9e23143dfd72fc898d898caa3f3782fece0c84542712364e2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/执行流程.md",
+      "source_sha256": "f9ccc942ddf5a5eed309ebf522375025ff9c9f4387a165e8d48ad838d1e57813",
+      "published_sha256": "f9ccc942ddf5a5eed309ebf522375025ff9c9f4387a165e8d48ad838d1e57813",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/输出约定.md",
+      "source_sha256": "8ad48536b71f5eb0712e752d667a77070644506ed5f010e1e2a193ca4259ca0f",
+      "published_sha256": "8ad48536b71f5eb0712e752d667a77070644506ed5f010e1e2a193ca4259ca0f",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/岗位职责.md",
+      "source_sha256": "5ba0b841776a5bac8e11ed21430ec2dc19603b5cbfb7a5330bad2b03da0cb31e",
+      "published_sha256": "5ba0b841776a5bac8e11ed21430ec2dc19603b5cbfb7a5330bad2b03da0cb31e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/执行流程.md",
+      "source_sha256": "8ab468df3e6307d8b86a9a66c4e585ef3431901d343729f93f0052f19c686472",
+      "published_sha256": "8ab468df3e6307d8b86a9a66c4e585ef3431901d343729f93f0052f19c686472",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/输出约定.md",
+      "source_sha256": "62289d1b7642dabd5a96772b6ca0266e415c90648981df22f5df5b2f76009db8",
+      "published_sha256": "62289d1b7642dabd5a96772b6ca0266e415c90648981df22f5df5b2f76009db8",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/岗位职责.md",
+      "source_sha256": "632e06866ef349443cf1c780f858451366e13dafb929e412044e590ae7fa6a21",
+      "published_sha256": "632e06866ef349443cf1c780f858451366e13dafb929e412044e590ae7fa6a21",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/执行流程.md",
+      "source_sha256": "a297b0c10e1c9d941a140be06cfaa701ebd3018f8e8b54ba6b65e2aa700c400a",
+      "published_sha256": "a297b0c10e1c9d941a140be06cfaa701ebd3018f8e8b54ba6b65e2aa700c400a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/输出约定.md",
+      "source_sha256": "36d04238dc30ae7a151eeb8958e950a7bc2c344db9420f551e254b550933f97e",
+      "published_sha256": "36d04238dc30ae7a151eeb8958e950a7bc2c344db9420f551e254b550933f97e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/岗位职责.md",
+      "source_sha256": "be70341ac7aa52ba3a4bf9c5c552cdb2e14f5918608f20187e353a7ef145e740",
+      "published_sha256": "be70341ac7aa52ba3a4bf9c5c552cdb2e14f5918608f20187e353a7ef145e740",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/执行流程.md",
+      "source_sha256": "9fcbcc3ff8dc91ae7091c96efd845ca2e17871861fa0f712f2896d8e93258f43",
+      "published_sha256": "9fcbcc3ff8dc91ae7091c96efd845ca2e17871861fa0f712f2896d8e93258f43",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/输出约定.md",
+      "source_sha256": "e41e8fdd3c52f48c0f0391b4bcb2e4e187530e1782c1a71f5361ab35c9a16965",
+      "published_sha256": "e41e8fdd3c52f48c0f0391b4bcb2e4e187530e1782c1a71f5361ab35c9a16965",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/模板/正式镜头Prompt模板_v1.0.md",
+      "source_sha256": "b633e700d6d2c9344fdd30fa5e011425ce143f6d9ab796e1c2106ba39e4155cc",
+      "published_sha256": "b633e700d6d2c9344fdd30fa5e011425ce143f6d9ab796e1c2106ba39e4155cc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/岗位职责.md",
+      "source_sha256": "b389efd89c89f4f688e51d049b5fb5ac740fb4aec646137f7cbf7be4be4e0a2a",
+      "published_sha256": "b389efd89c89f4f688e51d049b5fb5ac740fb4aec646137f7cbf7be4be4e0a2a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/执行流程.md",
+      "source_sha256": "0be73c631d9fc6a51fc1209a6a39eb11a1e106c143ba2e266e84f7a0b983eb6b",
+      "published_sha256": "0be73c631d9fc6a51fc1209a6a39eb11a1e106c143ba2e266e84f7a0b983eb6b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/输出约定.md",
+      "source_sha256": "11d65e6da73d5d8e27357d4303419a0d9b036e68ce73f4943625b3066198330d",
+      "published_sha256": "11d65e6da73d5d8e27357d4303419a0d9b036e68ce73f4943625b3066198330d",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/岗位职责.md",
+      "source_sha256": "fd1d8e9b6418392082333e3ae4af36ebd6d4b60b7e7bb9ab68feb59891eef976",
+      "published_sha256": "fd1d8e9b6418392082333e3ae4af36ebd6d4b60b7e7bb9ab68feb59891eef976",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/执行流程.md",
+      "source_sha256": "1cdf42ebf1883c2b3e83db1d0d384446058da00df6b6d674940d736e2a76b4c3",
+      "published_sha256": "1cdf42ebf1883c2b3e83db1d0d384446058da00df6b6d674940d736e2a76b4c3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/输出约定.md",
+      "source_sha256": "ba0b2f6d947d92a272e8e8ee97f92d108b810471e9abfffb7dab55af142c6076",
+      "published_sha256": "ba0b2f6d947d92a272e8e8ee97f92d108b810471e9abfffb7dab55af142c6076",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/岗位职责.md",
+      "source_sha256": "5e2269953f3a324274cb09ad9aa6e7435c86e804c1124b2bcac80f1363b390ab",
+      "published_sha256": "5e2269953f3a324274cb09ad9aa6e7435c86e804c1124b2bcac80f1363b390ab",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/执行流程.md",
+      "source_sha256": "ae0da515b5d0736fa22abbcb63b3a4339334e78acfb9b49dc3af7a41361e3053",
+      "published_sha256": "ae0da515b5d0736fa22abbcb63b3a4339334e78acfb9b49dc3af7a41361e3053",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/输出约定.md",
+      "source_sha256": "91262f871d8569e076ca777a15a0e9e792c6e3811658a29bb6882877a17bbb6e",
+      "published_sha256": "91262f871d8569e076ca777a15a0e9e792c6e3811658a29bb6882877a17bbb6e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/岗位职责.md",
+      "source_sha256": "fa681b7fa9fdb63701a6e5d2ac2d8d8363467e0d0051a2009835024cc74d0dfe",
+      "published_sha256": "fa681b7fa9fdb63701a6e5d2ac2d8d8363467e0d0051a2009835024cc74d0dfe",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/执行流程.md",
+      "source_sha256": "71166da855af2a075fe5fb838d89a3621ec7a341c6c4b081fd1bf5e8aa215b77",
+      "published_sha256": "71166da855af2a075fe5fb838d89a3621ec7a341c6c4b081fd1bf5e8aa215b77",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/输出约定.md",
+      "source_sha256": "3cb3b0bfa4de2d5bc474ef29ed9f092d4e7c14c02110d4b55037a05ef3e18161",
+      "published_sha256": "3cb3b0bfa4de2d5bc474ef29ed9f092d4e7c14c02110d4b55037a05ef3e18161",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/岗位职责.md",
+      "source_sha256": "4899151b898d07f05ca28524eef745108be2ae75501aea6773908343f6dbdf36",
+      "published_sha256": "4899151b898d07f05ca28524eef745108be2ae75501aea6773908343f6dbdf36",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/执行流程.md",
+      "source_sha256": "df60e94093937ee195a704c4de7df077af7d6da4089e1a239a77fe32eb4a77e6",
+      "published_sha256": "df60e94093937ee195a704c4de7df077af7d6da4089e1a239a77fe32eb4a77e6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/输出约定.md",
+      "source_sha256": "91feda8f6682975fa9199d24cf8c3db39c341e4e55dae9dcad49e39f69d8c8b8",
+      "published_sha256": "91feda8f6682975fa9199d24cf8c3db39c341e4e55dae9dcad49e39f69d8c8b8",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/岗位职责.md",
+      "source_sha256": "d17ca40c0f52de8fb1fcc09e7e6151b9b3dd577251099ca2787bf1b8f2973ea9",
+      "published_sha256": "d17ca40c0f52de8fb1fcc09e7e6151b9b3dd577251099ca2787bf1b8f2973ea9",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/执行流程.md",
+      "source_sha256": "8d49078df66e5ebb4a58ab2e9138b5f5bfc90c1115b92e91eccd4afb529e79c3",
+      "published_sha256": "8d49078df66e5ebb4a58ab2e9138b5f5bfc90c1115b92e91eccd4afb529e79c3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/输出约定.md",
+      "source_sha256": "9dc7b3b0df12a9e9c86c2c5d71208b20792ba36cb8513e52aafc05d37acbdc64",
+      "published_sha256": "9dc7b3b0df12a9e9c86c2c5d71208b20792ba36cb8513e52aafc05d37acbdc64",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/岗位职责.md",
+      "source_sha256": "48f0138fddf924e1409f36f7358a471105e212089ee50de0c8f38523dfbcff07",
+      "published_sha256": "48f0138fddf924e1409f36f7358a471105e212089ee50de0c8f38523dfbcff07",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/执行流程.md",
+      "source_sha256": "7ef5b1533118b870d070b955e3918ade9966d91dea56cf9cdfb6637488185d4c",
+      "published_sha256": "7ef5b1533118b870d070b955e3918ade9966d91dea56cf9cdfb6637488185d4c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/输出约定.md",
+      "source_sha256": "c5d58b263fa285c2f98d03a737552c1ff3fe5e955094979260cbcd0a62e75547",
+      "published_sha256": "c5d58b263fa285c2f98d03a737552c1ff3fe5e955094979260cbcd0a62e75547",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/任务启动与交接.md",
+      "source_sha256": "3d30e58177d3d377cd2ea730f7b1fd22ea55f5345022391df36bf8e8fd05d49b",
+      "published_sha256": "3d30e58177d3d377cd2ea730f7b1fd22ea55f5345022391df36bf8e8fd05d49b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/共享能力调用.md",
+      "source_sha256": "aff65af5e9f43ca30e3da291179705700fe9d879447c2fa77818fb45d72352cd",
+      "published_sha256": "aff65af5e9f43ca30e3da291179705700fe9d879447c2fa77818fb45d72352cd",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/资产身份与引用.md",
+      "source_sha256": "5fef89c24675116400485acb626999e817316b410b014aeb0a053285bed565c3",
+      "published_sha256": "5fef89c24675116400485acb626999e817316b410b014aeb0a053285bed565c3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/岗位职责.md",
+      "source_sha256": "baa047a1b0b54580c6ffa14b454eea941f01d842e4093d20208cf560f6509c54",
+      "published_sha256": "baa047a1b0b54580c6ffa14b454eea941f01d842e4093d20208cf560f6509c54",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/执行流程.md",
+      "source_sha256": "7166bb238d604d9282cd5c2a30c04fe94178f64b850f5817b60b83919a9ebf96",
+      "published_sha256": "7166bb238d604d9282cd5c2a30c04fe94178f64b850f5817b60b83919a9ebf96",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/输出约定.md",
+      "source_sha256": "73e7dc72def58a18f0f3b67145c784081db904a2916e77f680c71306cc09c532",
+      "published_sha256": "73e7dc72def58a18f0f3b67145c784081db904a2916e77f680c71306cc09c532",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/岗位职责.md",
+      "source_sha256": "f4089454b95b19c262ea111754b14a6305eebe9b96992c7cc0d3869802bf3bdb",
+      "published_sha256": "f4089454b95b19c262ea111754b14a6305eebe9b96992c7cc0d3869802bf3bdb",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/执行流程.md",
+      "source_sha256": "a00680a80ba04c29f6d41c31827138c2ac494c2ccea749ba359668b313f7e7fa",
+      "published_sha256": "a00680a80ba04c29f6d41c31827138c2ac494c2ccea749ba359668b313f7e7fa",
+      "status": "原字节保留"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/输出约定.md",
+      "source_sha256": "ef08a6b72e712dda3d4de52bdf68b3c980d48be3787d560c39e85533e6292f04",
+      "published_sha256": "ef08a6b72e712dda3d4de52bdf68b3c980d48be3787d560c39e85533e6292f04",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/catalog.json",
+      "source_sha256": "75fbeb5e87b4952522aab0d812dacb3597a21dc645324974be89109ff1f604e4",
+      "published_sha256": "75fbeb5e87b4952522aab0d812dacb3597a21dc645324974be89109ff1f604e4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/入库来源.json",
+      "source_sha256": "81f3ea9e618de6186ba226384e2917c9edcf0dbaea6c343efabce985aaddb858",
+      "published_sha256": "81f3ea9e618de6186ba226384e2917c9edcf0dbaea6c343efabce985aaddb858",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/入库校验.json",
+      "source_sha256": "a8906b6e59c18caa1d308d24cb04e1663fc0c0fa9fec1bac6af95a7595947e41",
+      "published_sha256": "a8906b6e59c18caa1d308d24cb04e1663fc0c0fa9fec1bac6af95a7595947e41",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/接入回执.md",
+      "source_sha256": "217d791d195667b42b738ca926d0048700ca874dcdc8cad1787fd399eef322e2",
+      "published_sha256": "217d791d195667b42b738ca926d0048700ca874dcdc8cad1787fd399eef322e2",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/接入索引.json",
+      "source_sha256": "52406f1f08911af4b67f9cf335b4ac9818e9bacd905153076604409ef5a38d2a",
+      "published_sha256": "52406f1f08911af4b67f9cf335b4ac9818e9bacd905153076604409ef5a38d2a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/目录.md",
+      "source_sha256": "2918347097f2c67684867b52e7646e20691b3765d2c3907a568806344b219996",
+      "published_sha256": "2918347097f2c67684867b52e7646e20691b3765d2c3907a568806344b219996",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/SOURCE.md",
+      "source_sha256": "329314f75e5eef6dc8bf08e75b76c6533df39b9c1e2ef83e3f0db799631ac4c7",
+      "published_sha256": "329314f75e5eef6dc8bf08e75b76c6533df39b9c1e2ef83e3f0db799631ac4c7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/SKILL.md",
+      "source_sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0",
+      "published_sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/agents/openai.yaml",
+      "source_sha256": "7770c9d784b7251ab882ee29a738219a3f01811e57ba7fc7822fa83eb8438c1a",
+      "published_sha256": "7770c9d784b7251ab882ee29a738219a3f01811e57ba7fc7822fa83eb8438c1a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/base-en.txt",
+      "source_sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc",
+      "published_sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/ref-en.txt",
+      "source_sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7",
+      "published_sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/SKILL.md",
+      "source_sha256": "2f69a9fee7df27f6d98ac51e8d62a167a5ed04111c697dba912b7149187742de",
+      "published_sha256": "2f69a9fee7df27f6d98ac51e8d62a167a5ed04111c697dba912b7149187742de",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/agents/openai.yaml",
+      "source_sha256": "3776c8c5e35c48a16bbfc8788e75db0b2390b37b6e794724e5dbf5d7c252fb81",
+      "published_sha256": "3776c8c5e35c48a16bbfc8788e75db0b2390b37b6e794724e5dbf5d7c252fb81",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/evidence-boundaries.md",
+      "source_sha256": "e26c2e6029b4ab8d7442eb9e8fc843f5ebce656e547d361b48d16287e3aa6cb1",
+      "published_sha256": "e26c2e6029b4ab8d7442eb9e8fc843f5ebce656e547d361b48d16287e3aa6cb1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/profile.md",
+      "source_sha256": "111a075023d2d667c0f89b45d35e72179677e3fce4a8dfcb936fa10f171ad364",
+      "published_sha256": "111a075023d2d667c0f89b45d35e72179677e3fce4a8dfcb936fa10f171ad364",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SKILL.md",
+      "source_sha256": "7b6b5df5373e7513b73d86a6c9553bc317c4583d2c1f52c65db40ce16984b5a0",
+      "published_sha256": "7b6b5df5373e7513b73d86a6c9553bc317c4583d2c1f52c65db40ce16984b5a0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
+      "source_sha256": "7b3280681370c05e5f47495c9661bbf06f97ca2be8dcf0358ef9d7940e07dc4e",
+      "published_sha256": "7b3280681370c05e5f47495c9661bbf06f97ca2be8dcf0358ef9d7940e07dc4e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/agents/openai.yaml",
+      "source_sha256": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c",
+      "published_sha256": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/decision-qa.md",
+      "source_sha256": "897840e523f88e14027093d73267f4c081249ee694af7dd7e96b27edd870c9ab",
+      "published_sha256": "897840e523f88e14027093d73267f4c081249ee694af7dd7e96b27edd870c9ab",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/evidence-ledger.md",
+      "source_sha256": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b",
+      "published_sha256": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/production-recipes.md",
+      "source_sha256": "23c3e5f19f9e877a4ae153b09685d20624d5a9ee28304e138dcb3521e041576b",
+      "published_sha256": "23c3e5f19f9e877a4ae153b09685d20624d5a9ee28304e138dcb3521e041576b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md",
+      "source_sha256": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18",
+      "published_sha256": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/SKILL.md",
+      "source_sha256": "d7c2554d525ebcc556e784bd89f027155a6e238bedf06b7e87246b094a11392e",
+      "published_sha256": "d7c2554d525ebcc556e784bd89f027155a6e238bedf06b7e87246b094a11392e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/agents/openai.yaml",
+      "source_sha256": "c8a1c122bce6da580083c8561c86be0a3db0e3061b5213211ac6292836524bd5",
+      "published_sha256": "c8a1c122bce6da580083c8561c86be0a3db0e3061b5213211ac6292836524bd5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/evidence-boundaries.md",
+      "source_sha256": "6adb45ca99de585ee9d4b863242181da4426fc7748f8885b2f67a692426218a0",
+      "published_sha256": "6adb45ca99de585ee9d4b863242181da4426fc7748f8885b2f67a692426218a0",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/profile.md",
+      "source_sha256": "c047547a917f6441386243b463a74b135e69f738270cb905485707c51e091e5a",
+      "published_sha256": "c047547a917f6441386243b463a74b135e69f738270cb905485707c51e091e5a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/SKILL.md",
+      "source_sha256": "c63abfb675c721ab598e4a1e9c470628399552567be9ed239e12a07f7d2ba3ba",
+      "published_sha256": "c63abfb675c721ab598e4a1e9c470628399552567be9ed239e12a07f7d2ba3ba",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/agents/openai.yaml",
+      "source_sha256": "b3aaa4257b3cf2afafb2f594798095162967e9825e33e5b0260f956bd868f29b",
+      "published_sha256": "b3aaa4257b3cf2afafb2f594798095162967e9825e33e5b0260f956bd868f29b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/evidence-boundaries.md",
+      "source_sha256": "f5167dea6cf06a6253c405b272aa55c324479e70cc527ad8b81bdccf4150a560",
+      "published_sha256": "f5167dea6cf06a6253c405b272aa55c324479e70cc527ad8b81bdccf4150a560",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/profile.md",
+      "source_sha256": "e2c8168e2b3b758ca7125d691cabcbb18c09b590bcb2c159ddd11348bd767e34",
+      "published_sha256": "e2c8168e2b3b758ca7125d691cabcbb18c09b590bcb2c159ddd11348bd767e34",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/SKILL.md",
+      "source_sha256": "06ed5b5257bde8ca43fcfa624fe6a7f1fa4d5fcf0fdfc8e0368de3824cb29ec4",
+      "published_sha256": "06ed5b5257bde8ca43fcfa624fe6a7f1fa4d5fcf0fdfc8e0368de3824cb29ec4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/agents/openai.yaml",
+      "source_sha256": "46fc0febc90c3716df62a189136d663da876e4ebd14065c14a1ebb94e9c95682",
+      "published_sha256": "46fc0febc90c3716df62a189136d663da876e4ebd14065c14a1ebb94e9c95682",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/evidence-boundaries.md",
+      "source_sha256": "f7b27a493c8fcd0f8ecf7851065af68d2306720b41a12c4190f508c2e919dfd9",
+      "published_sha256": "f7b27a493c8fcd0f8ecf7851065af68d2306720b41a12c4190f508c2e919dfd9",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/profile.md",
+      "source_sha256": "c946515d40b20da9a3b8fb11049f61cf649397206a50868e918a1d8af868b3dd",
+      "published_sha256": "c946515d40b20da9a3b8fb11049f61cf649397206a50868e918a1d8af868b3dd",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md",
+      "source_sha256": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6",
+      "published_sha256": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/_配套资料/沙丘2-v001/NOTICE.md",
+      "source_sha256": "fa409ba30621cd6234db836adbb27a658789e79d9c431e936813cae695e6f7b6",
+      "published_sha256": "fa409ba30621cd6234db836adbb27a658789e79d9c431e936813cae695e6f7b6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Jennifer Lame@v1.1.md",
+      "source_sha256": "6ab8de3a9621daa672536b008ee6e5fbd605c2917ea4077ef5a0babf3934593a",
+      "published_sha256": "6ab8de3a9621daa672536b008ee6e5fbd605c2917ea4077ef5a0babf3934593a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Joe Walker@v1.1.md",
+      "source_sha256": "1d137557595c1439501d30022e50512e50feb7c68083251b7ca4e2e7e812f4ba",
+      "published_sha256": "1d137557595c1439501d30022e50512e50feb7c68083251b7ca4e2e7e812f4ba",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Kirk Baxter ／ Angus Wall@v1.1.md",
+      "source_sha256": "474faa18147823631592e52589388c9b34ad371655bb3f9ad91566baac05e286",
+      "published_sha256": "474faa18147823631592e52589388c9b34ad371655bb3f9ad91566baac05e286",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Margaret Sixel@v1.1.md",
+      "source_sha256": "8816da1e3235523fed65ba048800fb8c120f3ed4766a864f0afc07314d3795b3",
+      "published_sha256": "8816da1e3235523fed65ba048800fb8c120f3ed4766a864f0afc07314d3795b3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Michael Kahn@v1.1.md",
+      "source_sha256": "86a683b9ac8ac8f8db5f65e33abc9ee3143653ec1527cfef577325ecf161e31d",
+      "published_sha256": "86a683b9ac8ac8f8db5f65e33abc9ee3143653ec1527cfef577325ecf161e31d",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Thelma Schoonmaker@v1.1.md",
+      "source_sha256": "9d0b45a2183178350a886f9e26697aa6ecde21d30742e9107109fa09a8d08004",
+      "published_sha256": "9d0b45a2183178350a886f9e26697aa6ecde21d30742e9107109fa09a8d08004",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Walter Murch@v1.1.md",
+      "source_sha256": "dfa0170e7c0b7c9ff3eafa1dc872635a8e13ebedb259c65c3519a24b7adbc2ab",
+      "published_sha256": "dfa0170e7c0b7c9ff3eafa1dc872635a8e13ebedb259c65c3519a24b7adbc2ab",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/《沙丘2》导演风格 Profile@v001.md",
+      "source_sha256": "f985cfbfbde3963c12c53bda17d5a054cc3bf52392d864ebe30c80e1ec9d5188",
+      "published_sha256": "f985cfbfbde3963c12c53bda17d5a054cc3bf52392d864ebe30c80e1ec9d5188",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/丹尼斯・维伦纽瓦@v1.1.md",
+      "source_sha256": "52321671f88c81e4e7e2040d5f4b737238d86a64797944e9730bfed4144a105e",
+      "published_sha256": "52321671f88c81e4e7e2040d5f4b737238d86a64797944e9730bfed4144a105e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/大卫・芬奇@v1.1.md",
+      "source_sha256": "95dce299c6b8c9a1c9deb9f4714c39aa7d35ad3c1457d5e2dae96fe8dd156b7a",
+      "published_sha256": "95dce299c6b8c9a1c9deb9f4714c39aa7d35ad3c1457d5e2dae96fe8dd156b7a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/奉俊昊@v1.1.md",
+      "source_sha256": "ff3d28638fa23485a50e8c7f8ec8da0b597ea080d63cbcb2c30c3426d4fdadc5",
+      "published_sha256": "ff3d28638fa23485a50e8c7f8ec8da0b597ea080d63cbcb2c30c3426d4fdadc5",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/王家卫@v1.1.md",
+      "source_sha256": "166582af6c4c1554846ea9d62c72b50b517ae4c52866ca5ff78eaec4e664f09b",
+      "published_sha256": "166582af6c4c1554846ea9d62c72b50b517ae4c52866ca5ff78eaec4e664f09b",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/阿方索・卡隆@v1.1.md",
+      "source_sha256": "972af00f63936af0d227556303c117695106d5c418e0937a89bc6ec1cf9c9727",
+      "published_sha256": "972af00f63936af0d227556303c117695106d5c418e0937a89bc6ec1cf9c9727",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/《沙丘2》摄影风格 Profile@v001.md",
+      "source_sha256": "16e6d14c5a59236184ebe16ceb72133dcadd0c4fe19a4e1c94509b2038066da6",
+      "published_sha256": "16e6d14c5a59236184ebe16ceb72133dcadd0c4fe19a4e1c94509b2038066da6",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/布拉德福德・杨@v1.1.md",
+      "source_sha256": "6ddd874ed53d20e740b1d2718d71c2ab6a7308cc9a235686100157edd443a268",
+      "published_sha256": "6ddd874ed53d20e740b1d2718d71c2ab6a7308cc9a235686100157edd443a268",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/戈登・威利斯@v1.1.md",
+      "source_sha256": "af364a6597487b96dd3d280d584ca5c9ba1c217f77357b13e56f87026a544570",
+      "published_sha256": "af364a6597487b96dd3d280d584ca5c9ba1c217f77357b13e56f87026a544570",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/罗杰・迪金斯@v1.1.md",
+      "source_sha256": "e9407e38f76db4ef528da8754f59d1cb4a9f39d26dd59a9c10a4726f87fb877e",
+      "published_sha256": "e9407e38f76db4ef528da8754f59d1cb4a9f39d26dd59a9c10a4726f87fb877e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/艾曼努尔・卢贝茨基@v1.1.md",
+      "source_sha256": "884d8ab265fb4a028f6285b570ac6d9566bbf4b82f3a5ed8485eb0bcd6d7c0df",
+      "published_sha256": "884d8ab265fb4a028f6285b570ac6d9566bbf4b82f3a5ed8485eb0bcd6d7c0df",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/霍伊特・范・霍特玛@v1.1.md",
+      "source_sha256": "cccd8691f6e633d4fc9d7a27d3e5e25acf25158849690deef80a3ff9e92848f4",
+      "published_sha256": "cccd8691f6e633d4fc9d7a27d3e5e25acf25158849690deef80a3ff9e92848f4",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/灯光/《沙丘2》光影风格 Profile@v001.md",
+      "source_sha256": "5626fbcdcbc9cd05eedf96a998837e4769390a8c6957eca1b78d5f2ed823cc12",
+      "published_sha256": "5626fbcdcbc9cd05eedf96a998837e4769390a8c6957eca1b78d5f2ed823cc12",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Aaron Sorkin@v1.1.md",
+      "source_sha256": "9cbdda284249fa6767d1128f9f133080872c65513045beb774cd5d3679ef6d29",
+      "published_sha256": "9cbdda284249fa6767d1128f9f133080872c65513045beb774cd5d3679ef6d29",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Billy Wilder ／ I. A. L. Diamond@v1.1.md",
+      "source_sha256": "b140d25d6abeeca5732daad242e584b892e62c8e6ac5c14ba04b7f57026d44d3",
+      "published_sha256": "b140d25d6abeeca5732daad242e584b892e62c8e6ac5c14ba04b7f57026d44d3",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Robert Towne@v1.1.md",
+      "source_sha256": "81590b03c8b90d24b7709e8344ecd8d6fff153156f68c0397019b5bcdad13a4e",
+      "published_sha256": "81590b03c8b90d24b7709e8344ecd8d6fff153156f68c0397019b5bcdad13a4e",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/奉俊昊／韩进元@v1.1.md",
+      "source_sha256": "c0af8ee8dd6457ddda13847f54f8637b2d2803d42339a4a10b098445200e1ac1",
+      "published_sha256": "c0af8ee8dd6457ddda13847f54f8637b2d2803d42339a4a10b098445200e1ac1",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Adam Stockhausen@v1.1.md",
+      "source_sha256": "01630d068f343b87e1e3d876a8e457da4ae7c9c360177412467bb1d1a7f3fc00",
+      "published_sha256": "01630d068f343b87e1e3d876a8e457da4ae7c9c360177412467bb1d1a7f3fc00",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Dante Ferretti@v1.1.md",
+      "source_sha256": "1501c80fdf23e55d49a9512039cdb2d6ce535d349bef1c726812cca2b36edd27",
+      "published_sha256": "1501c80fdf23e55d49a9512039cdb2d6ce535d349bef1c726812cca2b36edd27",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Dennis Gassner@v1.1.md",
+      "source_sha256": "45f301a7f48ef12ca30549f83e73aaa72bf7dd932360c3f0c543a1492c6a74d7",
+      "published_sha256": "45f301a7f48ef12ca30549f83e73aaa72bf7dd932360c3f0c543a1492c6a74d7",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Nathan Crowley@v1.1.md",
+      "source_sha256": "062dce8b7538bc07e2052f52b09d9634536b4c2f17def6a5fbedfb7003741e7a",
+      "published_sha256": "062dce8b7538bc07e2052f52b09d9634536b4c2f17def6a5fbedfb7003741e7a",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Patrice Vermette@v1.1.md",
+      "source_sha256": "fe84542fbc94a411c50667694f49d91a1cf3a3a21dea1a52730f1da394c1adae",
+      "published_sha256": "fe84542fbc94a411c50667694f49d91a1cf3a3a21dea1a52730f1da394c1adae",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Sarah Greenwood@v1.1.md",
+      "source_sha256": "8c9600d732b32d51ca36d011ced22f1df72771002c0ca7fcb88d4ce65c56ce2c",
+      "published_sha256": "8c9600d732b32d51ca36d011ced22f1df72771002c0ca7fcb88d4ce65c56ce2c",
+      "status": "原字节保留"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/表演/《沙丘2》表演风格 Profile@v001.md",
+      "source_sha256": "90e0bf5181079529c3e54e50b6ac1d8ff4d6cad40726bb20341a426f7a52c7ab",
+      "published_sha256": "90e0bf5181079529c3e54e50b6ac1d8ff4d6cad40726bb20341a426f7a52c7ab",
+      "status": "原字节保留"
+    },
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "5305dfb2be47d2d47e5d7974a585696ff8b135972895c5db579b9b85b9a6018d",
+      "published_sha256": "2ada9587bfcfcd88cab94362f3effdd0a0deb36689a8e1db1a4e44a355bbd265",
+      "status": "跨电脑使用入口更新"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "90834f47a6da9ea1c07de27ada5727226cd5003fa195c228dbf40a612cc8f294",
+      "published_sha256": "51c74e5cae14244a28aa36e50200592fcf27466334e704bdd8a9fbac2a1aff37",
+      "status": "跨电脑使用入口更新"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 74,
+      "sha256": "500ad066e863240d279b9316826dde067d20ae8b70ab918fb1ecbfaba041148e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "d39024038515ff692833ef74896d89995d065996920fccc3c5b2ff6bd46cb262"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3105,
+      "sha256": "2ada9587bfcfcd88cab94362f3effdd0a0deb36689a8e1db1a4e44a355bbd265"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3763,
+      "sha256": "51c74e5cae14244a28aa36e50200592fcf27466334e704bdd8a9fbac2a1aff37"
+    },
+    {
+      "path": "启动工作流.md",
+      "bytes": 3177,
+      "sha256": "7239bd79c9f05dbd39f7313144dfb20d4056b8fb7aee78de89ebb455b5b3dd2d"
+    },
+    {
+      "path": "安装到这台电脑.ps1",
+      "bytes": 514,
+      "sha256": "11b3105de685f54289d30fed88def77cb13bb6832ee19377c909e413b610537d"
+    },
+    {
+      "path": "安装工作流.py",
+      "bytes": 9360,
+      "sha256": "d48107424e256dd555ceb991a55bbc7295aefd838ec787bd4f28fb8e10e85cdc"
+    },
+    {
+      "path": "共享能力库/catalog.json",
+      "bytes": 54451,
+      "sha256": "75fbeb5e87b4952522aab0d812dacb3597a21dc645324974be89109ff1f604e4"
+    },
+    {
+      "path": "共享能力库/入库来源.json",
+      "bytes": 21102,
+      "sha256": "81f3ea9e618de6186ba226384e2917c9edcf0dbaea6c343efabce985aaddb858"
+    },
+    {
+      "path": "共享能力库/入库校验.json",
+      "bytes": 2589,
+      "sha256": "a8906b6e59c18caa1d308d24cb04e1663fc0c0fa9fec1bac6af95a7595947e41"
+    },
+    {
+      "path": "共享能力库/接入回执.md",
+      "bytes": 2014,
+      "sha256": "217d791d195667b42b738ca926d0048700ca874dcdc8cad1787fd399eef322e2"
+    },
+    {
+      "path": "共享能力库/接入索引.json",
+      "bytes": 28379,
+      "sha256": "52406f1f08911af4b67f9cf335b4ac9818e9bacd905153076604409ef5a38d2a"
+    },
+    {
+      "path": "共享能力库/目录.md",
+      "bytes": 13111,
+      "sha256": "2918347097f2c67684867b52e7646e20691b3765d2c3907a568806344b219996"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/SOURCE.md",
+      "bytes": 3061,
+      "sha256": "329314f75e5eef6dc8bf08e75b76c6533df39b9c1e2ef83e3f0db799631ac4c7"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/SKILL.md",
+      "bytes": 2623,
+      "sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/agents/openai.yaml",
+      "bytes": 240,
+      "sha256": "7770c9d784b7251ab882ee29a738219a3f01811e57ba7fc7822fa83eb8438c1a"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/base-en.txt",
+      "bytes": 15773,
+      "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc"
+    },
+    {
+      "path": "共享能力库/专业 Skill/Prompt 装配与模型适配/MiniMax-H3/d21241f0a4b3/h3-prompt-writing/references/ref-en.txt",
+      "bytes": 23553,
+      "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/SKILL.md",
+      "bytes": 2856,
+      "sha256": "2f69a9fee7df27f6d98ac51e8d62a167a5ed04111c697dba912b7149187742de"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/agents/openai.yaml",
+      "bytes": 293,
+      "sha256": "3776c8c5e35c48a16bbfc8788e75db0b2390b37b6e794724e5dbf5d7c252fb81"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/evidence-boundaries.md",
+      "bytes": 1462,
+      "sha256": "e26c2e6029b4ab8d7442eb9e8fc843f5ebce656e547d361b48d16287e3aa6cb1"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/dune2-directing-style/v001/references/profile.md",
+      "bytes": 5271,
+      "sha256": "111a075023d2d667c0f89b45d35e72179677e3fce4a8dfcb936fa10f171ad364"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SKILL.md",
+      "bytes": 6229,
+      "sha256": "7b6b5df5373e7513b73d86a6c9553bc317c4583d2c1f52c65db40ce16984b5a0"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
+      "bytes": 1663,
+      "sha256": "7b3280681370c05e5f47495c9661bbf06f97ca2be8dcf0358ef9d7940e07dc4e"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/agents/openai.yaml",
+      "bytes": 346,
+      "sha256": "14296912621df7c692fa7ce099ef65e29ac94902d3aea3fdf8352342b89d634c"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/decision-qa.md",
+      "bytes": 4351,
+      "sha256": "897840e523f88e14027093d73267f4c081249ee694af7dd7e96b27edd870c9ab"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/evidence-ledger.md",
+      "bytes": 3243,
+      "sha256": "5336c8349a536c2324c1e400b41c11ee3b217ec448ecbdd6aa7ad19b3fbb258b"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/production-recipes.md",
+      "bytes": 2975,
+      "sha256": "23c3e5f19f9e877a4ae153b09685d20624d5a9ee28304e138dcb3521e041576b"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md",
+      "bytes": 7389,
+      "sha256": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/SKILL.md",
+      "bytes": 2704,
+      "sha256": "d7c2554d525ebcc556e784bd89f027155a6e238bedf06b7e87246b094a11392e"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/agents/openai.yaml",
+      "bytes": 273,
+      "sha256": "c8a1c122bce6da580083c8561c86be0a3db0e3061b5213211ac6292836524bd5"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/evidence-boundaries.md",
+      "bytes": 1433,
+      "sha256": "6adb45ca99de585ee9d4b863242181da4426fc7748f8885b2f67a692426218a0"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/摄影/dune2-cinematography-style/v001/references/profile.md",
+      "bytes": 4944,
+      "sha256": "c047547a917f6441386243b463a74b135e69f738270cb905485707c51e091e5a"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/SKILL.md",
+      "bytes": 2684,
+      "sha256": "c63abfb675c721ab598e4a1e9c470628399552567be9ed239e12a07f7d2ba3ba"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/agents/openai.yaml",
+      "bytes": 281,
+      "sha256": "b3aaa4257b3cf2afafb2f594798095162967e9825e33e5b0260f956bd868f29b"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/evidence-boundaries.md",
+      "bytes": 1470,
+      "sha256": "f5167dea6cf06a6253c405b272aa55c324479e70cc527ad8b81bdccf4150a560"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/灯光/dune2-lighting-style/v001/references/profile.md",
+      "bytes": 5119,
+      "sha256": "e2c8168e2b3b758ca7125d691cabcbb18c09b590bcb2c159ddd11348bd767e34"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/SKILL.md",
+      "bytes": 2721,
+      "sha256": "06ed5b5257bde8ca43fcfa624fe6a7f1fa4d5fcf0fdfc8e0368de3824cb29ec4"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/agents/openai.yaml",
+      "bytes": 291,
+      "sha256": "46fc0febc90c3716df62a189136d663da876e4ebd14065c14a1ebb94e9c95682"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/evidence-boundaries.md",
+      "bytes": 1369,
+      "sha256": "f7b27a493c8fcd0f8ecf7851065af68d2306720b41a12c4190f508c2e919dfd9"
+    },
+    {
+      "path": "共享能力库/专业 Skill/创作方法与风格应用/表演/dune2-performance-style/v001/references/profile.md",
+      "bytes": 6092,
+      "sha256": "c946515d40b20da9a3b8fb11049f61cf649397206a50868e918a1d8af868b3dd"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/_配套资料/沙丘2-v001/00-证据审计与适用边界.md",
+      "bytes": 5806,
+      "sha256": "e5097e5683056b617318b717c9d5738e9f446a0b3a5699464cfe4f3d2deb0ad6"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/_配套资料/沙丘2-v001/NOTICE.md",
+      "bytes": 533,
+      "sha256": "fa409ba30621cd6234db836adbb27a658789e79d9c431e936813cae695e6f7b6"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Jennifer Lame@v1.1.md",
+      "bytes": 3263,
+      "sha256": "6ab8de3a9621daa672536b008ee6e5fbd605c2917ea4077ef5a0babf3934593a"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Joe Walker@v1.1.md",
+      "bytes": 3252,
+      "sha256": "1d137557595c1439501d30022e50512e50feb7c68083251b7ca4e2e7e812f4ba"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Kirk Baxter ／ Angus Wall@v1.1.md",
+      "bytes": 3282,
+      "sha256": "474faa18147823631592e52589388c9b34ad371655bb3f9ad91566baac05e286"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Margaret Sixel@v1.1.md",
+      "bytes": 3308,
+      "sha256": "8816da1e3235523fed65ba048800fb8c120f3ed4766a864f0afc07314d3795b3"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Michael Kahn@v1.1.md",
+      "bytes": 3246,
+      "sha256": "86a683b9ac8ac8f8db5f65e33abc9ee3143653ec1527cfef577325ecf161e31d"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Thelma Schoonmaker@v1.1.md",
+      "bytes": 3406,
+      "sha256": "9d0b45a2183178350a886f9e26697aa6ecde21d30742e9107109fa09a8d08004"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/剪辑/Walter Murch@v1.1.md",
+      "bytes": 3384,
+      "sha256": "dfa0170e7c0b7c9ff3eafa1dc872635a8e13ebedb259c65c3519a24b7adbc2ab"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/《沙丘2》导演风格 Profile@v001.md",
+      "bytes": 6537,
+      "sha256": "f985cfbfbde3963c12c53bda17d5a054cc3bf52392d864ebe30c80e1ec9d5188"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/丹尼斯・维伦纽瓦@v1.1.md",
+      "bytes": 3808,
+      "sha256": "52321671f88c81e4e7e2040d5f4b737238d86a64797944e9730bfed4144a105e"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/大卫・芬奇@v1.1.md",
+      "bytes": 3860,
+      "sha256": "95dce299c6b8c9a1c9deb9f4714c39aa7d35ad3c1457d5e2dae96fe8dd156b7a"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/奉俊昊@v1.1.md",
+      "bytes": 3720,
+      "sha256": "ff3d28638fa23485a50e8c7f8ec8da0b597ea080d63cbcb2c30c3426d4fdadc5"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/王家卫@v1.1.md",
+      "bytes": 3795,
+      "sha256": "166582af6c4c1554846ea9d62c72b50b517ae4c52866ca5ff78eaec4e664f09b"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/导演/阿方索・卡隆@v1.1.md",
+      "bytes": 4026,
+      "sha256": "972af00f63936af0d227556303c117695106d5c418e0937a89bc6ec1cf9c9727"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/《沙丘2》摄影风格 Profile@v001.md",
+      "bytes": 6983,
+      "sha256": "16e6d14c5a59236184ebe16ceb72133dcadd0c4fe19a4e1c94509b2038066da6"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/布拉德福德・杨@v1.1.md",
+      "bytes": 3824,
+      "sha256": "6ddd874ed53d20e740b1d2718d71c2ab6a7308cc9a235686100157edd443a268"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/戈登・威利斯@v1.1.md",
+      "bytes": 3703,
+      "sha256": "af364a6597487b96dd3d280d584ca5c9ba1c217f77357b13e56f87026a544570"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/罗杰・迪金斯@v1.1.md",
+      "bytes": 3817,
+      "sha256": "e9407e38f76db4ef528da8754f59d1cb4a9f39d26dd59a9c10a4726f87fb877e"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/艾曼努尔・卢贝茨基@v1.1.md",
+      "bytes": 3863,
+      "sha256": "884d8ab265fb4a028f6285b570ac6d9566bbf4b82f3a5ed8485eb0bcd6d7c0df"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/摄影/霍伊特・范・霍特玛@v1.1.md",
+      "bytes": 3884,
+      "sha256": "cccd8691f6e633d4fc9d7a27d3e5e25acf25158849690deef80a3ff9e92848f4"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/灯光/《沙丘2》光影风格 Profile@v001.md",
+      "bytes": 7203,
+      "sha256": "5626fbcdcbc9cd05eedf96a998837e4769390a8c6957eca1b78d5f2ed823cc12"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Aaron Sorkin@v1.1.md",
+      "bytes": 3292,
+      "sha256": "9cbdda284249fa6767d1128f9f133080872c65513045beb774cd5d3679ef6d29"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Billy Wilder ／ I. A. L. Diamond@v1.1.md",
+      "bytes": 3319,
+      "sha256": "b140d25d6abeeca5732daad242e584b892e62c8e6ac5c14ba04b7f57026d44d3"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/Robert Towne@v1.1.md",
+      "bytes": 3257,
+      "sha256": "81590b03c8b90d24b7709e8344ecd8d6fff153156f68c0397019b5bcdad13a4e"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/编剧／剧作/奉俊昊／韩进元@v1.1.md",
+      "bytes": 3244,
+      "sha256": "c0af8ee8dd6457ddda13847f54f8637b2d2803d42339a4a10b098445200e1ac1"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Adam Stockhausen@v1.1.md",
+      "bytes": 3324,
+      "sha256": "01630d068f343b87e1e3d876a8e457da4ae7c9c360177412467bb1d1a7f3fc00"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Dante Ferretti@v1.1.md",
+      "bytes": 3314,
+      "sha256": "1501c80fdf23e55d49a9512039cdb2d6ce535d349bef1c726812cca2b36edd27"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Dennis Gassner@v1.1.md",
+      "bytes": 3332,
+      "sha256": "45f301a7f48ef12ca30549f83e73aaa72bf7dd932360c3f0c543a1492c6a74d7"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Nathan Crowley@v1.1.md",
+      "bytes": 3376,
+      "sha256": "062dce8b7538bc07e2052f52b09d9634536b4c2f17def6a5fbedfb7003741e7a"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Patrice Vermette@v1.1.md",
+      "bytes": 3442,
+      "sha256": "fe84542fbc94a411c50667694f49d91a1cf3a3a21dea1a52730f1da394c1adae"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/美术/Sarah Greenwood@v1.1.md",
+      "bytes": 3447,
+      "sha256": "8c9600d732b32d51ca36d011ced22f1df72771002c0ca7fcb88d4ce65c56ce2c"
+    },
+    {
+      "path": "共享能力库/大师／作品 Profile/表演/《沙丘2》表演风格 Profile@v001.md",
+      "bytes": 9101,
+      "sha256": "90e0bf5181079529c3e54e50b6ac1d8ff4d6cad40726bb20341a426f7a52c7ab"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/README.md",
+      "bytes": 3881,
+      "sha256": "5039efa19fb91a340fd48a130e79fa2f80a02d4e901b5b2ae160f56b512837b7"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作、接入与联调报告.md",
+      "bytes": 6068,
+      "sha256": "83670eddc2a4a8d898f4e771e2b1322db8e25e24cf1e8a917a3b479d09b31088"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-asset-control/SKILL.md",
+      "bytes": 2708,
+      "sha256": "2ec2864f7096edd8059a040f5dd26b5fa3b474d6d8a6ed35379034e184f42d3b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-asset-priority/SKILL.md",
+      "bytes": 2760,
+      "sha256": "9f3c63e9a962638155549d9fe575e8b1e435982e604538febc1b031967b3064b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-capability-builder/SKILL.md",
+      "bytes": 3026,
+      "sha256": "c45ac7fadc6d0f855a276560a017308e3b8d02f7e0568ee70c44a8e8eeb672eb"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-character-assets/SKILL.md",
+      "bytes": 2823,
+      "sha256": "d2c42476e0e7c9cc44843a45ad9a5433f75343b25e9ee6f878dbaddcd9c3aad8"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-consultant/SKILL.md",
+      "bytes": 2771,
+      "sha256": "f3c959f2a394f3caf6a762cadf779de3a51c93939462f9fb4d855ff55df95497"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/SKILL.md",
+      "bytes": 2685,
+      "sha256": "5f09139ef1b41750f2b95457ef00865963eb213fde7ba8efbeba9417b1140086"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/bindings.json",
+      "bytes": 18132,
+      "sha256": "46953c57791457ddcaa179922d00181e0e5899314cb4bff26cfafd21334bd93f"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/roles.json",
+      "bytes": 6212,
+      "sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/roles.md",
+      "bytes": 2089,
+      "sha256": "5edfc9ad3e0c12353f158704d885d59f2075c6020b10c0124ae4287ee769e5d9"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-control/references/runtime.md",
+      "bytes": 2980,
+      "sha256": "4a91633b526f61fb25f32520295bb2058ea40efe87488538923280a906a2acf5"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-creature-assets/SKILL.md",
+      "bytes": 2889,
+      "sha256": "5814416aaafbbbe4cc6b9edc989773b2691a4ac8325d94f7e4b5db41f71931a0"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/SKILL.md",
+      "bytes": 3133,
+      "sha256": "f924dabd3c9db8b398227bc8511cc96180533ccacff34a634bab5885daf61291"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/references/operations.md",
+      "bytes": 3857,
+      "sha256": "efc45385669325909286a69e31f958dfa1ebd2b8750540074bae9de6e9c6efa0"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-library/scripts/library.py",
+      "bytes": 6401,
+      "sha256": "a7c8550eb7d793b42d94f2da9f40fec6c630aa554eb5ce76e7ede8648af19ebe"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-preproduction-control/SKILL.md",
+      "bytes": 2686,
+      "sha256": "6faab3aab4aaae705bce3c71cbe424fd6a75714422afa1585f7cb4571d28b70d"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-production-control/SKILL.md",
+      "bytes": 2683,
+      "sha256": "f729322a73ce005cb6c9d15999a32cfd09cc822502bf65ec8fb210549dc4ad28"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-professional-control/SKILL.md",
+      "bytes": 3096,
+      "sha256": "91a11beeeb85a01f651beb7df636026bdc454256944b11a9ec4d9466778ab0d1"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-project-style/SKILL.md",
+      "bytes": 2718,
+      "sha256": "a4790357b2faa8d1b75ff7bf68c1f5f6d573d9bfd6a7c52e63eedaf51191a0c0"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-prop-assets/SKILL.md",
+      "bytes": 2799,
+      "sha256": "9a3dc3e50babfebd42ad9798ae50e1e8488d4a327e82d0ba51e7a9aa31040277"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-registry/SKILL.md",
+      "bytes": 2750,
+      "sha256": "7d9b8be61e2cac90f776e09fde8f75cd7eeb67177c6d7d534a633a72b5705fa4"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-assets/SKILL.md",
+      "bytes": 2759,
+      "sha256": "8a31b4c11904ade137a3630c3738c2eb30475ce9d3f4f7c845c25d8e62cae87b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/SKILL.md",
+      "bytes": 3030,
+      "sha256": "fe1b752f05e9d5c0312c6633605e1e2a3b218ee2e6a098f5380ca2e959e669df"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/references/snapshots.md",
+      "bytes": 1369,
+      "sha256": "23508879bb167fe6ef5bb4132dc6d9b7f63ba267024d16a9b71a9cc9c72b00b6"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-scene-design/scripts/snapshot.py",
+      "bytes": 1521,
+      "sha256": "d474fc7b38c31a3b0082c13e77097fc4ed5fabe0fd8f2a9f2a0910b24feeeee3"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-script-breakdown/SKILL.md",
+      "bytes": 2747,
+      "sha256": "5f7adcb228e7e3ab243923b35974fb41b8e8ab1c1eea8f0f62ffc948ccadabd9"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-shot-control/SKILL.md",
+      "bytes": 2754,
+      "sha256": "786f4927d7ea717e7abfb60a7b07fe3dd9f4a0f17c486db9b8b3f92c9f5b76aa"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-shot-design/SKILL.md",
+      "bytes": 3136,
+      "sha256": "56382c71f09151dce93237f69c093087f2eaad633863bf2f8c01fb6ad193362f"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-vfx-assets/SKILL.md",
+      "bytes": 2768,
+      "sha256": "03e48700e931ab64995345cee68268a2c158c6f6de977eba2d6d3a118a4b4129"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-video-prompt/SKILL.md",
+      "bytes": 3444,
+      "sha256": "24f67c8937e359283db59d26ff90cf57b2cab6ee35757603297165dc2ad9e8b8"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/skills/xcflow-voice-assets/SKILL.md",
+      "bytes": 2773,
+      "sha256": "b4e80844d31b95e4c5335e8c2eae2ba4ca92a6a73fdfaa1f74138ae89aac7a3d"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/build.py",
+      "bytes": 18756,
+      "sha256": "0aeb20e2fa9898d02be411a9186474c040e8b3a79f7ebbee265bc97d4605de39"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/deploy.py",
+      "bytes": 569,
+      "sha256": "5fd05b5b94da5a94dbf25374f271bbd7de4b8fb81ffd9dc483891019d7a42b69"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/discover.py",
+      "bytes": 4248,
+      "sha256": "e85147aef2a82cd3278eff591b38ddbfc470e824a562b4ac3e42aab62a0f86f2"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/integration_check.py",
+      "bytes": 9310,
+      "sha256": "cc9cf008490bd98c84c6574a92e05cd330d9aacd601a53295cb4d40fc8ffee7f"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/制作与检查/岗位清单.json",
+      "bytes": 6212,
+      "sha256": "a1ce80051f10f3475b9b04b8a1a219baf05d70a8f9da3651a2ba5cafedfdfd0b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/H3候选.json",
+      "bytes": 2051,
+      "sha256": "cc3e2641d99928a3e4b962d4f3e2537fb0abba774bcc6abf6d03238a5d2d6400"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/Seedance2.0-装配结果.md",
+      "bytes": 4362,
+      "sha256": "8341e2be5bcd23769bb4dee9bd802217eb769b575a8416a28046c7515eb59c56"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/共享能力回接与场戏结果.md",
+      "bytes": 3665,
+      "sha256": "69c4f859a1e4f9a5bc8a66fae89cfb4cbe821557b93491079acae45ae1244585"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/原始任务.md",
+      "bytes": 4842,
+      "sha256": "94801edef3a3637e7efaac4e9fe8b599612d897fda78fd32278c8531c01f55b0"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V01.md",
+      "bytes": 2404,
+      "sha256": "9ce85b3efeb5c94d55707351be6dae9d54668a4571cd321d884d7a86bdcb8afc"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V02.md",
+      "bytes": 3664,
+      "sha256": "9e06308f7f46a16912b02c7acd4d31dea5e2e39aa86e119569a5fb24f725b3d1"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/场戏锚点-V03.md",
+      "bytes": 3949,
+      "sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/导演候选.json",
+      "bytes": 15917,
+      "sha256": "fdfdaee2b83b0af49373a2160507e1c5f42787bd4d32aa08cb2c095ad7c040e9"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/指定版本交付.json",
+      "bytes": 25675,
+      "sha256": "939317f67a4aa8ba1fe2d4597e9e695310d1aee3cd20610c4daa00ac58cb6666"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/能力建设交接.md",
+      "bytes": 1672,
+      "sha256": "eb52a6aa2dff5d66d076e37445d2fdc61930d60aa41deccaff6b62523bead28f"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/资产优先级表.md",
+      "bytes": 423,
+      "sha256": "9795d9f853d15f18876f1c0c9f1aa2b44cdf2b6aba8a437663aefe259300ba36"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/选择记录.json",
+      "bytes": 578,
+      "sha256": "90499d3f0d353e73ac3bf869eaee243bbc57243a10b379e5a7b85310e71e8cac"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点回读-V02.json",
+      "bytes": 4102,
+      "sha256": "fa95a3f4731956056c031fed803f267829dd10d1770d4de88afd397a66b7c192"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点回读-V03.json",
+      "bytes": 4387,
+      "sha256": "c629600881797b5836c30827d6baf9ac04becf867fbdcd2b377a967ab0a7ef66"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/锚点待保存.md",
+      "bytes": 3949,
+      "sha256": "04f1d26b0d15bc2bd4e3da0c2708cf0b06766bf5a6d04ddb55e889b895d82cfc"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离入库回执.json",
+      "bytes": 1334,
+      "sha256": "dc2dcf0abbd4f56db1a1146efac9d80d60bf1a294e6c4a0c17ea66293c58459a"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/能力建设候选/xcflow-test-visible-expression/SKILL.md",
+      "bytes": 1511,
+      "sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/catalog.json",
+      "bytes": 666,
+      "sha256": "80babbb505aa4dd57ec6275323e114387e58344ce5433f4d4d2db0bbb1fc6445"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/入库来源.json",
+      "bytes": 641,
+      "sha256": "6389ea1304217e9e6d8ede800a39b00f2786b2ba23e68aac65e73f0035ab4a3b"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/入库校验.json",
+      "bytes": 246,
+      "sha256": "56815a8f15c29473bda38ce70044465ce22bcca5d1032fd7107a57f9837c2842"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/实际情境联调/隔离测试库/专业 Skill/Prompt 装配与模型适配/xcflow-test-visible-expression/0.1-test/SKILL.md",
+      "bytes": 1511,
+      "sha256": "5cd922cdfaeffd9df4931063abf0ee798c00a3ac9efee2176b609af24a9d56e7"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/制作文件检查.json",
+      "bytes": 3663,
+      "sha256": "1f4164f9959e059940e2d61fffaa69095ad5e059dde40c065991f622961a6f33"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/安装后文件检查.json",
+      "bytes": 70,
+      "sha256": "0d87e359e63375dd907737f979c31d6755d090e93d5d809a493f3e26ba8bbdbc"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/安装回执.json",
+      "bytes": 12665,
+      "sha256": "caf29eac61516729527478e85ef495dd8f735b9ef8125e4f5b896573d2d410e3"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/宿主发现检查.json",
+      "bytes": 14946,
+      "sha256": "ac886d731b8c78e41adfa4512ff2cb021f791ff09c0faaa90275e88c74ef48f1"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/待接入索引.json",
+      "bytes": 28290,
+      "sha256": "e67a107f1ea20eed9f9ee1ff833d21a169c35d8670a7b883f51de89785fdad63"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入保护核验.json",
+      "bytes": 216,
+      "sha256": "7406360da40234527a991d7aafb7b5abd840e24518fd789ab242363e48ca8f38"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前-catalog.json",
+      "bytes": 52609,
+      "sha256": "4bb3b01ea125c5b3118a23a2f9f9195bd9ff175437eb5a01a5e786ee0a9e2082"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前-目录.md",
+      "bytes": 12802,
+      "sha256": "6edecced1b5f3da4d95d0a1f8df0669c60b430b466293580c11a1584d40d8ba2"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/接入前保护记录.json",
+      "bytes": 136436,
+      "sha256": "e7f3fe4be8edf119f7fd551c001a46c908a6fa2f350d034b95c662148375c934"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/文件行为联调.json",
+      "bytes": 4950,
+      "sha256": "ddcbfeb5ce96a4abe852576bed2436eee9ef5f95b89294799c5f91ad848beb25"
+    },
+    {
+      "path": "小虫的影视生产流-Skills/检查与联调记录/最终交付核验.json",
+      "bytes": 420,
+      "sha256": "610452453c7278cd856552917c71eb531ff8de7d1a853fc57d0763725c143451"
+    },
+    {
+      "path": "影视生产系统规范/README.md",
+      "bytes": 2259,
+      "sha256": "0e12e4ba41dc9deadc93bda80c949be809e7a719f1f47ea02e5167c7fa312f72"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/修订总览.md",
+      "bytes": 9091,
+      "sha256": "ca3e830a39b640ac6ea50249d1b6133da0c0aa7221f37320a0b82839e9e572bc"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/岗位职责.md",
+      "bytes": 5185,
+      "sha256": "0316894e54e15eae9d574dac18580f601456e2062e3aae3c462432c19228efba"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/执行流程.md",
+      "bytes": 23877,
+      "sha256": "a56179a69efafdbb8f8fee347c99c07d69fe08d91ed241bb7b2be2269bc628d3"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/分镜与镜头设计综合执行/输出约定.md",
+      "bytes": 16939,
+      "sha256": "eaa1f77e40616170e40fa2097705eca5011d85c8590f1bd102bf36c760aa7a84"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/岗位职责.md",
+      "bytes": 7491,
+      "sha256": "4decdba92a97a7c53b5dc76125471d5b7270622438d2b78cf7cf536b6af172ee"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/执行流程.md",
+      "bytes": 11795,
+      "sha256": "7ce49122ff3e403b3b8ece3d26f9888932c601563793b446c7efd844c77d618a"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/剧本与资产拆解/输出约定.md",
+      "bytes": 9519,
+      "sha256": "2bff79a141723b7d1625a60b652fa800f8300ccfb21b736a5f470c394b50b021"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/岗位职责.md",
+      "bytes": 5780,
+      "sha256": "6c386b7bea21f97a564b8aefd8a34d6dd8f12e6b41c6f507f31b959f21e4b5c3"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/执行流程.md",
+      "bytes": 13265,
+      "sha256": "4dbe53f8e35bdd97090d4e9010b3e83b50d7f19bfb1f6689e73c203ab43296b0"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/场戏设计综合执行/输出约定.md",
+      "bytes": 11632,
+      "sha256": "86d0a0e0b5c094a814606abbaf6c17148e5d4624ebccc9f7d18015f5b9144eaf"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/岗位职责.md",
+      "bytes": 5240,
+      "sha256": "ff38a6953c6301f1e6cb3881c449ca249b0a9c72a26c3bbcf14b108d95b0862c"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/执行流程.md",
+      "bytes": 13686,
+      "sha256": "c0220f4eac0d849fd089e5668e03acc49a2391b2c182590c03ece10f35ec4aad"
+    },
+    {
+      "path": "影视生产系统规范/局部修订_2026-09-04_提示词污染与防污染/视频生成综合执行/输出约定.md",
+      "bytes": 8800,
+      "sha256": "664cdf785cbcd06ed5adfa3aad1b8615bc8afde55a86bb14db48931c02787090"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/全文检查索引.md",
+      "bytes": 15735,
+      "sha256": "a72d1a8d8a4e743ab47ac4ddcb4209eb8be00421fc6ef6878bc8dc0d570ac40f"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/已确认补充条款.md",
+      "bytes": 22110,
+      "sha256": "6a003c8e17de50e6978d7a2515bf6c46c085946bd766d49f13f2bee8421feead"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/横向拉通检查报告.md",
+      "bytes": 22872,
+      "sha256": "63e1eb53b61dc50ffde406b4a968aae5c5599de4e661750e8b4a051b1f707efc"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/岗位职责.md",
+      "bytes": 4389,
+      "sha256": "8c0763d2f3b30eb1119a1b9ce098fef80424a6e4be0c3e0754cc93dccb6a8a34"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/执行流程.md",
+      "bytes": 10225,
+      "sha256": "40d6ebfcd04b4848eb5cf487b9d29dac1701648e6c6cc64fb302b99700fc87e4"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/VFX资产制作执行单元/输出约定.md",
+      "bytes": 3281,
+      "sha256": "20591af57e1d0d5216f05bc2bca05d0b44e9c3cc09f217b844e3be7a2c5c0a62"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/岗位职责.md",
+      "bytes": 2231,
+      "sha256": "4955c041030854f46da122097ce000c6ee0b94425e34cc42b1f917b06f4d0a3c"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/执行流程.md",
+      "bytes": 6705,
+      "sha256": "27c95af9361f000895de0f5255d3b1ca0b513732e997fb5dc535b2d180e9dc07"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业控制部/输出约定.md",
+      "bytes": 5332,
+      "sha256": "45eada510c4acbc710a58fdd81d07ec341849025fb67b7df1c767f46c9d231fb"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/岗位职责.md",
+      "bytes": 2832,
+      "sha256": "a877ea9bbd23e0f7b5683049a08b8b86bdcdba5c9e430106f5fe3fe42e8bced1"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/执行流程.md",
+      "bytes": 4288,
+      "sha256": "4f35a0803da0266e95c27b9aeb028f09f1f16d8b4112b71e15ddfe3de62b3793"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业能力建设单元/输出约定.md",
+      "bytes": 4234,
+      "sha256": "47a4dc7f6df1a01e3b8d4949a8c67e90b4a565f237264e2d9e1ec543457bb0dd"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/岗位职责.md",
+      "bytes": 2173,
+      "sha256": "e0e96fc2d6543b24c7e628bb762909ae9137ba0ae3c32b55e371c32ac28c532e"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/执行流程.md",
+      "bytes": 3283,
+      "sha256": "dc66318be97301d5137b76bfe398b5f2489bad0d4eabd1a2a8673b7a95a678b7"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/专业顾问单元/输出约定.md",
+      "bytes": 3480,
+      "sha256": "fc3d44107d10c876b811fa5534f2c8c3f88c4ece58cb79a2fd61e2078e2aac4b"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/岗位职责.md",
+      "bytes": 6175,
+      "sha256": "a9ea7f076974c884e63fef89f82fcf6f53c5e0646eebff87ffacfcd383c9f75e"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/执行流程.md",
+      "bytes": 14653,
+      "sha256": "135850d239b88e2142a44e9bb4e495199aa21d2cb0ba594d1626ad170a5d2b9e"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/人物资产制作执行单元/输出约定.md",
+      "bytes": 6743,
+      "sha256": "a6c0a08c4434c01a026ae3e6a158a0e84dd2efff75efe8d81ba3f71cd592d206"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/岗位职责.md",
+      "bytes": 5494,
+      "sha256": "5803eecfffe002b0dcc563fc1d69696fbe452079b9abcf9c9f0c585dac20430c"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/执行流程.md",
+      "bytes": 6291,
+      "sha256": "e3bfb931627652c815be34fcd8778675cd0a65e0f936029f9e9b2c58291824d5"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/共享能力库/输出约定.md",
+      "bytes": 6366,
+      "sha256": "0b27b0e96c2357fbf0fc31bdae78e7ff8c774df2708d42c68cdb9f090c0fbcdd"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/岗位职责.md",
+      "bytes": 6273,
+      "sha256": "af0488567aa9961be84b8b7e01715aaa009316b9b6cb03464f6fa960bd48e29e"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/执行流程.md",
+      "bytes": 24965,
+      "sha256": "79019dbaae615b4c6303be490080e6ce1803f47c7c7b504493142938a87702b8"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/分镜与镜头设计综合执行/输出约定.md",
+      "bytes": 18027,
+      "sha256": "3ab557291f497be4397f570a185a2d0efea8860d229c37d6c53e58a6f2e4c1a7"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/岗位职责.md",
+      "bytes": 6014,
+      "sha256": "cde3b14c2e0ca05156f45f875270ec39aaa83cc883d3a5590ee4ecb8ab31b0a4"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/执行流程.md",
+      "bytes": 9720,
+      "sha256": "560cd88456d910d467092d3ffee001bdba4e3fabd1cbbcd14c1241051a3026bb"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/前期准备分控/输出约定.md",
+      "bytes": 7317,
+      "sha256": "b2b7afcffb5d5021fae3e46cbe256b62ae39605621f5a7e0e277eefbe5324cc5"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/岗位职责.md",
+      "bytes": 8706,
+      "sha256": "ed4383a9822a82a945bc6b30313f271dfaff817f0dd9f297155ba468ac54ca08"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/执行流程.md",
+      "bytes": 13010,
+      "sha256": "6d655f4f2b8a909aa79c36c16b4dd708a563fa26c2e75352d332a42dfcb00fb1"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/剧本与资产拆解/输出约定.md",
+      "bytes": 10734,
+      "sha256": "295b04c5273ac20376aa921d60cf6b4ca9f2aa72a26c9b0340f8a534391f43b0"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/岗位职责.md",
+      "bytes": 6868,
+      "sha256": "937da6b958611373f47c29e2b83a580739ffc193858fb831eafd139ea9dab125"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/执行流程.md",
+      "bytes": 14353,
+      "sha256": "2d1b4ac0b1cbae2427cb7d0af2934a0d341c8013363fa51a34fac64b5efcc67b"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场戏设计综合执行/输出约定.md",
+      "bytes": 12720,
+      "sha256": "023f08c4348a1cf003d3a13a19e2bbfe2595927b85ab07121df7cd1f995a1fda"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/岗位职责.md",
+      "bytes": 6870,
+      "sha256": "f07594c3275ff8e6ece103b6c6aa09d23df13f9722578414e482b0040ba5ec8a"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/执行流程.md",
+      "bytes": 15683,
+      "sha256": "25cfe609f944499651d72d7fcddc5de476dbf82e75e5f274fd644c2257a718cf"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/场景资产制作执行单元/输出约定.md",
+      "bytes": 12380,
+      "sha256": "7496e0d882a47f1ae2b032d642ed61fe64dc97035e17dfceb4f81447d9c093b2"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/岗位职责.md",
+      "bytes": 3607,
+      "sha256": "03c3fbd4688db0397731a07ca78a7b63b9cee18505ff65d6180e8937bf6e3427"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/执行流程.md",
+      "bytes": 5758,
+      "sha256": "de495bca110a084078aef5beb8ff6c8dd4d5a18c4ad1543c413f62c9f854eca0"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/影视镜头生产分控/输出约定.md",
+      "bytes": 6647,
+      "sha256": "f1e41556838065c7a004aa65b6c53d510309c66afdc59f7b9fb0c3e772c2e5c0"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/岗位职责.md",
+      "bytes": 8647,
+      "sha256": "b012e1142597125c95e8ba4bb2dae78d4e2efd54a64725f2c033a4e3900863a2"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/执行流程.md",
+      "bytes": 8834,
+      "sha256": "6ef01de4cc05f617da19ae29a6c6183f02117ce1938c63a1e8b560da23cc6919"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/总控/输出约定.md",
+      "bytes": 7999,
+      "sha256": "f1eedbbfe2a14359cd2d6bcf9d311969bdc50a829d22526872853176e8ecd196"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/岗位职责.md",
+      "bytes": 7403,
+      "sha256": "0c6ab5aee6eede6f7e831ee9a39edb354a5cee02e32484ca089fce1aab353434"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/执行流程.md",
+      "bytes": 9001,
+      "sha256": "3a4ca95c850a0ee188023bf31586441388c13089ed0ebc4f167a7605ac6d1a79"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生产控制部/输出约定.md",
+      "bytes": 7377,
+      "sha256": "2309e00a830b08dd304e1087d9a7e03315074663445241c481ad579762a4ff65"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/岗位职责.md",
+      "bytes": 4201,
+      "sha256": "2e80451795d390e91c8c25440d636ce34b702c21c1c2b377026eb904744a0da5"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/执行流程.md",
+      "bytes": 12016,
+      "sha256": "2a6e6a5d86da0cdf39f1a95cf921c3d741fa2c3ce266d52f333fd11713f6b4a3"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/生物、怪物与形态变体资产制作执行单元/输出约定.md",
+      "bytes": 4613,
+      "sha256": "b98eadf03904c3d22477b720064f2a18c7acd101901240d031dab29093e97437"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/岗位职责.md",
+      "bytes": 6328,
+      "sha256": "51cf0e5b75c3fa7791089998316f608ef1201a80489edbb7feb7c50f2068e924"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/执行流程.md",
+      "bytes": 14774,
+      "sha256": "b58f403cdc4ef6bc2befed4694f00d0bf140ded9c9207d8a95f3603ee1b561ce"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/视频生成综合执行/输出约定.md",
+      "bytes": 9888,
+      "sha256": "36d94af63beebb9429c1f7d9395bb7df2f017154c52f47e84d03ded92fce1b1e"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/岗位职责.md",
+      "bytes": 4916,
+      "sha256": "da42cb8162021674313e990b31fd957c7cc3b391b67a0918be2770cc1d6170ac"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/执行流程.md",
+      "bytes": 11054,
+      "sha256": "536b83769e2d6124848f0365b84d8428db3b5c4ec8914856360aacf762650cef"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/角色声音资产制作执行单元/输出约定.md",
+      "bytes": 3571,
+      "sha256": "ebb496109aacedec10036789da4ae809f849b8860e3628e880ac4d2b1085616c"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/岗位职责.md",
+      "bytes": 4243,
+      "sha256": "b121561156165b08e5021d19b7e0054b0ab6cc94918db4d3de904745715ed063"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/执行流程.md",
+      "bytes": 7015,
+      "sha256": "c9a4137c8b4a8f88beb2af240cf83633fe8b327e13dc01ba19cad8e4d9077095"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产优先级编排/输出约定.md",
+      "bytes": 5109,
+      "sha256": "be82cebcc18b39a41873d0424b15407b024e80427442ca453464cd9bd88bd6a2"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/岗位职责.md",
+      "bytes": 9508,
+      "sha256": "9480ae26dd3f88ebe1f84b3e889b55a554d0f201f64361dfa6845a375c025007"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/执行流程.md",
+      "bytes": 7182,
+      "sha256": "b27d817735cecfe5a3801d0fc58c4cad429851f580982acb24a24eb747b1eb34"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资产生产分控/输出约定.md",
+      "bytes": 12806,
+      "sha256": "397b518843d4c11609aa0ce21d8eeec3f0d3fda73cd86b673d912873504c6053"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/岗位职责.md",
+      "bytes": 3042,
+      "sha256": "019bb0dc96205f406a763ee70b8d435b856651de6a33594e7ca262e5ba39b91a"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/执行流程.md",
+      "bytes": 4946,
+      "sha256": "5cb4a4710e121e84d16f4b0dc12582903de4e4a6138209571295279d7b1047ea"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/资料与资产登记部/输出约定.md",
+      "bytes": 4004,
+      "sha256": "d4fca1c1f393daadd4b423e4463f8c363f28a4577d38a3a716100024c898a7a0"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/岗位职责.md",
+      "bytes": 7720,
+      "sha256": "36763257799979a89aa1b217d4b9266a16b03e6f9254140b9403be42a9bfd737"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/执行流程.md",
+      "bytes": 20436,
+      "sha256": "746658f87a93debb8479daae78ffe8dd84a0b78cee307a59305863d384181066"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/道具与载具资产制作执行单元/输出约定.md",
+      "bytes": 15370,
+      "sha256": "b148b74859e277c67f687d5a93c8859acb522436d636bfa0f1b7b23342ca55a6"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/岗位职责.md",
+      "bytes": 15703,
+      "sha256": "637430fea35ffc5c3a1d4b7fd88be4a88aaabf8a51927b84ecfaae544afadaf5"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/执行流程.md",
+      "bytes": 15329,
+      "sha256": "820b01a74dbe4f69a2ce56b84b75eeb5f8edeb3d390cb2213312e6aef6c63148"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/冻结稿审查副本/项目风格锁定/输出约定.md",
+      "bytes": 14602,
+      "sha256": "bc1e97dace5e376a5ef1f35211868816776cc3fec51aec7fdcaeab391cf46907"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/交付核验.json",
+      "bytes": 4124,
+      "sha256": "9e2fa4446f802b3a5ba9b5f7294e013f59cfb2a02262ca9a1546e2dff604b32a"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/任务正文.json",
+      "bytes": 3544596,
+      "sha256": "195e81c34ef9529ce73b1c6cb8e905138c1b2c4ac3dd6fc39b36a3c082f36f76"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/候选正文索引.json",
+      "bytes": 2003329,
+      "sha256": "d366a5ce28910bd6ea9df3e5f09b41473951c5debd94edd5291d1ef12258f826"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/共享库复核.json",
+      "bytes": 385,
+      "sha256": "98ff88640a7b1520e04f336e058fa884970d357ded8e513e6142a7b8f5d21bd4"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/冻结确认与覆盖记录.json",
+      "bytes": 63064,
+      "sha256": "54d8a86680c9326569d48cb5793e6f85bf7bc2a272974db851c2a7dbe3436788"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/冻结稿索引.json",
+      "bytes": 543135,
+      "sha256": "5e506ebb0162027fab0b19447a1a0e4158260485820b405f5d9721a251851a72"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/所有正文块.json",
+      "bytes": 2022282,
+      "sha256": "04a68b9f4170df0b78dac83f49b734836d40dddcf4d1c73fb618b66519944a34"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/整理审查结果.py",
+      "bytes": 27663,
+      "sha256": "a63cc41edaa43a278f5b17a93136ead42486fac329247abdbdbd9e2acc4d2d74"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/检查进度.json",
+      "bytes": 5416,
+      "sha256": "a33f9d4a9148e55a835b2d3f070ad8cd706eb1fcb25876fc32f9ba12eb64bf24"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/补充条款索引.json",
+      "bytes": 2274,
+      "sha256": "37b4fb70dcc7929c46a1365b4de726a8e0e793dcac55f0c4fd2d30ac1771edb1"
+    },
+    {
+      "path": "影视生产系统规范/横向拉通检查_2026-09-04/审查资料/资产分支任务补充.json",
+      "bytes": 400218,
+      "sha256": "102533d12614fc52984f07c12ee4fe4e7640bd3b78e34fd644b9d8c47a7fd9f8"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/README.md",
+      "bytes": 7476,
+      "sha256": "084b4c693bb4402fabb121c16c25add0bc418005658feae8d7803ee2994e4084"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据索引.md",
+      "bytes": 16299,
+      "sha256": "bb34bdd1aee24008a31052d6cc89d5dcbb2f4e048fc8ea81f43401e9ba76ba2e"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/变更清单.md",
+      "bytes": 13102,
+      "sha256": "2c644c5db76e4dd963635dc3594346c0c1b3ff279b6400d280449de88fc7dbf6"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/横向复查结果.md",
+      "bytes": 5561,
+      "sha256": "6f73fb65c88d1130b5b5facd95e664fba2ef6a08b5dd34d2f46d58cbd35bdd24"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/正式冻结记录.md",
+      "bytes": 2010,
+      "sha256": "e0b69a46e1e69e096aa74c8eeb60abaf6e3d616be88e81b32bfd9192ff2236bf"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/岗位职责.md",
+      "bytes": 5451,
+      "sha256": "7920604bb9b0a69567057933b1e2bffdf60ad35619d1bfdb1f7f940c97a7a1f2"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/执行流程.md",
+      "bytes": 11409,
+      "sha256": "6365bf29d2f7d9aa3ba32411add44f974c06292945e1447ea43c55f14fee8083"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/VFX资产制作执行单元/输出约定.md",
+      "bytes": 4009,
+      "sha256": "734ee3b336f23870e20a46cd021b06d253622fe66cb9d5ffaef29caee2610c24"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/岗位职责.md",
+      "bytes": 2484,
+      "sha256": "1e9ccf5494edf789e9b70db1d05cc7d6fe28b4dc2a8230121b549cdfd62e718f"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/执行流程.md",
+      "bytes": 7300,
+      "sha256": "8768654f50f0bb31b096cd049d53cd42cb42f8bc21ca886ef9a5a1f9f6e78575"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业控制部/输出约定.md",
+      "bytes": 5603,
+      "sha256": "943d87bd0335e35903b18b4755e2d7aced4a68c9ff9eb6af85a0d66d20be45b7"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/岗位职责.md",
+      "bytes": 2999,
+      "sha256": "2d1412a37b4940666796a774d92db432e11ffd7a50c95f66419b972d6e16d853"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/执行流程.md",
+      "bytes": 4699,
+      "sha256": "258384078d6dfd0b6862d6a62c8ddba444bf8c8e6d92e1d3d5b1b89d61a25920"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业能力建设单元/输出约定.md",
+      "bytes": 4491,
+      "sha256": "fa1b0a9d9344812a8e2abef47797170dd9584af07e8bb31fcab142603ce2efaa"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/岗位职责.md",
+      "bytes": 1854,
+      "sha256": "faf01573c417151c1b24f767a170e61e743c32618ced0639271cb717b0d88a74"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/执行流程.md",
+      "bytes": 2964,
+      "sha256": "cf8bd0f0df557635d8aa2086df6d78965198c7434b26145e98ca17a9f81df6cb"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/专业顾问单元/输出约定.md",
+      "bytes": 3161,
+      "sha256": "791dd05322c69cfa2e6fbb49bde106fa67c5f0379ab5914d18a4d3c5e8829b11"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/岗位职责.md",
+      "bytes": 7148,
+      "sha256": "8bb2a1825552d96712994f97e5d590553eafbcea6d202314acc7a6f23fa2ed97"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/执行流程.md",
+      "bytes": 15961,
+      "sha256": "c07eece0c0a7d01f2ee3e5c62c4546883860e4a43e990a964220cfbab545243d"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/人物资产制作执行单元/输出约定.md",
+      "bytes": 7858,
+      "sha256": "11e3517217e9ddf8903bf02494fcc5923d9b2f28cc86f9953bcacb1ee547c145"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/交付核验结果.json",
+      "bytes": 780,
+      "sha256": "5eb90f720551f268f43fb4de9f6c19bcc9665f1178feab1863e5669b35e6eb2d"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/入口文档修改前.json",
+      "bytes": 2538,
+      "sha256": "553df1f85cb6b5d04375a12664c6e8ff5f646876638d589eda4ec6b40e7e8252"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/历史补充合并正文.json",
+      "bytes": 509166,
+      "sha256": "a2184b0d2a4192135b2b115da29b1874a7e914eb927b4efa744d79fc67810375"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/原始资料校验.json",
+      "bytes": 212408,
+      "sha256": "17705067ccd9c4ced678fb25c506c599e2d2cedba7f0c2e205a35b4ff60b8f61"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/整理规范.py",
+      "bytes": 88155,
+      "sha256": "db344b01d141f2f9c724111b2df96c3ee0c5c7b3cef4ce8e7d99f6fda3ba3189"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/本轮业务条款差异.diff",
+      "bytes": 160645,
+      "sha256": "96d787f72c353a8e11a1d3cfd01c8a228be98e1c57b37f31f407260974ad48eb"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/核验交付.py",
+      "bytes": 10858,
+      "sha256": "c82d095f135148eec5ba4aca274e7785b2c6aaaac8fb435e521afee8a5a6b885"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/模板差异.diff",
+      "bytes": 5584,
+      "sha256": "a725859c9fce1f9d020a91ea7c3c839244e199dae2513f0e79c405653915be39"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/正式冻结记录.json",
+      "bytes": 19090,
+      "sha256": "e4f4dc97fab10e5da7fff308a5ced4ce3dd6c74efbae7c0e77d2b724c4834e83"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/登记重新冻结.py",
+      "bytes": 15138,
+      "sha256": "1c7e3f6fa109e25c4040f026d968c8e19c2a494989ebb41eff66e09b83c4ca00"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/规范文件索引.json",
+      "bytes": 94119,
+      "sha256": "96d048feea830dc6d2cf7f468b1298adc391fffe514f7124f83a4d77f85c3129"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/逐条修改记录.json",
+      "bytes": 160131,
+      "sha256": "8ee0bca4432bad81fc2af7bdde0c62dff6621d3846793870bfad2a2a9000bee6"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/修订依据/重新冻结前状态备份.json",
+      "bytes": 885432,
+      "sha256": "e13cd0b3705ed9c702961679e3cedd25b39ef6f184fe75c3e7579487b0dd058f"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/岗位职责.md",
+      "bytes": 5994,
+      "sha256": "2eb203f110c9af495ac108af1b88d6a0e1de297cfef386d33dbe6a0df302b930"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/执行流程.md",
+      "bytes": 6791,
+      "sha256": "0047aac9a9b9646e0cba18ecd03f30173fdda4949f71656200193a16b41ad0d8"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/共享能力库/输出约定.md",
+      "bytes": 7251,
+      "sha256": "a493e9a57c566762fc83e60bd889dd30a8ffb49b282ebd3f30ad6f1d02f9eb5f"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/岗位职责.md",
+      "bytes": 7699,
+      "sha256": "ca81f109c22eef395766ea011dbbd27b9ca9ee232c4db1eaa7e9e459c69a94c1"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/执行流程.md",
+      "bytes": 28380,
+      "sha256": "d3ca57bf2d552b1f103ac6fe52af91a76514ac9fc1e95c64f1acafec1b873907"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/分镜与镜头设计综合执行/输出约定.md",
+      "bytes": 20106,
+      "sha256": "c554af06cdd30e9c3042dc92407b9a6cf841a0af5e4a3093bf807ab64da56ff4"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/岗位职责.md",
+      "bytes": 6981,
+      "sha256": "6282445bfc6cca7dbdb1b9853743bd469971eb96201c5441fa1ab29ac17878b7"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/执行流程.md",
+      "bytes": 10775,
+      "sha256": "fecd329efe932f50800739983208227bf80887edb47e7b4a173b7ff84593449f"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/前期准备分控/输出约定.md",
+      "bytes": 8610,
+      "sha256": "41bbbe6c8329637e15fa9f7ebc840f9170b791abbadb19d46c56a9f67503a45e"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/岗位职责.md",
+      "bytes": 8950,
+      "sha256": "033c6758d18c19946ef2b2999434d381c91db22f33e7da86846b4cda9400a663"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/执行流程.md",
+      "bytes": 12878,
+      "sha256": "c09e58b5615cf12e0188ddb6f62d18d1500d1600e74220d610a919299de20385"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/剧本与资产拆解/输出约定.md",
+      "bytes": 10413,
+      "sha256": "7cc5ba9ff71b68e5cc1da16ed33692d914361fc0ae1a6b0a3c6a8501d6c76fec"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/岗位职责.md",
+      "bytes": 6284,
+      "sha256": "f9ca29f5118fa0d9e23143dfd72fc898d898caa3f3782fece0c84542712364e2"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/执行流程.md",
+      "bytes": 13877,
+      "sha256": "f9ccc942ddf5a5eed309ebf522375025ff9c9f4387a165e8d48ad838d1e57813"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场戏设计综合执行/输出约定.md",
+      "bytes": 11977,
+      "sha256": "8ad48536b71f5eb0712e752d667a77070644506ed5f010e1e2a193ca4259ca0f"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/岗位职责.md",
+      "bytes": 7849,
+      "sha256": "5ba0b841776a5bac8e11ed21430ec2dc19603b5cbfb7a5330bad2b03da0cb31e"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/执行流程.md",
+      "bytes": 16692,
+      "sha256": "8ab468df3e6307d8b86a9a66c4e585ef3431901d343729f93f0052f19c686472"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/场景资产制作执行单元/输出约定.md",
+      "bytes": 13200,
+      "sha256": "62289d1b7642dabd5a96772b6ca0266e415c90648981df22f5df5b2f76009db8"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/岗位职责.md",
+      "bytes": 4386,
+      "sha256": "632e06866ef349443cf1c780f858451366e13dafb929e412044e590ae7fa6a21"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/执行流程.md",
+      "bytes": 7501,
+      "sha256": "a297b0c10e1c9d941a140be06cfaa701ebd3018f8e8b54ba6b65e2aa700c400a"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/影视镜头生产分控/输出约定.md",
+      "bytes": 7762,
+      "sha256": "36d04238dc30ae7a151eeb8958e950a7bc2c344db9420f551e254b550933f97e"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/岗位职责.md",
+      "bytes": 8975,
+      "sha256": "be70341ac7aa52ba3a4bf9c5c552cdb2e14f5918608f20187e353a7ef145e740"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/执行流程.md",
+      "bytes": 9162,
+      "sha256": "9fcbcc3ff8dc91ae7091c96efd845ca2e17871861fa0f712f2896d8e93258f43"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/总控/输出约定.md",
+      "bytes": 8327,
+      "sha256": "e41e8fdd3c52f48c0f0391b4bcb2e4e187530e1782c1a71f5361ab35c9a16965"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/模板/正式镜头Prompt模板_v1.0.md",
+      "bytes": 8806,
+      "sha256": "b633e700d6d2c9344fdd30fa5e011425ce143f6d9ab796e1c2106ba39e4155cc"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/岗位职责.md",
+      "bytes": 7731,
+      "sha256": "b389efd89c89f4f688e51d049b5fb5ac740fb4aec646137f7cbf7be4be4e0a2a"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/执行流程.md",
+      "bytes": 9329,
+      "sha256": "0be73c631d9fc6a51fc1209a6a39eb11a1e106c143ba2e266e84f7a0b983eb6b"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生产控制部/输出约定.md",
+      "bytes": 7705,
+      "sha256": "11d65e6da73d5d8e27357d4303419a0d9b036e68ce73f4943625b3066198330d"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/岗位职责.md",
+      "bytes": 5398,
+      "sha256": "fd1d8e9b6418392082333e3ae4af36ebd6d4b60b7e7bb9ab68feb59891eef976"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/执行流程.md",
+      "bytes": 13872,
+      "sha256": "1cdf42ebf1883c2b3e83db1d0d384446058da00df6b6d674940d736e2a76b4c3"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/生物、怪物与形态变体资产制作执行单元/输出约定.md",
+      "bytes": 5896,
+      "sha256": "ba0b2f6d947d92a272e8e8ee97f92d108b810471e9abfffb7dab55af142c6076"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/岗位职责.md",
+      "bytes": 6684,
+      "sha256": "5e2269953f3a324274cb09ad9aa6e7435c86e804c1124b2bcac80f1363b390ab"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/执行流程.md",
+      "bytes": 15480,
+      "sha256": "ae0da515b5d0736fa22abbcb63b3a4339334e78acfb9b49dc3af7a41361e3053"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/视频生成综合执行/输出约定.md",
+      "bytes": 10287,
+      "sha256": "91262f871d8569e076ca777a15a0e9e792c6e3811658a29bb6882877a17bbb6e"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/岗位职责.md",
+      "bytes": 5803,
+      "sha256": "fa681b7fa9fdb63701a6e5d2ac2d8d8363467e0d0051a2009835024cc74d0dfe"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/执行流程.md",
+      "bytes": 11971,
+      "sha256": "71166da855af2a075fe5fb838d89a3621ec7a341c6c4b081fd1bf5e8aa215b77"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/角色声音资产制作执行单元/输出约定.md",
+      "bytes": 4293,
+      "sha256": "3cb3b0bfa4de2d5bc474ef29ed9f092d4e7c14c02110d4b55037a05ef3e18161"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/岗位职责.md",
+      "bytes": 4761,
+      "sha256": "4899151b898d07f05ca28524eef745108be2ae75501aea6773908343f6dbdf36"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/执行流程.md",
+      "bytes": 7537,
+      "sha256": "df60e94093937ee195a704c4de7df077af7d6da4089e1a239a77fe32eb4a77e6"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产优先级编排/输出约定.md",
+      "bytes": 5536,
+      "sha256": "91feda8f6682975fa9199d24cf8c3db39c341e4e55dae9dcad49e39f69d8c8b8"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/岗位职责.md",
+      "bytes": 10694,
+      "sha256": "d17ca40c0f52de8fb1fcc09e7e6151b9b3dd577251099ca2787bf1b8f2973ea9"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/执行流程.md",
+      "bytes": 8980,
+      "sha256": "8d49078df66e5ebb4a58ab2e9138b5f5bfc90c1115b92e91eccd4afb529e79c3"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资产生产分控/输出约定.md",
+      "bytes": 14199,
+      "sha256": "9dc7b3b0df12a9e9c86c2c5d71208b20792ba36cb8513e52aafc05d37acbdc64"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/岗位职责.md",
+      "bytes": 3558,
+      "sha256": "48f0138fddf924e1409f36f7358a471105e212089ee50de0c8f38523dfbcff07"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/执行流程.md",
+      "bytes": 5516,
+      "sha256": "7ef5b1533118b870d070b955e3918ade9966d91dea56cf9cdfb6637488185d4c"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/资料与资产登记部/输出约定.md",
+      "bytes": 4520,
+      "sha256": "c5d58b263fa285c2f98d03a737552c1ff3fe5e955094979260cbcd0a62e75547"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/任务启动与交接.md",
+      "bytes": 3319,
+      "sha256": "3d30e58177d3d377cd2ea730f7b1fd22ea55f5345022391df36bf8e8fd05d49b"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/共享能力调用.md",
+      "bytes": 4600,
+      "sha256": "aff65af5e9f43ca30e3da291179705700fe9d879447c2fa77818fb45d72352cd"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/通用约定/资产身份与引用.md",
+      "bytes": 3343,
+      "sha256": "5fef89c24675116400485acb626999e817316b410b014aeb0a053285bed565c3"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/岗位职责.md",
+      "bytes": 8681,
+      "sha256": "baa047a1b0b54580c6ffa14b454eea941f01d842e4093d20208cf560f6509c54"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/执行流程.md",
+      "bytes": 21439,
+      "sha256": "7166bb238d604d9282cd5c2a30c04fe94178f64b850f5817b60b83919a9ebf96"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/道具与载具资产制作执行单元/输出约定.md",
+      "bytes": 16184,
+      "sha256": "73e7dc72def58a18f0f3b67145c784081db904a2916e77f680c71306cc09c532"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/岗位职责.md",
+      "bytes": 16610,
+      "sha256": "f4089454b95b19c262ea111754b14a6305eebe9b96992c7cc0d3869802bf3bdb"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/执行流程.md",
+      "bytes": 16454,
+      "sha256": "a00680a80ba04c29f6d41c31827138c2ac494c2ccea749ba359668b313f7e7fa"
+    },
+    {
+      "path": "影视生产系统规范/规范整合稿_2026-09-05/项目风格锁定/输出约定.md",
+      "bytes": 15219,
+      "sha256": "ef08a6b72e712dda3d4de52bdf68b3c980d48be3787d560c39e85533e6292f04"
+    },
+    {
+      "path": "跨电脑接入/说明.md",
+      "bytes": 1732,
+      "sha256": "e4da09eb5e105027c45c140de7cbddeca6c8be1cb26c0e4277dfc564cb265cd1"
+    },
+    {
+      "path": "跨电脑接入/跨目录安装验证.json",
+      "bytes": 1764,
+      "sha256": "7fc5d64c070f2df2304909d485bac41269d5e783f328e1ec0e3c48c79ae14e21"
+    },
+    {
+      "path": "跨电脑接入/验证跨电脑.py",
+      "bytes": 5657,
+      "sha256": "f21344b910b36697bd5c10110570819574e312d4ecb4a31065049dbd77e219ed"
+    },
+    {
+      "path": "跨电脑接入/原本机实现/build.py",
+      "bytes": 18572,
+      "sha256": "45324e73e3cabd548e7b7fa193be052809ac27bf803350adc7faa53eba2b9a6e"
+    },
+    {
+      "path": "跨电脑接入/原本机实现/deploy.py",
+      "bytes": 10775,
+      "sha256": "e3ac6ee3cd5d5f8f952f35974df044de31e4f79deafd193d702f109f73103867"
+    },
+    {
+      "path": "跨电脑接入/原本机实现/discover.py",
+      "bytes": 3284,
+      "sha256": "c2a89e8acfea3274caed27fc5dc5d48bd71f2306bda0032cdeaecb0ae0f1e481"
+    },
+    {
+      "path": "跨电脑接入/原本机实现/integration_check.py",
+      "bytes": 9266,
+      "sha256": "ed70c0d3e5b6ef731fec9aa7d96cb2ae3440d179bcad89ba519fb40e6d3cf371"
+    }
+  ]
+}
