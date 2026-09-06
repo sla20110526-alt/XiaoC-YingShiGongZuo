@@ -1,0 +1,7 @@
+interface:
+  display_name: "Blender Previz｜影视镜头预演"
+  short_description: "用 Blender 验证疑难镜头的人物站位、动线、构图、景别与运镜"
+  default_prompt: "使用 $blender-previz 读取我提供的局部分镜和资产，在 Blender 中制作预演并优先验证人物站位与动线。"
+
+policy:
+  allow_implicit_invocation: false
