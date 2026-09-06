@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "system": "小虫的影视生产流",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "entries": [
     {
       "id": "FP-DIR-ALFONSO-CUARON",
@@ -481,7 +481,38 @@
       },
       "independent_dependencies": [],
       "boundary": "原文中的旧流程及岗位名称只作来源追溯；不覆盖当前冻结规则、用户决定和原执行单元职责。保留该版本的适用范围、证据限制和排除内容。"
+    },
+    {
+      "id": "blender-previz",
+      "version": "0.1.0",
+      "selectable": true,
+      "reason": "用户已确认 0.1.0 入库；Skill 结构、本机依赖、全段与单镜头局部闭环验证通过",
+      "minimum_resources": [
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/input-contract.md",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/execution.md",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/validation.md",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/output-contract.md"
+      ],
+      "resources": {
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SKILL.md": "1347935d0f519a2637fecbf1054f32c6adb2ecf621cf7c7b0dde939d4d5bd017",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SOURCE.md": "1be681d043125bf49d9e79d1f0047caa9ae12f17f8301a9eb8a51e80664dba03",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/agents/openai.yaml": "31d94329dc08463d53caac7809656046d14c6631f772e61a0f8c3df0205fdbce",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/astra-blender-basis.md": "5eb6e91878bfacd9752c6473e3173dcc891dbd0312313517945b590d8f0ea171",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/execution.md": "e5c661a5600c4502827f4bf796083093daa1c90608dd62fbabca580436c300b7",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/input-contract.md": "79372f5fe9c3ddd80ac08465d97a87f7ddb0ba2e80d3a79bb3511ceddfe1275b",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/output-contract.md": "df810137eaeaee948da95d70dc41eae927ff619ec20a3f539bb58f4b53e0ba3d",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/validation.md": "0f58caf06958feacab7a2a5daa9a0de60677502d43814af034842eea38baa087",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/scripts/check_runtime.py": "eca8ee137a02aae45576ec0b1a9f9be6beca99fd9f6eaf2631edf3baa05c0988",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/README.md": "c444a1d8b6d8d6194e0552d99d3f90e01950201f0e2c3fdaa3a8a33d72407bad",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/run_previz.py": "e54d9c9529e44c3f9e2167ddd768996d1b2abc5e92a9eedd351a1738cbe37daa",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/blender/scene_builder.py": "9dcb5d118f01d443bb83f66eb1aa74a8620d24ed2004996718690b657d839534",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/engine/blender_driver.py": "a64cdf4c97576042bf02f4160f928519c6b10492de6872331540b24713be326f",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/examples/selected-shot.json": "7661e43c0b6725a567a5d81294482b684ac587f3337bfef714fde890203f3bf8",
+        "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/schemas/previz-scene-v0.1.schema.json": "dea867928792b39b764fd24721cc8c0bc35d9e380808d5e0887d81257f5989a1"
+      },
+      "independent_dependencies": [],
+      "boundary": "仅在用户显式启动后处理其点名的疑难镜头或局部人物动线；不替代分镜创作，不批量预演未点名镜头，不装配最终视频 Prompt。当前通用能力以基础代理、每角色一段起终点移动、固定机位和硬切为主；正式资产导入、多节点动线与复杂运镜须按实际任务验证。"
     }
   ],
-  "catalog_sha256": "75fbeb5e87b4952522aab0d812dacb3597a21dc645324974be89109ff1f604e4"
+  "catalog_sha256": "dc446b040987f0cc331e273da2b77620611b126d9bb830654ecd81eb410072f2"
 }

@@ -1,0 +1,15 @@
+{
+  "project": "小虫的影视生产流",
+  "task": "Blender Previz 专业 Skill 0.1.0 入库与本机接入",
+  "original_unit": "专业能力建设单元",
+  "stage": "共享能力入库与本机接入",
+  "need": "把已验证的 Blender 局部镜头预演方法保存为可显式启动的专业 Skill",
+  "scope": "共享版本 0.1.0 及本机调用；只处理用户点名的疑难镜头或局部人物动线",
+  "selection_basis": "用户于 2026-09-07 明确回复：确认入库 blender-previz v0.1.0",
+  "capabilities": [
+    {
+      "id": "blender-previz",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.xcflow/schemas/previz-scene-v0.1.schema.json",
+  "title": "Blender Previz scene v0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "room",
+    "table",
+    "actors",
+    "blocking",
+    "facing",
+    "reference_camera",
+    "cameras"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "project": {
+      "type": "object",
+      "required": ["name", "resolution", "resolution_percentage", "fps", "frame_start", "frame_count"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "scene_id": { "type": "string", "minLength": 1 },
+        "resolution": {
+          "type": "array",
+          "prefixItems": [
+            { "type": "integer", "minimum": 4 },
+            { "type": "integer", "minimum": 4 }
+          ],
+          "items": false
+        },
+        "resolution_percentage": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "fps": { "type": "integer", "minimum": 1 },
+        "frame_start": { "type": "integer", "minimum": 1 },
+        "frame_count": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "properties": {
+        "segment_id": { "type": "string", "minLength": 1 },
+        "source_shots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["shot_id", "local_start_frame", "local_end_frame"],
+            "properties": {
+              "shot_id": { "type": "string", "minLength": 1 },
+              "local_start_frame": { "type": "integer", "minimum": 1 },
+              "local_end_frame": { "type": "integer", "minimum": 1 },
+              "source_duration_seconds": { "type": "number", "exclusiveMinimum": 0 }
+            }
+          }
+        }
+      }
+    },
+    "actors": { "type": "array", "minItems": 1 },
+    "blocking": { "type": "array" },
+    "facing": { "type": "array" },
+    "cameras": { "type": "array", "minItems": 1 },
+    "room": { "type": "object" },
+    "table": { "type": "object" },
+    "reference_camera": { "type": "object" },
+    "render": {
+      "type": "object",
+      "properties": {
+        "engine": { "enum": ["BLENDER_WORKBENCH", "BLENDER_EEVEE"] },
+        "video_crf": { "type": "integer", "minimum": 0, "maximum": 51 },
+        "video_preset": { "enum": ["ultrafast", "superfast", "veryfast", "faster", "fast", "medium", "slow", "slower", "veryslow"] }
+      }
+    },
+    "reference_policy": { "type": "object" }
+  }
+}

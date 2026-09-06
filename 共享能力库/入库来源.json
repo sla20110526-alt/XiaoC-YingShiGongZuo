@@ -374,9 +374,121 @@
       "sha256": "38736aef477964384bfd71faf245b1993bf04b5ab635e6875df8fda1b1278f18",
       "bytes": 7389,
       "relation": "adapted"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/SKILL.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SKILL.md",
+      "source_sha256": "1347935d0f519a2637fecbf1054f32c6adb2ecf621cf7c7b0dde939d4d5bd017",
+      "sha256": "1347935d0f519a2637fecbf1054f32c6adb2ecf621cf7c7b0dde939d4d5bd017",
+      "bytes": 4285,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/agents/openai.yaml",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/agents/openai.yaml",
+      "source_sha256": "31d94329dc08463d53caac7809656046d14c6631f772e61a0f8c3df0205fdbce",
+      "sha256": "31d94329dc08463d53caac7809656046d14c6631f772e61a0f8c3df0205fdbce",
+      "bytes": 366,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/references/astra-blender-basis.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/astra-blender-basis.md",
+      "source_sha256": "5eb6e91878bfacd9752c6473e3173dcc891dbd0312313517945b590d8f0ea171",
+      "sha256": "5eb6e91878bfacd9752c6473e3173dcc891dbd0312313517945b590d8f0ea171",
+      "bytes": 2590,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/references/execution.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/execution.md",
+      "source_sha256": "e5c661a5600c4502827f4bf796083093daa1c90608dd62fbabca580436c300b7",
+      "sha256": "e5c661a5600c4502827f4bf796083093daa1c90608dd62fbabca580436c300b7",
+      "bytes": 2125,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/references/input-contract.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/input-contract.md",
+      "source_sha256": "79372f5fe9c3ddd80ac08465d97a87f7ddb0ba2e80d3a79bb3511ceddfe1275b",
+      "sha256": "79372f5fe9c3ddd80ac08465d97a87f7ddb0ba2e80d3a79bb3511ceddfe1275b",
+      "bytes": 2124,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/references/output-contract.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/output-contract.md",
+      "source_sha256": "df810137eaeaee948da95d70dc41eae927ff619ec20a3f539bb58f4b53e0ba3d",
+      "sha256": "df810137eaeaee948da95d70dc41eae927ff619ec20a3f539bb58f4b53e0ba3d",
+      "bytes": 1745,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/references/validation.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/references/validation.md",
+      "source_sha256": "0f58caf06958feacab7a2a5daa9a0de60677502d43814af034842eea38baa087",
+      "sha256": "0f58caf06958feacab7a2a5daa9a0de60677502d43814af034842eea38baa087",
+      "bytes": 1969,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/scripts/check_runtime.py",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/scripts/check_runtime.py",
+      "source_sha256": "eca8ee137a02aae45576ec0b1a9f9be6beca99fd9f6eaf2631edf3baa05c0988",
+      "sha256": "eca8ee137a02aae45576ec0b1a9f9be6beca99fd9f6eaf2631edf3baa05c0988",
+      "bytes": 3250,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/README.md",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/README.md",
+      "source_sha256": "c444a1d8b6d8d6194e0552d99d3f90e01950201f0e2c3fdaa3a8a33d72407bad",
+      "sha256": "c444a1d8b6d8d6194e0552d99d3f90e01950201f0e2c3fdaa3a8a33d72407bad",
+      "bytes": 2100,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/run_previz.py",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/run_previz.py",
+      "source_sha256": "e54d9c9529e44c3f9e2167ddd768996d1b2abc5e92a9eedd351a1738cbe37daa",
+      "sha256": "e54d9c9529e44c3f9e2167ddd768996d1b2abc5e92a9eedd351a1738cbe37daa",
+      "bytes": 9661,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/blender/scene_builder.py",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/blender/scene_builder.py",
+      "source_sha256": "9dcb5d118f01d443bb83f66eb1aa74a8620d24ed2004996718690b657d839534",
+      "sha256": "9dcb5d118f01d443bb83f66eb1aa74a8620d24ed2004996718690b657d839534",
+      "bytes": 20847,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/engine/blender_driver.py",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/engine/blender_driver.py",
+      "source_sha256": "a64cdf4c97576042bf02f4160f928519c6b10492de6872331540b24713be326f",
+      "sha256": "a64cdf4c97576042bf02f4160f928519c6b10492de6872331540b24713be326f",
+      "bytes": 6777,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/examples/selected-shot.json",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/examples/selected-shot.json",
+      "source_sha256": "7661e43c0b6725a567a5d81294482b684ac587f3337bfef714fde890203f3bf8",
+      "sha256": "7661e43c0b6725a567a5d81294482b684ac587f3337bfef714fde890203f3bf8",
+      "bytes": 2193,
+      "relation": "verbatim"
+    },
+    {
+      "source_path": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM/schemas/previz-scene-v0.1.schema.json",
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/runtime/engine-source/schemas/previz-scene-v0.1.schema.json",
+      "source_sha256": "dea867928792b39b764fd24721cc8c0bc35d9e380808d5e0887d81257f5989a1",
+      "sha256": "dea867928792b39b764fd24721cc8c0bc35d9e380808d5e0887d81257f5989a1",
+      "bytes": 2557,
+      "relation": "verbatim"
     }
   ],
-  "updated_at": "2026-09-04T18:03:53+08:00",
+  "updated_at": "2026-09-07T01:00:51+08:00",
   "generated_files": [
     {
       "library_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
@@ -384,6 +496,13 @@
       "bytes": 1663,
       "relation": "generated",
       "purpose": "记录用户授权、1.0 适配边界和验证范围"
+    },
+    {
+      "library_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SOURCE.md",
+      "sha256": "1be681d043125bf49d9e79d1f0047caa9ae12f17f8301a9eb8a51e80664dba03",
+      "bytes": 3436,
+      "relation": "generated",
+      "purpose": "记录用户确认、0.1.0 适用边界、引擎依赖和实际验证"
     }
   ]
 }

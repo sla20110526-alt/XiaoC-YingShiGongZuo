@@ -8,7 +8,7 @@
   "status": "新版专业控制部与共享能力库入口已安装接入；指定版本按用户选择读取；效果以实际任务验证为准",
   "counts": {
     "profile": 31,
-    "skill": 5,
+    "skill": 6,
     "external_skill_source": 1
   },
   "classification": {
@@ -39,6 +39,9 @@
       ],
       "Prompt 装配与模型适配": [
         "MiniMax-H3"
+      ],
+      "技术预演与空间验证": [
+        "Blender"
       ],
       "专业顾问方法": []
     }
@@ -1039,7 +1042,44 @@
       "adaptation_notes_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/SOURCE.md",
       "embedded_profile_path": "专业 Skill/创作方法与风格应用/导演/train-to-busan-film-profile/1.0/references/style-profile.md",
       "embedded_profile_counting": "配套资料，不单独计为 Profile 条目"
+    },
+    {
+      "id": "blender-previz",
+      "name": "Blender Previz｜影视镜头预演",
+      "type": "skill",
+      "category": "专业 Skill",
+      "subcategory": "技术预演与空间验证",
+      "domain": "Blender",
+      "tags": [
+        "Blender",
+        "镜头预演",
+        "人物站位",
+        "人物动线",
+        "构图",
+        "景别",
+        "机位",
+        "运镜",
+        "资产预演"
+      ],
+      "version": "0.1.0",
+      "purpose": "在分镜设计完成后，对用户点名的疑难镜头或局部人物动线进行 Blender 空间预演与镜头验证",
+      "source_status": "用户确认的本机适配候选，已归档为共享版本",
+      "availability": "0.1.0 已归档；本机引擎已绑定并完成全段与单镜头局部闭环测试",
+      "evidence_status": "TEST01 基础与局部镜头测试通过；真实项目资产、多节点动线和复杂运镜仍待具体任务验证",
+      "new_system_integration": "共享库已接入；本机 Skill 已安装；按用户显式启动读取准确版本",
+      "activation": "仅在用户明确启动 blender-previz 时使用；不自动加载、不批量预演未点名镜头",
+      "path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SKILL.md",
+      "sha256": "1347935d0f519a2637fecbf1054f32c6adb2ecf621cf7c7b0dde939d4d5bd017",
+      "source_path": "../小虫的影视生产流-Skills/能力建设候选/blender-previz/SKILL.md",
+      "evidence_path": "专业 Skill/技术预演与空间验证/Blender/blender-previz/0.1.0/SOURCE.md",
+      "runtime_dependency": "D:/003-AI制作/005-blender/AI_PREVIZ_SYSTEM@5cb046d577d8e499b29836fa8a2758fb89d9673e",
+      "excluded_scope": [
+        "替代分镜创作决定",
+        "自动预演整场或全部镜头",
+        "最终视频 Prompt 装配",
+        "把本地路径冒充平台实际引用名"
+      ]
     }
   ],
-  "updated_at": "2026-09-04T18:03:53+08:00"
+  "updated_at": "2026-09-07T01:00:51+08:00"
 }

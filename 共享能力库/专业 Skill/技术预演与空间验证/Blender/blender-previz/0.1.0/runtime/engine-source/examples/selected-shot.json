@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "TEST01",
+    "scene_id": "TEST01",
+    "resolution": [1080, 1920],
+    "resolution_percentage": 50,
+    "fps": 24,
+    "frame_start": 1,
+    "frame_count": 36
+  },
+  "selection": {
+    "segment_id": "TEST01-shot-03",
+    "source_shots": [
+      {
+        "shot_id": "TEST01-03",
+        "local_start_frame": 1,
+        "local_end_frame": 36,
+        "source_duration_seconds": 1.5
+      }
+    ]
+  },
+  "room": {
+    "dimensions": [8, 6, 3],
+    "floor_thickness": 0.1,
+    "wall_thickness": 0.16,
+    "colors": {
+      "floor": [0.35, 0.35, 0.35],
+      "back_wall": [0.7, 0.7, 0.7],
+      "side_walls": [0.6, 0.6, 0.6]
+    }
+  },
+  "table": {
+    "name": "PROP_TABLE",
+    "dimensions": [2.3, 1.1, 0.84],
+    "position": [0, 0.7, 0.42],
+    "color": [0.35, 0.16, 0.07]
+  },
+  "actors": [
+    {
+      "id": "fengzhao",
+      "name": "ACTOR_A_凤昭",
+      "height": 1.75,
+      "color": [0.75, 0.15, 0.15],
+      "start_position": [-0.65, -0.45, 0],
+      "end_position": [-0.65, -0.45, 0]
+    },
+    {
+      "id": "yunsheng",
+      "name": "ACTOR_B_云笙",
+      "height": 1.8,
+      "color": [0.1, 0.3, 0.8],
+      "start_position": [0.82, 1.97, 0],
+      "end_position": [0.66, 1.63, 0]
+    }
+  ],
+  "blocking": [
+    { "actor": "yunsheng", "start_frame": 1, "end_frame": 36 }
+  ],
+  "facing": [
+    { "actor": "fengzhao", "target": "yunsheng", "frame": 1 },
+    { "actor": "yunsheng", "target": "fengzhao", "frame": 1 }
+  ],
+  "reference_camera": {
+    "name": "CAM_MASTER_50MM",
+    "lens_mm": 50,
+    "position": [3.5, -2.2, 1.65],
+    "target": [0.45, 1.5, 0.95]
+  },
+  "cameras": [
+    {
+      "name": "CAM_TEST01_03",
+      "lens_mm": 50,
+      "position": [3.5, -2.2, 1.65],
+      "target": [0.45, 1.5, 0.95],
+      "start_frame": 1
+    }
+  ],
+  "render": {
+    "engine": "BLENDER_WORKBENCH"
+  },
+  "reference_policy": {
+    "role": "camera_blocking_reference",
+    "reference_use": ["camera", "blocking", "movement_direction", "timing"],
+    "must_preserve": ["approved_character_assets", "approved_scene_assets", "approved_visual_style"],
+    "do_not_inherit": ["proxy_appearance", "proxy_material", "preview_lighting"]
+  }
+}
